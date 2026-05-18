@@ -30,15 +30,15 @@ export const site = {
     address: "Albany, Oregon · Serving Linn & Benton Counties",
   },
 
-  // Brand mark (existing filename retained)
-  logoSrc: "/images/todd-logo.png",
+  // Brand mark
+  logoSrc: "/images/cadwell-logo.png",
   logoAlt: "Cadwell Realty Group monogram",
 
-  // Open Graph (existing filename retained)
-  ogImage: "/images/og-todd-spencer-new-braunfels.jpg",
+  // Open Graph
+  ogImage: "/images/og-cadwell-realty-albany.jpg",
 
-  // Agent portrait (existing filename retained)
-  agentPortraitSrc: "/images/todd-spencer-editorial-portrait.jpg",
+  // Agent portrait
+  agentPortraitSrc: "/images/jason-cadwell-portrait.jpg",
   agentPortraitAlt:
     "Editorial portrait of Jason Cadwell along the Willamette riverfront in Albany, Oregon at golden hour.",
 

@@ -6,7 +6,7 @@ import { neighborhoods } from "@/lib/home-content";
 export const metadata: Metadata = {
   title: "Albany Oregon Neighborhoods",
   description:
-    "Featured Albany, Oregon neighborhoods. North Albany, Historic Downtown (Monteith & Hackleman), Periwinkle, Knox Butte, and Oak Creek. Hyperlocal guides from Cadwell Realty Group.",
+    "Featured Albany, Oregon neighborhoods. North Albany, Historic Downtown (Monteith & Hackleman), Periwinkle, Knox Butte, and Oak Creek. Hyperlocal guides from Cadwell Group.",
 };
 
 export default function NeighborhoodsIndexPage() {

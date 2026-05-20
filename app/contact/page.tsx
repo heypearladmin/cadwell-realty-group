@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ContactForm } from "@/components/forms/ContactForm";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -50,35 +51,7 @@ export default function ContactPage() {
           </div>
 
           <div className="md:col-span-6 md:pl-8">
-            <form className="grid gap-6 rounded-3xl border border-ink/[0.08] bg-paper-deep/60 p-8 md:p-10">
-              <div className="grid gap-2">
-                <label htmlFor="name" className="caption">Name</label>
-                <input id="name" name="name" type="text" required className="rounded-xl border border-ink/15 bg-paper px-4 py-3 text-[0.95rem] text-ink shadow-inset-frame focus:border-cadwell focus:outline-none" />
-              </div>
-              <div className="grid gap-2">
-                <label htmlFor="email" className="caption">Email</label>
-                <input id="email" name="email" type="email" required className="rounded-xl border border-ink/15 bg-paper px-4 py-3 text-[0.95rem] text-ink shadow-inset-frame focus:border-cadwell focus:outline-none" />
-              </div>
-              <div className="grid gap-2">
-                <label htmlFor="phone" className="caption">Phone (optional)</label>
-                <input id="phone" name="phone" type="tel" className="rounded-xl border border-ink/15 bg-paper px-4 py-3 text-[0.95rem] text-ink shadow-inset-frame focus:border-cadwell focus:outline-none" />
-              </div>
-              <div className="grid gap-2">
-                <label htmlFor="topic" className="caption">I&apos;d like to talk about</label>
-                <select id="topic" name="topic" className="rounded-xl border border-ink/15 bg-paper px-4 py-3 text-[0.95rem] text-ink shadow-inset-frame focus:border-cadwell focus:outline-none" defaultValue="selling">
-                  <option value="selling">Selling my home</option>
-                  <option value="buying">Buying in Albany</option>
-                  <option value="new-construction">New construction</option>
-                  <option value="valuation">A free home valuation</option>
-                  <option value="general">Something else</option>
-                </select>
-              </div>
-              <div className="grid gap-2">
-                <label htmlFor="message" className="caption">Message</label>
-                <textarea id="message" name="message" rows={6} required className="rounded-xl border border-ink/15 bg-paper px-4 py-3 text-[0.95rem] text-ink shadow-inset-frame focus:border-cadwell focus:outline-none" />
-              </div>
-              <button type="submit" className="btn-primary justify-self-start">Send note</button>
-            </form>
+            <ContactForm />
           </div>
         </div>
       </section>

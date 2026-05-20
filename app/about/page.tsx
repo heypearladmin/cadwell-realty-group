@@ -15,7 +15,7 @@ const pillars = [
   },
   {
     title: "Powered by scale",
-    dek: "Cadwell Realty Group is powered by Jason Mitchell Group — one of the country's most respected real estate teams. National infrastructure, local intel, single point of contact.",
+    dek: "Cadwell Group is powered by Jason Mitchell Group — one of the country's most respected real estate teams. National infrastructure, local intel, single point of contact.",
   },
   {
     title: "Seller-led",

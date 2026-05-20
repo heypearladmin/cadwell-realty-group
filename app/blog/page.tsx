@@ -6,7 +6,7 @@ import { exploreTiles, insightCards } from "@/lib/home-content";
 export const metadata: Metadata = {
   title: "Journal · Albany Oregon Field Notes",
   description:
-    "Field notes from Albany, Oregon. Moving guides, cost of living, lifestyle rituals, new construction insights, and real estate market trends from Cadwell Realty Group.",
+    "Field notes from Albany, Oregon. Moving guides, cost of living, lifestyle rituals, new construction insights, and real estate market trends from Cadwell Group.",
 };
 
 export default function BlogIndexPage() {

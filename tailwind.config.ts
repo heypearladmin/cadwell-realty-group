@@ -1,7 +1,7 @@
 import type { Config } from "tailwindcss";
 
 /**
- * Cadwell Realty Group — design tokens.
+ * Cadwell Group — design tokens.
  * Color channels are exposed as RGB triplets in `app/globals.css` so Tailwind
  * `<alpha-value>` works for every brand token.
  */

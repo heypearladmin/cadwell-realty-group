@@ -6,7 +6,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "New Construction in Albany, Oregon",
   description:
-    "New construction homes in Albany, Oregon. Cadwell Realty Group partners with respected Albany builders to advocate for buyers from lot selection through final walkthrough.",
+    "New construction homes in Albany, Oregon. Cadwell Group partners with respected Albany builders to advocate for buyers from lot selection through final walkthrough.",
 };
 
 export default function NewConstructionPage() {

@@ -6,7 +6,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Sell Your Home · Albany Oregon",
   description:
-    "Sell your home in Albany, Oregon with confidence. Cadwell Realty Group offers a seller-focused, cinematic marketing playbook, calm strategy, and a single point of contact from listing to close.",
+    "Sell your home in Albany, Oregon with confidence. Cadwell Group offers a seller-focused, cinematic marketing playbook, calm strategy, and a single point of contact from listing to close.",
 };
 
 export default function SellPage() {

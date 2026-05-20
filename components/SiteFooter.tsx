@@ -11,6 +11,8 @@ const footerNav: { label: string; href: string }[] = [
   { label: "Journal", href: site.blogPath },
   { label: "About Jason", href: site.aboutPath },
   { label: "Contact", href: site.contactPath },
+  { label: "Privacy Policy", href: site.policiesPath },
+  { label: "Terms & Conditions", href: site.termsPath },
 ];
 
 const socialLinks: { label: string; href: string }[] = [

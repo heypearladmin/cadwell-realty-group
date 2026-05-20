@@ -1,7 +1,7 @@
-# Cadwell Realty Group — Image Asset Request Checklist
+# Cadwell Group — Image Asset Request Checklist
 
 **Project:** cadwellrealtygroup.com
-**Agent:** Jason Cadwell · Cadwell Realty Group · Powered by Jason Mitchell Group
+**Agent:** Jason Cadwell · Cadwell Group · Powered by Jason Mitchell Group
 **Region:** Albany, Oregon · Linn & Benton Counties
 **Style direction:** Luxury editorial · cinematic documentary · Apple-level minimalism · soft Oregon light · warm shadow, cool highlight palette
 
@@ -263,7 +263,7 @@ No dedicated photography required in the current build. Optional supporting asse
 ### `/public/images/todd-logo.png`
 - **Dimensions:** 512 × 512 (square mark) plus 1200 × 400 horizontal lockup if available
 - **Aspect / orientation:** Square (primary) / horizontal (secondary)
-- **Description:** Cadwell Realty Group monogram in **Cadwell Red (#C00000)** on transparent background. Provide a black version and a white (knock-out) version. The current site code uses this file in both light and dark contexts — the dark footer applies a `brightness-0 invert` filter, so a clean single-color PNG with transparent background is required.
+- **Description:** Cadwell Group monogram in **Cadwell Red (#C00000)** on transparent background. Provide a black version and a white (knock-out) version. The current site code uses this file in both light and dark contexts — the dark footer applies a `brightness-0 invert` filter, so a clean single-color PNG with transparent background is required.
 - **Cinematic direction:** Clean, modern, editorial. No drop shadows, no gradients.
 
 ---

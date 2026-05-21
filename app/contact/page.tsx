@@ -2,15 +2,28 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ContactForm } from "@/components/forms/ContactForm";
 import { site } from "@/lib/site";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { localBusinessSchema, breadcrumbSchema } from "@/lib/seo/schema";
 
 export const metadata: Metadata = {
   title: "Contact Jason Cadwell · Albany Oregon Realtor",
   description: `Get in touch with ${site.agentName} of ${site.brand}. Hyperlocal Albany, Oregon real estate guidance for sellers, move-up buyers, and new construction families.`,
+  openGraph: { images: [{ url: site.ogImage, width: 1200, height: 630 }] },
+  twitter: { images: [site.ogImage] },
 };
 
 export default function ContactPage() {
   return (
     <main id="main" className="bg-paper">
+      <JsonLd
+        schema={[
+          localBusinessSchema(),
+          breadcrumbSchema([
+            { name: "Home", url: site.websiteUrl },
+            { name: "Contact", url: `${site.websiteUrl}/contact` },
+          ]),
+        ]}
+      />
       <section className="section-wrap pb-section-y-md pt-40 md:pt-48 md:pb-section-y-lg">
         <div className="grid gap-12 md:grid-cols-12">
           <div className="md:col-span-6">

@@ -2,16 +2,35 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { newConstruction } from "@/lib/home-content";
 import { site } from "@/lib/site";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { serviceSchema, breadcrumbSchema } from "@/lib/seo/schema";
 
 export const metadata: Metadata = {
   title: "New Construction in Albany, Oregon",
   description:
     "New construction homes in Albany, Oregon. Cadwell Group partners with respected Albany builders to advocate for buyers from lot selection through final walkthrough.",
+  openGraph: { images: [{ url: site.ogImage, width: 1200, height: 630 }] },
+  twitter: { images: [site.ogImage] },
 };
 
 export default function NewConstructionPage() {
   return (
     <main id="main" className="bg-paper">
+      <JsonLd
+        schema={[
+          serviceSchema({
+            name: "New Construction Homes in Albany, Oregon",
+            url: `${site.websiteUrl}/new-construction`,
+            description:
+              "New construction homes in Albany, Oregon. Cadwell Group partners with respected Albany builders to advocate for buyers from lot selection through final walkthrough.",
+            category: "Real Estate — New Construction",
+          }),
+          breadcrumbSchema([
+            { name: "Home", url: site.websiteUrl },
+            { name: "New Construction", url: `${site.websiteUrl}/new-construction` },
+          ]),
+        ]}
+      />
       <section className="section-wrap pt-40 pb-section-y md:pt-48 md:pb-section-y-md">
         <div className="flex items-center gap-3">
           <span className="tick" aria-hidden />

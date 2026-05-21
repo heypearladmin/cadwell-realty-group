@@ -4,6 +4,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { findBlogArticle, getAllBlogSlugs } from "@/lib/home-content";
 import { site } from "@/lib/site";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { blogPostingSchema, breadcrumbSchema } from "@/lib/seo/schema";
 
 type Params = { slug: string };
 
@@ -58,8 +60,26 @@ export default async function BlogArticlePage({
   const article = findBlogArticle(slug);
   if (!article) notFound();
 
+  const pageUrl = `${site.websiteUrl}/blog/${slug}`;
+
   return (
     <main id="main" className="bg-paper">
+      <JsonLd
+        schema={[
+          blogPostingSchema({
+            title: article.title,
+            description: article.dek,
+            url: pageUrl,
+            image: article.imageSrc,
+            keywords: [article.category, "Albany Oregon", "Albany real estate"],
+          }),
+          breadcrumbSchema([
+            { name: "Home", url: site.websiteUrl },
+            { name: "Journal", url: `${site.websiteUrl}/blog` },
+            { name: article.title, url: pageUrl },
+          ]),
+        ]}
+      />
       <section className="relative isolate overflow-hidden bg-ink text-paper">
         <div className="absolute inset-0 -z-10">
           <Image

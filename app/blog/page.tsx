@@ -2,14 +2,24 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { exploreTiles, insightCards } from "@/lib/home-content";
+import { site } from "@/lib/site";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { breadcrumbSchema } from "@/lib/seo/schema";
 
 export const metadata: Metadata = {
   title: "Journal · Albany Oregon Field Notes",
   description:
     "Field notes from Albany, Oregon. Moving guides, cost of living, lifestyle rituals, new construction insights, and real estate market trends from Cadwell Group.",
+  openGraph: { images: [{ url: site.ogImage, width: 1200, height: 630 }] },
+  twitter: { images: [site.ogImage] },
 };
 
 export default function BlogIndexPage() {
+  const crumbs = breadcrumbSchema([
+    { name: "Home", url: site.websiteUrl },
+    { name: "Journal", url: `${site.websiteUrl}/blog` },
+  ]);
+
   const all = [
     ...insightCards.map((c) => ({ ...c, tag: c.eyebrow })),
     ...exploreTiles.map((t) => ({
@@ -26,6 +36,7 @@ export default function BlogIndexPage() {
 
   return (
     <main id="main" className="bg-paper">
+      <JsonLd schema={crumbs} />
       <section className="section-wrap pt-40 pb-section-y md:pt-48 md:pb-section-y-md">
         <div className="flex items-center gap-3">
           <span className="tick" aria-hidden />

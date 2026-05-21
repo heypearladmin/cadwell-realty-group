@@ -5,6 +5,7 @@ import { MobileFloatingCta } from "@/components/MobileFloatingCta";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { site } from "@/lib/site";
+import { realEstateAgentSchema, webSiteSchema } from "@/lib/seo/schema";
 import "./globals.css";
 
 const display = Cormorant_Garamond({
@@ -33,39 +34,7 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://cadwellrealtygroup.
 
 const seoTitle = `${site.brand} · ${site.tagline}`;
 
-const orgJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "RealEstateAgent",
-  name: site.brand,
-  alternateName: site.agentName,
-  url: site.websiteUrl,
-  telephone: site.phone,
-  email: site.email,
-  image: `${siteUrl}${site.agentPortraitSrc}`,
-  logo: `${siteUrl}${site.logoSrc}`,
-  description: site.description,
-  areaServed: [
-    { "@type": "City", name: "Albany", containedInPlace: "Oregon" },
-    { "@type": "AdministrativeArea", name: "Linn County, Oregon" },
-    { "@type": "AdministrativeArea", name: "Benton County, Oregon" },
-  ],
-  address: {
-    "@type": "PostalAddress",
-    addressLocality: "Albany",
-    addressRegion: "OR",
-    addressCountry: "US",
-  },
-  sameAs: [
-    site.social.facebook,
-    site.social.instagram,
-    site.social.linkedin,
-    site.social.youtube,
-  ],
-  parentOrganization: {
-    "@type": "Organization",
-    name: site.brokerage.name,
-  },
-};
+const siteSchema = [realEstateAgentSchema(), webSiteSchema()];
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -112,7 +81,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <head>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(siteSchema) }}
         />
       </head>
       <body>

@@ -2,10 +2,14 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { site } from "@/lib/site";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { personSchema, breadcrumbSchema } from "@/lib/seo/schema";
 
 export const metadata: Metadata = {
   title: `About ${site.agentName} · Albany Oregon Realtor`,
   description: `About ${site.agentName} of ${site.brand}. ${site.description}`,
+  openGraph: { images: [{ url: site.ogImage, width: 1200, height: 630 }] },
+  twitter: { images: [site.ogImage] },
 };
 
 const pillars = [
@@ -30,6 +34,15 @@ const pillars = [
 export default function AboutPage() {
   return (
     <main id="main" className="bg-paper">
+      <JsonLd
+        schema={[
+          personSchema(),
+          breadcrumbSchema([
+            { name: "Home", url: site.websiteUrl },
+            { name: `About ${site.agentName}`, url: `${site.websiteUrl}/about` },
+          ]),
+        ]}
+      />
       <section className="relative isolate overflow-hidden bg-paper-deep pb-section-y-md pt-40 md:pb-section-y-lg md:pt-section-y-md">
         <div aria-hidden className="paper-grain pointer-events-none absolute inset-0 opacity-50" />
         <div className="section-wrap relative grid gap-12 md:grid-cols-12">

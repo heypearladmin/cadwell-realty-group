@@ -2,16 +2,35 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { sellerSection } from "@/lib/home-content";
 import { site } from "@/lib/site";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { serviceSchema, breadcrumbSchema } from "@/lib/seo/schema";
 
 export const metadata: Metadata = {
   title: "Sell Your Home · Albany Oregon",
   description:
     "Sell your home in Albany, Oregon with confidence. Cadwell Group offers a seller-focused, cinematic marketing playbook, calm strategy, and a single point of contact from listing to close.",
+  openGraph: { images: [{ url: site.ogImage, width: 1200, height: 630 }] },
+  twitter: { images: [site.ogImage] },
 };
 
 export default function SellPage() {
   return (
     <main id="main" className="bg-paper">
+      <JsonLd
+        schema={[
+          serviceSchema({
+            name: "Home Selling in Albany, Oregon",
+            url: `${site.websiteUrl}/sell`,
+            description:
+              "Sell your home in Albany, Oregon with confidence. Cadwell Group offers a seller-focused marketing playbook, calm strategy, and a single point of contact from listing to close.",
+            category: "Real Estate — Home Selling",
+          }),
+          breadcrumbSchema([
+            { name: "Home", url: site.websiteUrl },
+            { name: "Sell Your Home", url: `${site.websiteUrl}/sell` },
+          ]),
+        ]}
+      />
       <section className="section-wrap pt-40 pb-section-y md:pt-48 md:pb-section-y-md">
         <div className="flex items-center gap-3">
           <span className="tick" aria-hidden />

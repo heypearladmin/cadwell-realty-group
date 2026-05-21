@@ -2,16 +2,27 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { neighborhoods } from "@/lib/home-content";
+import { site } from "@/lib/site";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { breadcrumbSchema } from "@/lib/seo/schema";
 
 export const metadata: Metadata = {
   title: "Albany Oregon Neighborhoods",
   description:
     "Featured Albany, Oregon neighborhoods. North Albany, Historic Downtown (Monteith & Hackleman), Periwinkle, Knox Butte, and Oak Creek. Hyperlocal guides from Cadwell Group.",
+  openGraph: { images: [{ url: site.ogImage, width: 1200, height: 630 }] },
+  twitter: { images: [site.ogImage] },
 };
 
 export default function NeighborhoodsIndexPage() {
   return (
     <main id="main" className="bg-paper">
+      <JsonLd
+        schema={breadcrumbSchema([
+          { name: "Home", url: site.websiteUrl },
+          { name: "Neighborhoods", url: `${site.websiteUrl}/neighborhoods` },
+        ])}
+      />
       <section className="section-wrap pt-40 pb-section-y md:pt-48 md:pb-section-y-md">
         <div className="flex items-center gap-3">
           <span className="tick" aria-hidden />

@@ -8,6 +8,8 @@ import {
   getRelatedNeighborhoods,
 } from "@/lib/home-content";
 import { site } from "@/lib/site";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { neighborhoodPageSchema, breadcrumbSchema } from "@/lib/seo/schema";
 
 type Params = { slug: string };
 
@@ -63,8 +65,25 @@ export default async function NeighborhoodPage({
   if (!n) notFound();
   const related = getRelatedNeighborhoods(n.slug, 2);
 
+  const pageUrl = `${site.websiteUrl}/neighborhoods/${slug}`;
+
   return (
     <main id="main" className="bg-paper">
+      <JsonLd
+        schema={[
+          neighborhoodPageSchema({
+            title: `${n.title} · Albany Neighborhood Guide`,
+            description: n.dek,
+            url: pageUrl,
+            image: n.imageSrc,
+          }),
+          breadcrumbSchema([
+            { name: "Home", url: site.websiteUrl },
+            { name: "Neighborhoods", url: `${site.websiteUrl}/neighborhoods` },
+            { name: n.title, url: pageUrl },
+          ]),
+        ]}
+      />
       <section className="relative isolate overflow-hidden bg-ink text-paper">
         <div className="absolute inset-0 -z-10">
           <Image

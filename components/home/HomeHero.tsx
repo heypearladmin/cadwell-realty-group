@@ -22,7 +22,7 @@ import {
  */
 export function HomeHero() {
   const wrapRef = useRef<HTMLElement>(null);
-  const yBg = useParallaxY(wrapRef, [0, 80]);
+  const yBg = useParallaxY(wrapRef, [0, 40]);
   const reduce = useReducedMotion();
 
   return (
@@ -44,7 +44,7 @@ export function HomeHero() {
             fill
             priority
             sizes="100vw"
-            className="object-cover"
+            className="object-cover object-[center_30%]"
           />
         </div>
         <div className="ken-burns absolute inset-0 md:hidden">
@@ -54,7 +54,7 @@ export function HomeHero() {
             fill
             priority
             sizes="100vw"
-            className="object-cover"
+            className="object-cover object-[center_25%]"
           />
         </div>
         {/* Layered scrims */}

@@ -28,13 +28,13 @@ export function HomeHero() {
   return (
     <section
       ref={wrapRef}
-      className="relative isolate flex min-h-[100svh] w-full items-end overflow-hidden bg-ink text-paper"
+      className="relative isolate flex min-h-[100svh] w-full items-end overflow-hidden text-paper"
       aria-label="Cadwell Group hero"
     >
       {/* Background imagery: desktop landscape + mobile portrait */}
       <motion.div
         aria-hidden
-        className="pointer-events-none absolute inset-0 -z-10"
+        className="pointer-events-none absolute -inset-x-0 -top-24 bottom-0 -z-10"
         style={{ y: yBg }}
       >
         <div className="ken-burns absolute inset-0 hidden md:block">
@@ -44,7 +44,7 @@ export function HomeHero() {
             fill
             priority
             sizes="100vw"
-            className="object-cover object-[center_15%]"
+            className="object-cover object-top"
           />
         </div>
         <div className="ken-burns absolute inset-0 md:hidden">
@@ -54,7 +54,7 @@ export function HomeHero() {
             fill
             priority
             sizes="100vw"
-            className="object-cover object-[center_15%]"
+            className="object-cover object-top"
           />
         </div>
         {/* Layered scrims */}

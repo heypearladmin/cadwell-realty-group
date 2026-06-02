@@ -44,7 +44,7 @@ export function HomeHero() {
             fill
             priority
             sizes="100vw"
-            className="object-cover object-top"
+            className="object-cover object-[center_15%]"
           />
         </div>
         <div className="ken-burns absolute inset-0 md:hidden">
@@ -54,7 +54,7 @@ export function HomeHero() {
             fill
             priority
             sizes="100vw"
-            className="object-cover object-top"
+            className="object-cover object-[center_15%]"
           />
         </div>
         {/* Layered scrims */}

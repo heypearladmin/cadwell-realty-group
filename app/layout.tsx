@@ -6,6 +6,7 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { site } from "@/lib/site";
 import { realEstateAgentSchema, webSiteSchema } from "@/lib/seo/schema";
+import Script from "next/script";
 import "./globals.css";
 
 const display = Cormorant_Garamond({
@@ -95,6 +96,17 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         {children}
         <SiteFooter />
         <MobileFloatingCta />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-LZJDGWP4MF"
+          strategy="afterInteractive"
+        />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-LZJDGWP4MF');`,
+          }}
+        />
       </body>
     </html>
   );

@@ -84,6 +84,11 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(siteSchema) }}
         />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `var script=document.createElement("script");script.setAttribute("nowprocket","");script.setAttribute("nitro-exclude","");script.src="https://reports.heypearl.io/scripts/dynamic_optimization.js";script.dataset.uuid="3df31e1d-76b1-4749-a360-f23c800fd77b";script.id="sa-dynamic-optimization";document.head.appendChild(script);`,
+          }}
+        />
       </head>
       <body>
         <a
@@ -105,13 +110,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-LZJDGWP4MF');`,
-          }}
-        />
-        <Script
-          id="search-atlas-otto"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `var script=document.createElement("script");script.setAttribute("nowprocket","");script.setAttribute("nitro-exclude","");script.src="https://reports.heypearl.io/scripts/dynamic_optimization.js";script.dataset.uuid="3df31e1d-76b1-4749-a360-f23c800fd77b";script.id="sa-dynamic-optimization";document.head.appendChild(script);`,
           }}
         />
       </body>

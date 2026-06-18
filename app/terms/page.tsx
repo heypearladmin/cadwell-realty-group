@@ -3,7 +3,7 @@ import { LegalShell } from "@/components/legal/LegalShell";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Terms & Conditions",
+  title: "Cadwell Realty Group Terms & Conditions",
   description:
     "Terms governing the use of the Cadwell Realty Group website, services, SMS messaging, and AI-assisted communications.",
 };
@@ -12,7 +12,7 @@ export default function TermsPage() {
   return (
     <LegalShell
       eyebrow="Legal"
-      title="Terms & Conditions"
+      title="Cadwell Realty Group Terms & Conditions"
       description="The terms governing the use of the Cadwell Realty Group website, services, SMS messaging, and AI-assisted communications."
       effectiveDate="January 2026"
       sections={[

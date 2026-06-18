@@ -3,7 +3,7 @@ import { LegalShell } from "@/components/legal/LegalShell";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy",
+  title: "Cadwell Realty Group Privacy Policy",
   description:
     "Cadwell Realty Group Privacy Policy — how we collect, use, and protect your information, including SMS opt-in data.",
   alternates: { canonical: "/policies" },

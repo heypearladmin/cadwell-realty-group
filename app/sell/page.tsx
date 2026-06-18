@@ -8,7 +8,7 @@ import { serviceSchema, breadcrumbSchema } from "@/lib/seo/schema";
 export const metadata: Metadata = {
   title: "Sell Your Home · Albany Oregon",
   description:
-    "Sell your home in Albany, Oregon with confidence. Cadwell Group offers a seller-focused, cinematic marketing playbook, calm strategy, and a single point of contact from listing to close.",
+    "Sell your home in Albany, Oregon with confidence. Cadwell Realty Group offers a seller-focused, cinematic marketing playbook, calm strategy, and a single point of contact from listing to close.",
   openGraph: { images: [{ url: site.ogImage, width: 1200, height: 630 }] },
   twitter: { images: [site.ogImage] },
 };
@@ -22,7 +22,7 @@ export default function SellPage() {
             name: "Home Selling in Albany, Oregon",
             url: `${site.websiteUrl}/sell`,
             description:
-              "Sell your home in Albany, Oregon with confidence. Cadwell Group offers a seller-focused marketing playbook, calm strategy, and a single point of contact from listing to close.",
+              "Sell your home in Albany, Oregon with confidence. Cadwell Realty Group offers a seller-focused marketing playbook, calm strategy, and a single point of contact from listing to close.",
             category: "Real Estate — Home Selling",
           }),
           breadcrumbSchema([

@@ -27,7 +27,7 @@ export function ConsentBlock({
   consentMarketing,
   onMarketingChange,
   idPrefix = "consent",
-  companyName = "Cadwell Group",
+  companyName = "Cadwell Realty Group",
 }: ConsentBlockProps) {
   return (
     <div className="grid gap-4">

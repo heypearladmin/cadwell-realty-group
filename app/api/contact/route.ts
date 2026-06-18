@@ -11,7 +11,7 @@ import { site } from "@/lib/site";
  * Required env (set in Vercel → Project → Settings → Environment Variables):
  *   - RESEND_API_KEY      required for live email delivery
  *   - CONTACT_TO_EMAIL    optional; defaults to site.email
- *   - CONTACT_FROM_EMAIL  optional; defaults to "Cadwell Group <noreply@cadwellrealtygroup.com>"
+ *   - CONTACT_FROM_EMAIL  optional; defaults to "Cadwell Realty Group <noreply@cadwellrealtygroup.com>"
  *
  * If RESEND_API_KEY is not set, the route still returns success and logs the
  * payload server-side. This keeps the form working through A2P review while
@@ -99,7 +99,7 @@ export async function POST(req: NextRequest) {
   const to = process.env.CONTACT_TO_EMAIL ?? site.email;
   const from =
     process.env.CONTACT_FROM_EMAIL ??
-    "Cadwell Group <noreply@cadwellrealtygroup.com>";
+    "Cadwell Realty Group <noreply@cadwellrealtygroup.com>";
   const apiKey = process.env.RESEND_API_KEY;
 
   // Graceful fallback while email delivery is being configured.

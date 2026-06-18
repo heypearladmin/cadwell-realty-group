@@ -5,7 +5,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
-    "Cadwell Group Privacy Policy — how we collect, use, and protect your information, including SMS opt-in data.",
+    "Cadwell Realty Group Privacy Policy — how we collect, use, and protect your information, including SMS opt-in data.",
   alternates: { canonical: "/policies" },
   robots: { index: true, follow: true },
 };
@@ -15,7 +15,7 @@ export default function PoliciesPage() {
     <LegalShell
       eyebrow="Legal"
       title="Privacy Policy"
-      description="A clear, plain-language summary of how Cadwell Group collects, uses, and protects information — including SMS opt-in data for A2P 10DLC compliance."
+      description="A clear, plain-language summary of how Cadwell Realty Group collects, uses, and protects information — including SMS opt-in data for A2P 10DLC compliance."
       effectiveDate="January 2026"
       sections={[
         {
@@ -23,7 +23,7 @@ export default function PoliciesPage() {
           body: (
             <>
               <p>
-                Cadwell Group (&ldquo;Cadwell Group,&rdquo; &ldquo;we,&rdquo;
+                Cadwell Realty Group (&ldquo;Cadwell Realty Group,&rdquo; &ldquo;we,&rdquo;
                 &ldquo;us,&rdquo; or &ldquo;our&rdquo;) is a real estate
                 brokerage serving Albany, Oregon and the surrounding Linn
                 &amp; Benton County area, led by Jason Cadwell and powered
@@ -81,7 +81,7 @@ export default function PoliciesPage() {
               <p>
                 By providing your phone number and checking the consent box
                 on our contact form, you expressly consent to receive
-                recurring text messages and phone calls from Cadwell Group,
+                recurring text messages and phone calls from Cadwell Realty Group,
                 including automated calls and AI-assisted communications,
                 at the phone number you provided.
               </p>
@@ -143,7 +143,7 @@ export default function PoliciesPage() {
           heading: "Children's Privacy",
           body: (
             <p>
-              Cadwell Group&rsquo;s services are not directed to children
+              Cadwell Realty Group&rsquo;s services are not directed to children
               under 13, and we do not knowingly collect personal information
               from children under 13.
             </p>

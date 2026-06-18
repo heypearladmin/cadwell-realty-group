@@ -127,7 +127,7 @@ export function HomeAbout() {
               transition={transitionBase}
               className="body-prose mt-6 max-w-[42rem]"
             >
-              Cadwell Group exists for the families, sellers, and move-up buyers who want a
+              Cadwell Realty Group exists for the families, sellers, and move-up buyers who want a
               calm, intelligent advisor in their corner. Powered by Jason Mitchell Group, we pair
               hyperlocal Albany intel with national-scale infrastructure and a marketing standard
               most of the valley has not seen yet.

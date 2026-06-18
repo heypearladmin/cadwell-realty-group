@@ -8,7 +8,7 @@ import { serviceSchema, breadcrumbSchema } from "@/lib/seo/schema";
 export const metadata: Metadata = {
   title: "New Construction in Albany, Oregon",
   description:
-    "New construction homes in Albany, Oregon. Cadwell Group partners with respected Albany builders to advocate for buyers from lot selection through final walkthrough.",
+    "New construction homes in Albany, Oregon. Cadwell Realty Group partners with respected Albany builders to advocate for buyers from lot selection through final walkthrough.",
   openGraph: { images: [{ url: site.ogImage, width: 1200, height: 630 }] },
   twitter: { images: [site.ogImage] },
 };
@@ -22,7 +22,7 @@ export default function NewConstructionPage() {
             name: "New Construction Homes in Albany, Oregon",
             url: `${site.websiteUrl}/new-construction`,
             description:
-              "New construction homes in Albany, Oregon. Cadwell Group partners with respected Albany builders to advocate for buyers from lot selection through final walkthrough.",
+              "New construction homes in Albany, Oregon. Cadwell Realty Group partners with respected Albany builders to advocate for buyers from lot selection through final walkthrough.",
             category: "Real Estate — New Construction",
           }),
           breadcrumbSchema([

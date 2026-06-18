@@ -29,7 +29,7 @@ const initial: FormState = {
 };
 
 /**
- * A2P 10DLC compliant contact form for Cadwell Group.
+ * A2P 10DLC compliant contact form for Cadwell Realty Group.
  *
  * Required: First name, Last name, Email, Phone, Message, Consent checkbox.
  * Submit disabled until consent is checked. Posts JSON to /api/contact, which

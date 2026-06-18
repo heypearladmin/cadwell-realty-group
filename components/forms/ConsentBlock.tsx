@@ -1,80 +1,83 @@
 "use client";
 
-import Link from "next/link";
-
 /**
- * A2P 10DLC / Twilio / GoHighLevel compliant consent block.
+ * A2P 10DLC compliant two-checkbox consent block.
  *
- * Renders the verbatim SMS + AI calling consent disclosure and an unchecked,
- * required consent checkbox. Used inside ContactForm. Reusable for any future
- * lead-capture form so the legal language is centralized.
+ * Checkbox 1 — non-marketing (transactional): property inquiries, valuations,
+ *   consultation follow-ups. Optional but required to receive transactional SMS.
+ * Checkbox 2 — marketing/promotional: listings, market updates, open houses.
+ *   Optional; only shown if the business sends promotional messages.
  *
- * The disclosure language is intentionally verbatim. Do not paraphrase without
- * legal review — registrars (Twilio, GHL) check for exact phrasing.
+ * Privacy Policy / Terms links are rendered below the Submit button in
+ * ContactForm, not here, per the carrier-compliant layout template.
  */
 
 type ConsentBlockProps = {
-  checked: boolean;
-  onChange: (value: boolean) => void;
-  /** Optional id override (useful when multiple forms share a page). */
-  id?: string;
-  className?: string;
-  /** Brand name interpolated into the disclosure. */
+  consentTransactional: boolean;
+  onTransactionalChange: (value: boolean) => void;
+  consentMarketing: boolean;
+  onMarketingChange: (value: boolean) => void;
+  idPrefix?: string;
   companyName?: string;
 };
 
 export function ConsentBlock({
-  checked,
-  onChange,
-  id = "consent",
-  className,
+  consentTransactional,
+  onTransactionalChange,
+  consentMarketing,
+  onMarketingChange,
+  idPrefix = "consent",
   companyName = "Cadwell Group",
 }: ConsentBlockProps) {
   return (
-    <div
-      className={`rounded-2xl border border-ink/[0.08] bg-paper-deep/60 p-5 sm:p-6 ${className ?? ""}`}
-    >
-      <label htmlFor={id} className="flex cursor-pointer items-start gap-3">
+    <div className="grid gap-4">
+      {/* Checkbox 1 — non-marketing / transactional */}
+      <label
+        htmlFor={`${idPrefix}-transactional`}
+        className="flex cursor-pointer items-start gap-3"
+      >
         <input
-          id={id}
-          name={id}
+          id={`${idPrefix}-transactional`}
+          name={`${idPrefix}-transactional`}
           type="checkbox"
-          required
-          checked={checked}
-          onChange={(e) => onChange(e.target.checked)}
-          aria-describedby={`${id}-description`}
+          checked={consentTransactional}
+          onChange={(e) => onTransactionalChange(e.target.checked)}
           className="mt-1 h-4 w-4 shrink-0 cursor-pointer rounded border-ink/30 text-cadwell focus:ring-2 focus:ring-cadwell focus:ring-offset-2 focus:ring-offset-paper"
         />
-        <span
-          id={`${id}-description`}
-          className="text-[0.875rem] leading-relaxed text-charcoal"
-        >
-          I agree to receive text messages and phone calls from {companyName}{" "}
-          at the phone number provided. Message frequency varies. Message &amp;
-          data rates may apply. Reply STOP to unsubscribe. Reply HELP for help.
-          By submitting this form, you agree to our{" "}
-          <Link
-            href="/terms"
-            className="underline underline-offset-2 transition-colors hover:text-cadwell"
-          >
-            Terms &amp; Conditions
-          </Link>{" "}
-          and{" "}
-          <Link
-            href="/policies"
-            className="underline underline-offset-2 transition-colors hover:text-cadwell"
-          >
-            Privacy Policy
-          </Link>
-          .
+        <span className="text-[0.875rem] leading-relaxed text-charcoal">
+          I consent to receive non-marketing text messages from{" "}
+          <strong>{companyName}</strong> regarding{" "}
+          <strong>
+            property inquiries, home valuations, and real estate consultations
+          </strong>
+          . Message frequency varies, message &amp; data rates may apply. Reply
+          HELP for assistance, reply STOP to opt out.
         </span>
       </label>
 
-      <p className="mt-4 pl-7 text-[0.78rem] leading-relaxed text-muted">
-        By providing your phone number, you consent to receive calls and text
-        messages, including automated calls and AI-assisted communications,
-        from {companyName}.
-      </p>
+      {/* Checkbox 2 — marketing / promotional */}
+      <label
+        htmlFor={`${idPrefix}-marketing`}
+        className="flex cursor-pointer items-start gap-3"
+      >
+        <input
+          id={`${idPrefix}-marketing`}
+          name={`${idPrefix}-marketing`}
+          type="checkbox"
+          checked={consentMarketing}
+          onChange={(e) => onMarketingChange(e.target.checked)}
+          className="mt-1 h-4 w-4 shrink-0 cursor-pointer rounded border-ink/30 text-cadwell focus:ring-2 focus:ring-cadwell focus:ring-offset-2 focus:ring-offset-paper"
+        />
+        <span className="text-[0.875rem] leading-relaxed text-charcoal">
+          I consent to receive marketing text messages from{" "}
+          <strong>{companyName}</strong> regarding{" "}
+          <strong>
+            new listings, market updates, and open house announcements
+          </strong>
+          . Message frequency varies, message &amp; data rates may apply. Reply
+          HELP for assistance, reply STOP to opt out.
+        </span>
+      </label>
     </div>
   );
 }

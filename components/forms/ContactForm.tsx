@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
+import Link from "next/link";
 import { ConsentBlock } from "@/components/forms/ConsentBlock";
 
 type FormState = {
@@ -36,11 +37,11 @@ const initial: FormState = {
  */
 export function ContactForm() {
   const [values, setValues] = useState<FormState>(initial);
-  const [consent, setConsent] = useState(false);
+  const [consentTransactional, setConsentTransactional] = useState(false);
+  const [consentMarketing, setConsentMarketing] = useState(false);
   const [status, setStatus] = useState<Status>({ type: "idle" });
 
   const submitting = status.type === "submitting";
-  const canSubmit = consent && !submitting;
 
   function update<K extends keyof FormState>(key: K, value: FormState[K]) {
     setValues((prev) => ({ ...prev, [key]: value }));
@@ -48,15 +49,13 @@ export function ContactForm() {
 
   async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    if (!consent) return;
-
     setStatus({ type: "submitting" });
 
     try {
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...values, consent }),
+        body: JSON.stringify({ ...values, consentTransactional, consentMarketing }),
       });
 
       const data = (await res.json().catch(() => ({}))) as {
@@ -72,7 +71,8 @@ export function ContactForm() {
 
       setStatus({ type: "success" });
       setValues(initial);
-      setConsent(false);
+      setConsentTransactional(false);
+      setConsentMarketing(false);
     } catch (err) {
       setStatus({
         type: "error",
@@ -191,7 +191,12 @@ export function ContactForm() {
         />
       </div>
 
-      <ConsentBlock checked={consent} onChange={setConsent} />
+      <ConsentBlock
+        consentTransactional={consentTransactional}
+        onTransactionalChange={setConsentTransactional}
+        consentMarketing={consentMarketing}
+        onMarketingChange={setConsentMarketing}
+      />
 
       {status.type === "error" && (
         <div
@@ -202,19 +207,24 @@ export function ContactForm() {
         </div>
       )}
 
-      <div className="flex flex-col items-start gap-3 sm:flex-row sm:items-center sm:justify-between">
-        <button
-          type="submit"
-          disabled={!canSubmit}
-          aria-disabled={!canSubmit}
-          className="btn-primary justify-self-start disabled:cursor-not-allowed disabled:opacity-60 disabled:hover:bg-cadwell"
-        >
-          {submitting ? "Sending…" : "Send note"}
-        </button>
-        <p className="text-[0.78rem] text-muted">
-          By submitting, you confirm the consent above.
-        </p>
-      </div>
+      <button
+        type="submit"
+        disabled={submitting}
+        aria-disabled={submitting}
+        className="btn-primary w-full justify-center disabled:cursor-not-allowed disabled:opacity-60 disabled:hover:bg-cadwell"
+      >
+        {submitting ? "Sending…" : "Send note"}
+      </button>
+
+      <p className="text-center text-[0.8rem] text-muted">
+        <Link href="/policies" className="underline underline-offset-2 transition-colors hover:text-cadwell">
+          Privacy Policy
+        </Link>
+        {" | "}
+        <Link href="/terms" className="underline underline-offset-2 transition-colors hover:text-cadwell">
+          Terms and Conditions
+        </Link>
+      </p>
     </form>
   );
 }

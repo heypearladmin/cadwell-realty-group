@@ -28,7 +28,8 @@ type Payload = {
   phone?: unknown;
   topic?: unknown;
   message?: unknown;
-  consent?: unknown;
+  consentTransactional?: unknown;
+  consentMarketing?: unknown;
 };
 
 function isNonEmptyString(v: unknown): v is string {
@@ -63,7 +64,7 @@ export async function POST(req: NextRequest) {
     );
   }
 
-  const { firstName, lastName, email, phone, topic, message, consent } = body;
+  const { firstName, lastName, email, phone, topic, message, consentTransactional, consentMarketing } = body;
 
   if (
     !isNonEmptyString(firstName) ||
@@ -74,16 +75,6 @@ export async function POST(req: NextRequest) {
   ) {
     return NextResponse.json(
       { ok: false, error: "All fields are required." },
-      { status: 400 },
-    );
-  }
-
-  if (consent !== true) {
-    return NextResponse.json(
-      {
-        ok: false,
-        error: "Consent is required before submitting this form.",
-      },
       { status: 400 },
     );
   }
@@ -122,7 +113,8 @@ export async function POST(req: NextRequest) {
         phone,
         topic: topicLabel,
         message,
-        consent,
+        consentTransactional,
+        consentMarketing,
         submittedAt,
         userAgent,
         ip,
@@ -144,11 +136,8 @@ export async function POST(req: NextRequest) {
     message,
     ``,
     `— meta —`,
-    `Consent: ${
-      consent === true
-        ? "YES (SMS + AI calling, STOP/HELP, msg & data rates disclosed)"
-        : "NO"
-    }`,
+    `Consent (non-marketing): ${consentTransactional === true ? "YES" : "NO"}`,
+    `Consent (marketing): ${consentMarketing === true ? "YES" : "NO"}`,
     `Submitted: ${submittedAt}`,
     `IP: ${ip}`,
     `User-Agent: ${userAgent}`,
@@ -167,7 +156,8 @@ export async function POST(req: NextRequest) {
       <p style="white-space:pre-wrap;margin:0;">${escapeHtml(message)}</p>
       <hr style="margin:24px 0;border:none;border-top:1px solid #eaeaea;" />
       <p style="font-size:12px;color:#777;margin:0;">
-        Consent: <strong>YES</strong> — SMS + AI calling, STOP/HELP, msg &amp; data rates disclosed.<br/>
+        Consent (non-marketing): <strong>${consentTransactional === true ? "YES" : "NO"}</strong><br/>
+        Consent (marketing): <strong>${consentMarketing === true ? "YES" : "NO"}</strong><br/>
         Submitted: ${escapeHtml(submittedAt)}<br/>
         IP: ${escapeHtml(ip)}<br/>
         User-Agent: ${escapeHtml(userAgent)}

@@ -29,7 +29,7 @@ export default function TermsPage() {
           ),
         },
         {
-          heading: "Services",
+          heading: "Agreement to Terms & Conditions",
           body: (
             <p>
               Cadwell Realty Group provides real estate brokerage services in Albany,

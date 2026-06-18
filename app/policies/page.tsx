@@ -5,7 +5,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Cadwell Realty Group Privacy Policy",
   description:
-    "Cadwell Realty Group Privacy Policy — how we collect, use, and protect your information, including SMS opt-in data.",
+    "Cadwell Realty Group Privacy Policy: How We Collect, Use & Protect Your Data.",
   alternates: { canonical: "/policies" },
   robots: { index: true, follow: true },
 };
@@ -14,12 +14,12 @@ export default function PoliciesPage() {
   return (
     <LegalShell
       eyebrow="Legal"
-      title="Privacy Policy"
-      description="A clear, plain-language summary of how Cadwell Realty Group collects, uses, and protects information — including SMS opt-in data for A2P 10DLC compliance."
+      title="Cadwell Realty Group Privacy Policy: How We Collect, Use & Protect Your Data"
+      description="An overview of Cadwell Realty Group's Privacy Policy — how we collect, use, and protect your information, including SMS opt-in data for A2P 10DLC compliance."
       effectiveDate="January 2026"
       sections={[
         {
-          heading: "Overview",
+          heading: "Overview of Cadwell Realty Group's Privacy Policy",
           body: (
             <>
               <p>
@@ -105,6 +105,18 @@ export default function PoliciesPage() {
           ),
         },
         {
+          heading: "Age Restriction",
+          body: (
+            <p>
+              You must be 18 years or older to participate in our SMS
+              program. By opting in to receive SMS messages from Cadwell
+              Realty Group, you represent and warrant that you are at least
+              18 years of age. If you are under 18, you may not opt in to or
+              use our SMS program.
+            </p>
+          ),
+        },
+        {
           heading: "Cookies and Analytics",
           body: (
             <p>
@@ -116,7 +128,7 @@ export default function PoliciesPage() {
           ),
         },
         {
-          heading: "How We Protect Information",
+          heading: "How We Protect Your Information",
           body: (
             <p>
               We use industry-standard administrative, technical, and

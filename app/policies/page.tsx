@@ -105,18 +105,6 @@ export default function PoliciesPage() {
           ),
         },
         {
-          heading: "Age Restriction",
-          body: (
-            <p>
-              You must be 18 years or older to participate in our SMS
-              program. By opting in to receive SMS messages from Cadwell
-              Realty Group, you represent and warrant that you are at least
-              18 years of age. If you are under 18, you may not opt in to or
-              use our SMS program.
-            </p>
-          ),
-        },
-        {
           heading: "Cookies and Analytics",
           body: (
             <p>

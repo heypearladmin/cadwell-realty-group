@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { LegalShell } from "@/components/legal/LegalShell";
 import { site } from "@/lib/site";
 
+export const revalidate = 0;
+
 export const metadata: Metadata = {
   title: "Cadwell Realty Group Terms & Conditions",
   description:

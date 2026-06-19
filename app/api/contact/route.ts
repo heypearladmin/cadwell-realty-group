@@ -70,8 +70,7 @@ export async function POST(req: NextRequest) {
     !isNonEmptyString(firstName) ||
     !isNonEmptyString(lastName) ||
     !isNonEmptyString(email) ||
-    !isNonEmptyString(phone) ||
-    !isNonEmptyString(message)
+    !isNonEmptyString(phone)
   ) {
     return NextResponse.json(
       { ok: false, error: "All fields are required." },

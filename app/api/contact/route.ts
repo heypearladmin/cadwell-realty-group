@@ -9,13 +9,11 @@ import { site } from "@/lib/site";
  * server-side consent re-check) and delivers via Resend.
  *
  * Required env (set in Vercel → Project → Settings → Environment Variables):
- *   - RESEND_API_KEY      required for live email delivery
- *   - CONTACT_TO_EMAIL    optional; defaults to site.email
- *   - CONTACT_FROM_EMAIL  optional; defaults to "Cadwell Realty Group <noreply@cadwellrealtygroup.com>"
- *
- * If RESEND_API_KEY is not set, the route still returns success and logs the
- * payload server-side. This keeps the form working through A2P review while
- * email delivery is being configured.
+ *   - RESEND_API_KEY        required for live email delivery
+ *   - CONTACT_TO_EMAIL      optional; defaults to site.email
+ *   - CONTACT_FROM_EMAIL    optional; defaults to "Cadwell Realty Group <noreply@cadwellrealtygroup.com>"
+ *   - GHL_API_KEY           GHL private integration token (pit-...)
+ *   - GHL_LOCATION_ID       GHL location ID
  */
 
 export const runtime = "nodejs";
@@ -100,24 +98,34 @@ export async function POST(req: NextRequest) {
     process.env.CONTACT_FROM_EMAIL ??
     "Cadwell Realty Group <noreply@cadwellrealtygroup.com>";
   const apiKey = process.env.RESEND_API_KEY;
+  const ghlApiKey = process.env.GHL_API_KEY;
+  const ghlLocationId = process.env.GHL_LOCATION_ID;
+
+  // Fire GHL contact creation in parallel — non-blocking, never fails the form.
+  if (ghlApiKey && ghlLocationId) {
+    fetch("https://services.leadconnectorhq.com/contacts/", {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${ghlApiKey}`,
+        Version: "2021-07-28",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        firstName,
+        lastName,
+        email,
+        phone,
+        locationId: ghlLocationId,
+        source: "Website Contact Form",
+      }),
+    }).catch((err) => console.error("[ghl] Contact creation failed:", err));
+  }
 
   // Graceful fallback while email delivery is being configured.
   if (!apiKey) {
     console.warn(
       "[contact] RESEND_API_KEY not set — logging submission instead of emailing.",
-      {
-        firstName,
-        lastName,
-        email,
-        phone,
-        topic: topicLabel,
-        message,
-        consentTransactional,
-        consentMarketing,
-        submittedAt,
-        userAgent,
-        ip,
-      },
+      { firstName, lastName, email, phone, consentTransactional, consentMarketing, submittedAt, userAgent, ip },
     );
     return NextResponse.json({ ok: true });
   }

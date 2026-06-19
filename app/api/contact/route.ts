@@ -129,10 +129,6 @@ export async function POST(req: NextRequest) {
     `Name: ${firstName} ${lastName}`,
     `Email: ${email}`,
     `Phone: ${phone}`,
-    `Topic: ${topicLabel}`,
-    ``,
-    `Message:`,
-    message,
     ``,
     `— meta —`,
     `Consent (non-marketing): ${consentTransactional === true ? "YES" : "NO"}`,
@@ -149,10 +145,7 @@ export async function POST(req: NextRequest) {
         <tr><td style="padding:4px 12px 4px 0;color:#777;">Name</td><td><strong>${escapeHtml(firstName)} ${escapeHtml(lastName)}</strong></td></tr>
         <tr><td style="padding:4px 12px 4px 0;color:#777;">Email</td><td><a href="mailto:${escapeHtml(email)}">${escapeHtml(email)}</a></td></tr>
         <tr><td style="padding:4px 12px 4px 0;color:#777;">Phone</td><td><a href="tel:${escapeHtml(phone)}">${escapeHtml(phone)}</a></td></tr>
-        <tr><td style="padding:4px 12px 4px 0;color:#777;">Topic</td><td>${escapeHtml(topicLabel)}</td></tr>
       </table>
-      <h3 style="margin:24px 0 8px;">Message</h3>
-      <p style="white-space:pre-wrap;margin:0;">${escapeHtml(message)}</p>
       <hr style="margin:24px 0;border:none;border-top:1px solid #eaeaea;" />
       <p style="font-size:12px;color:#777;margin:0;">
         Consent (non-marketing): <strong>${consentTransactional === true ? "YES" : "NO"}</strong><br/>

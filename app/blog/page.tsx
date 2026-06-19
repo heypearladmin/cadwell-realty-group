@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { exploreTiles, insightCards } from "@/lib/home-content";
+import { blogPosts } from "@/lib/blog-posts";
 import { site } from "@/lib/site";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { breadcrumbSchema } from "@/lib/seo/schema";
@@ -21,6 +22,16 @@ export default function BlogIndexPage() {
   ]);
 
   const all = [
+    ...blogPosts.map((p) => ({
+      kind: p.category,
+      eyebrow: p.eyebrow,
+      title: p.title,
+      dek: p.dek,
+      href: p.href,
+      imageSrc: p.imageSrc,
+      imageAlt: p.imageAlt,
+      tag: p.eyebrow,
+    })),
     ...insightCards.map((c) => ({ ...c, tag: c.eyebrow })),
     ...exploreTiles.map((t) => ({
       kind: t.category,

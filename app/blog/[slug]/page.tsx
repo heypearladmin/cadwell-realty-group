@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { findBlogArticle, getAllBlogSlugs } from "@/lib/home-content";
+import { findBlogPost } from "@/lib/blog-posts";
 import { site } from "@/lib/site";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { blogPostingSchema, breadcrumbSchema } from "@/lib/seo/schema";
@@ -60,6 +61,7 @@ export default async function BlogArticlePage({
   const article = findBlogArticle(slug);
   if (!article) notFound();
 
+  const post = findBlogPost(slug);
   const pageUrl = `${site.websiteUrl}/blog/${slug}`;
 
   return (
@@ -80,6 +82,8 @@ export default async function BlogArticlePage({
           ]),
         ]}
       />
+
+      {/* Hero */}
       <section className="relative isolate overflow-hidden bg-ink text-paper">
         <div className="absolute inset-0 -z-10">
           <Image
@@ -114,20 +118,41 @@ export default async function BlogArticlePage({
         </div>
       </section>
 
+      {/* Article body */}
       <section className="section-wrap-narrow py-20 md:py-28 lg:py-32">
         <div className="prose-spaced space-y-14">
-          <p className="text-[1.125rem] leading-[1.8] text-ink/80 md:text-[1.1875rem]">
-            This is a working draft. The full guide is in production. In the meantime, the shape of what is coming, and an invitation to ask questions in the gaps.
-          </p>
 
-          {PLACEHOLDER_BODY.map((block) => (
-            <section key={block.title} className="border-t border-ink/[0.08] pt-10">
-              <p className="caption !text-ink/50">{block.eyebrow}</p>
-              <h2 className="display-md mt-4 text-ink">{block.title}</h2>
-              <p className="mt-5 text-[1.0625rem] leading-[1.78] text-ink/75">{block.body}</p>
-            </section>
-          ))}
+          {post ? (
+            // Real article content
+            <>
+              {post.sections.map((section) => (
+                <section key={section.heading} className="border-t border-ink/[0.08] pt-10">
+                  <h2 className="display-md text-ink">{section.heading}</h2>
+                  <div className="mt-5 space-y-4">
+                    {section.paragraphs.map((p, i) => (
+                      <p key={i} className="text-[1.0625rem] leading-[1.78] text-ink/75">{p}</p>
+                    ))}
+                  </div>
+                </section>
+              ))}
+            </>
+          ) : (
+            // Placeholder for legacy explore/insight articles
+            <>
+              <p className="text-[1.125rem] leading-[1.8] text-ink/80 md:text-[1.1875rem]">
+                A short, honest take. The parts locals talk about and the parts visitors miss. We update this as Albany changes.
+              </p>
+              {PLACEHOLDER_BODY.map((block) => (
+                <section key={block.title} className="border-t border-ink/[0.08] pt-10">
+                  <p className="caption !text-ink/50">{block.eyebrow}</p>
+                  <h2 className="display-md mt-4 text-ink">{block.title}</h2>
+                  <p className="mt-5 text-[1.0625rem] leading-[1.78] text-ink/75">{block.body}</p>
+                </section>
+              ))}
+            </>
+          )}
 
+          {/* CTA */}
           <section className="border-t border-ink/[0.08] pt-10">
             <p className="caption !text-ink/50">Ask Jason</p>
             <h2 className="display-md mt-4 text-ink">Have a specific question?</h2>
@@ -139,11 +164,12 @@ export default async function BlogArticlePage({
                 Send a note
                 <span aria-hidden className="text-base">→</span>
               </Link>
-              <Link href="/explore" className="editorial-link text-sm font-medium">
+              <Link href={site.blogPath} className="editorial-link text-sm font-medium">
                 More field notes
               </Link>
             </div>
           </section>
+
         </div>
       </section>
     </main>

@@ -554,6 +554,8 @@ export const newsletterCopy = {
 
 /* ─────────────────────────── Blog & Neighborhood helpers ─────────────────────────── */
 
+import { blogPosts, findBlogPost } from "@/lib/blog-posts";
+
 export type BlogArticle = {
   slug: string;
   eyebrow: string;
@@ -561,7 +563,7 @@ export type BlogArticle = {
   dek: string;
   imageSrc: string;
   imageAlt: string;
-  category: "Explore" | "Market Insights";
+  category: "Explore" | "Market Insights" | string;
   href: string;
 };
 
@@ -571,6 +573,21 @@ function slugFromBlogHref(href: string): string | null {
 }
 
 export function findBlogArticle(slug: string): BlogArticle | null {
+  // Check new blog posts first
+  const post = findBlogPost(slug);
+  if (post) {
+    return {
+      slug: post.slug,
+      eyebrow: post.eyebrow,
+      title: post.title,
+      dek: post.dek,
+      imageSrc: post.imageSrc,
+      imageAlt: post.imageAlt,
+      category: post.category,
+      href: post.href,
+    };
+  }
+
   const fromExplore = exploreTiles.find((t) => slugFromBlogHref(t.href) === slug);
   if (fromExplore) {
     return {
@@ -602,6 +619,7 @@ export function findBlogArticle(slug: string): BlogArticle | null {
 
 export function getAllBlogSlugs(): string[] {
   const slugs = new Set<string>();
+  for (const p of blogPosts) slugs.add(p.slug);
   for (const t of exploreTiles) {
     const s = slugFromBlogHref(t.href);
     if (s) slugs.add(s);

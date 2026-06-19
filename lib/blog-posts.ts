@@ -22,7 +22,7 @@ export const blogPosts: BlogPost[] = [
     dek: "Essential local buyer resources for first-time and experienced buyers — financing, market trends, neighborhoods, and how to find the right agent.",
     eyebrow: "Buyer Guide",
     category: "Buyer Resources",
-    imageSrc: "/images/Your Ultimate Guide to Buy Albany Oregon Homes.png",
+    imageSrc: "/images/blog-ultimate-guide-buy-albany-homes.png",
     imageAlt: "Albany Oregon homes for sale — buyer's guide to the local real estate market.",
     href: "/blog/your-ultimate-guide-to-buy-albany-oregon-homes",
     sections: [
@@ -69,7 +69,7 @@ export const blogPosts: BlogPost[] = [
     dek: "Trusted strategies, market insights, and agent guidance for homeowners ready to sell in North Albany, Oregon.",
     eyebrow: "Seller Guide",
     category: "Selling",
-    imageSrc: "/images/Sell Your North Albany Home with Local Expertise.png",
+    imageSrc: "/images/blog-sell-north-albany-home.png",
     imageAlt: "North Albany Oregon neighborhood — selling your home with local real estate expertise.",
     href: "/blog/sell-your-north-albany-home-with-local-expertise",
     sections: [
@@ -116,7 +116,7 @@ export const blogPosts: BlogPost[] = [
     dek: "Expert guidance for fast, profitable home sales — pricing strategies, cinematic marketing, staging, and negotiation in the Albany Oregon market.",
     eyebrow: "Seller Guide",
     category: "Selling",
-    imageSrc: "/images/Sell Your Home in Albany, Oregon with Cadwell Group.png",
+    imageSrc: "/images/blog-sell-your-home-albany-oregon.png",
     imageAlt: "Selling a home in Albany Oregon — expert real estate guidance from Cadwell Realty Group.",
     href: "/blog/sell-your-home-in-albany-oregon",
     sections: [
@@ -163,7 +163,7 @@ export const blogPosts: BlogPost[] = [
     dek: "Expert guidance and valuation tips for selling a historic property in Downtown Albany — preservation guidelines, marketing strategies, and tax considerations.",
     eyebrow: "Seller Guide",
     category: "Selling",
-    imageSrc: "/images/Sell Your Historic Downtown Albany Home with Care.png",
+    imageSrc: "/images/blog-sell-historic-downtown-albany.png",
     imageAlt: "Historic Downtown Albany Oregon — selling a heritage home with care and local expertise.",
     href: "/blog/sell-your-historic-downtown-albany-home",
     sections: [
@@ -210,7 +210,7 @@ export const blogPosts: BlogPost[] = [
     dek: "Top-ranked schools, real estate trends, family amenities, and lifestyle insights for one of Albany's most sought-after neighborhoods.",
     eyebrow: "Neighborhood Guide",
     category: "Neighborhoods",
-    imageSrc: "/images/Discover North Albany Your 2026 Guide to Local Living.png",
+    imageSrc: "/images/blog-discover-north-albany-2026.png",
     imageAlt: "North Albany Oregon neighborhood — 2026 guide to schools, real estate, and family living.",
     href: "/blog/discover-north-albany-2026-guide",
     sections: [
@@ -257,7 +257,7 @@ export const blogPosts: BlogPost[] = [
     dek: "A buyer's guide to South Albany, Oregon — quiet neighborhoods, quality schools in the GAPS district, and a steadily appreciating real estate market.",
     eyebrow: "Buyer Guide",
     category: "Neighborhoods",
-    imageSrc: "/images/Buy in South Albany Neighborhood Prospects and Schools.png",
+    imageSrc: "/images/blog-buy-in-south-albany.png",
     imageAlt: "South Albany Oregon neighborhood — real estate opportunities, schools, and community.",
     href: "/blog/buy-in-south-albany",
     sections: [
@@ -304,7 +304,7 @@ export const blogPosts: BlogPost[] = [
     dek: "Mortgage rate forecasts, neighborhood price dynamics, first-time buyer programs, and refinancing strategies for Albany home buyers in 2026.",
     eyebrow: "Market Insights",
     category: "Market Trends",
-    imageSrc: "/images/2026 Interest Rates and Albany Home Buyers What the Current Market Means for Your Purchase.png",
+    imageSrc: "/images/blog-2026-interest-rates-albany-home-buyers.png",
     imageAlt: "Albany Oregon real estate market 2026 — interest rates and home buyer insights.",
     href: "/blog/2026-interest-rates-albany-home-buyers",
     sections: [
@@ -351,7 +351,7 @@ export const blogPosts: BlogPost[] = [
     dek: "A detailed comparison of new construction and existing homes in Albany — costs, financing, energy efficiency, neighborhood options, and resale potential.",
     eyebrow: "Buyer Guide",
     category: "Buyer Resources",
-    imageSrc: "/images/2026 Albany Oregon Home Buying Guide New vs. Existing Homes.png",
+    imageSrc: "/images/blog-2026-home-buying-guide-new-vs-existing.png",
     imageAlt: "Albany Oregon 2026 home buying guide — new construction vs existing homes comparison.",
     href: "/blog/2026-albany-home-buying-guide-new-vs-existing",
     sections: [

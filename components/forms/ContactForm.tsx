@@ -9,8 +9,6 @@ type FormState = {
   lastName: string;
   email: string;
   phone: string;
-  topic: string;
-  message: string;
 };
 
 type Status =
@@ -24,17 +22,8 @@ const initial: FormState = {
   lastName: "",
   email: "",
   phone: "",
-  topic: "selling",
-  message: "",
 };
 
-/**
- * A2P 10DLC compliant contact form for Cadwell Realty Group.
- *
- * Required: First name, Last name, Email, Phone, Message, Consent checkbox.
- * Submit disabled until consent is checked. Posts JSON to /api/contact, which
- * re-validates consent server-side and delivers via Resend.
- */
 export function ContactForm() {
   const [values, setValues] = useState<FormState>(initial);
   const [consentTransactional, setConsentTransactional] = useState(false);
@@ -45,6 +34,13 @@ export function ContactForm() {
 
   function update<K extends keyof FormState>(key: K, value: FormState[K]) {
     setValues((prev) => ({ ...prev, [key]: value }));
+  }
+
+  function reset() {
+    setValues(initial);
+    setConsentTransactional(false);
+    setConsentMarketing(false);
+    setStatus({ type: "idle" });
   }
 
   async function onSubmit(e: FormEvent<HTMLFormElement>) {
@@ -70,9 +66,6 @@ export function ContactForm() {
       }
 
       setStatus({ type: "success" });
-      setValues(initial);
-      setConsentTransactional(false);
-      setConsentMarketing(false);
     } catch (err) {
       setStatus({
         type: "error",
@@ -101,6 +94,12 @@ export function ContactForm() {
           Your note reached Jason directly. Expect a reply within one business
           day. For urgent matters, you can call any time.
         </p>
+        <button
+          onClick={reset}
+          className="btn-primary mt-8"
+        >
+          Submit another
+        </button>
       </div>
     );
   }
@@ -136,7 +135,7 @@ export function ContactForm() {
 
       <Field
         id="email"
-        label="Email"
+        label="Email address"
         type="email"
         autoComplete="email"
         inputMode="email"
@@ -156,40 +155,6 @@ export function ContactForm() {
         onChange={(v) => update("phone", v)}
         required
       />
-
-      <div className="grid gap-2">
-        <label htmlFor="topic" className="caption">
-          I&apos;d like to talk about
-        </label>
-        <select
-          id="topic"
-          name="topic"
-          value={values.topic}
-          onChange={(e) => update("topic", e.target.value)}
-          className="rounded-xl border border-ink/15 bg-paper px-4 py-3 text-[0.95rem] text-ink shadow-inset-frame focus:border-cadwell focus:outline-none"
-        >
-          <option value="selling">Selling my home</option>
-          <option value="buying">Buying in Albany</option>
-          <option value="new-construction">New construction</option>
-          <option value="valuation">A free home valuation</option>
-          <option value="general">Something else</option>
-        </select>
-      </div>
-
-      <div className="grid gap-2">
-        <label htmlFor="message" className="caption">
-          Message <span className="text-cadwell">*</span>
-        </label>
-        <textarea
-          id="message"
-          name="message"
-          required
-          rows={6}
-          value={values.message}
-          onChange={(e) => update("message", e.target.value)}
-          className="rounded-xl border border-ink/15 bg-paper px-4 py-3 text-[0.95rem] text-ink shadow-inset-frame focus:border-cadwell focus:outline-none"
-        />
-      </div>
 
       <ConsentBlock
         consentTransactional={consentTransactional}

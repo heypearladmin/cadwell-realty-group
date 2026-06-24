@@ -5,7 +5,7 @@ import { MobileFloatingCta } from "@/components/MobileFloatingCta";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { site } from "@/lib/site";
-import { realEstateAgentSchema, webSiteSchema } from "@/lib/seo/schema";
+import { realEstateAgentSchema, webSiteSchema, organizationSchema } from "@/lib/seo/schema";
 import Script from "next/script";
 import "./globals.css";
 
@@ -35,7 +35,7 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://cadwellrealtygroup.
 
 const seoTitle = `${site.brand} · ${site.tagline}`;
 
-const siteSchema = [realEstateAgentSchema(), webSiteSchema()];
+const siteSchema = [realEstateAgentSchema(), webSiteSchema(), organizationSchema()];
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

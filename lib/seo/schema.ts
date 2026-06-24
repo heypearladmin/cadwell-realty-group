@@ -209,6 +209,68 @@ export function blogPostingSchema(params: {
   });
 }
 
+export function organizationSchema(): SchemaObject {
+  return withContext({
+    "@type": "Organization",
+    "@id": `${base}/#organization`,
+    name: site.brand,
+    legalName: site.legalName,
+    url: base,
+    logo: {
+      "@type": "ImageObject",
+      url: `${base}${site.logoSrc}`,
+      caption: site.logoAlt,
+    },
+    telephone: site.phone,
+    email: site.email,
+    description: site.description,
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: site.city,
+      addressRegion: site.state,
+      addressCountry: "US",
+    },
+    contactPoint: [
+      {
+        "@type": "ContactPoint",
+        telephone: site.phone,
+        email: site.email,
+        contactType: "customer service",
+        areaServed: "US",
+        availableLanguage: "English",
+      },
+      {
+        "@type": "ContactPoint",
+        telephone: site.phone,
+        contactType: "sales",
+        areaServed: "US",
+        availableLanguage: "English",
+      },
+    ],
+    sameAs: [
+      site.social.facebook,
+      site.social.instagram,
+      site.social.linkedin,
+      site.social.youtube,
+    ],
+    memberOf: {
+      "@type": "Organization",
+      name: site.brokerage.name,
+    },
+  });
+}
+
+export function speakableSchema(cssSelectors: string[]): SchemaObject {
+  return withContext({
+    "@type": "WebPage",
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: cssSelectors,
+    },
+    url: base,
+  });
+}
+
 export function neighborhoodPageSchema(params: {
   title: string;
   description: string;

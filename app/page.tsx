@@ -11,13 +11,13 @@ import { HomeSocialProof } from "@/components/home/HomeSocialProof";
 import { HomeTrust } from "@/components/home/HomeTrust";
 import { HomeVideoAuthority } from "@/components/home/HomeVideoAuthority";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { faqSchema } from "@/lib/seo/schema";
+import { faqSchema, speakableSchema } from "@/lib/seo/schema";
 import { faqItems } from "@/lib/home-content";
 
 export default function HomePage() {
   return (
     <main id="main" className="overflow-hidden">
-      <JsonLd schema={faqSchema(faqItems)} />
+      <JsonLd schema={[faqSchema(faqItems), speakableSchema(["h1", "h2", ".dek", ".display-xl"])]} />
       <HomeHero />
       <HomeTrust />
       <HomeAbout />

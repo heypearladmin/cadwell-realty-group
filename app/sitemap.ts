@@ -14,6 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const staticPages: Entry[] = [
     { path: "", priority: 1.0, changeFrequency: "weekly" },
+    { path: "/albany-real-estate", priority: 0.95, changeFrequency: "monthly" },
     { path: "/sell", priority: 0.9, changeFrequency: "monthly" },
     { path: "/new-construction", priority: 0.9, changeFrequency: "monthly" },
     { path: "/neighborhoods", priority: 0.9, changeFrequency: "weekly" },

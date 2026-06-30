@@ -11,13 +11,22 @@ import { HomeSocialProof } from "@/components/home/HomeSocialProof";
 import { HomeTrust } from "@/components/home/HomeTrust";
 import { HomeVideoAuthority } from "@/components/home/HomeVideoAuthority";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { faqSchema, speakableSchema } from "@/lib/seo/schema";
+import { faqSchema, speakableSchema, webPageSchema } from "@/lib/seo/schema";
+import { site } from "@/lib/site";
 import { faqItems } from "@/lib/home-content";
 
 export default function HomePage() {
   return (
     <main id="main" className="overflow-hidden">
-      <JsonLd schema={[faqSchema(faqItems), speakableSchema(["h1", "h2", ".dek", ".display-xl"])]} />
+      <JsonLd schema={[
+        faqSchema(faqItems),
+        speakableSchema(["h1", "h2", ".dek", ".display-xl"]),
+        webPageSchema({
+          name: `${site.brand} · ${site.tagline}`,
+          url: site.websiteUrl,
+          description: site.description,
+        }),
+      ]} />
       <HomeHero />
       <HomeTrust />
       <HomeAbout />

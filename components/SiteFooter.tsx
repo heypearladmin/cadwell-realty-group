@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { NewsletterForm } from "@/components/NewsletterForm";
+import { TrackLink } from "@/components/TrackLink";
 import { newsletterCopy } from "@/lib/home-content";
 import { site } from "@/lib/site";
 
@@ -111,14 +112,14 @@ export function SiteFooter() {
             <p className="caption !text-paper/55">Contact</p>
             <ul className="mt-4 space-y-2.5 text-[0.9375rem]">
               <li>
-                <a href={site.phoneHref} className="editorial-link editorial-link-light text-paper hover:!text-cadwell-soft">
+                <TrackLink href={site.phoneHref} eventName="phone_click" className="editorial-link editorial-link-light text-paper hover:!text-cadwell-soft">
                   {site.phone}
-                </a>
+                </TrackLink>
               </li>
               <li>
-                <a href={site.emailHref} className="editorial-link editorial-link-light break-all text-paper hover:!text-cadwell-soft">
+                <TrackLink href={site.emailHref} eventName="email_click" className="editorial-link editorial-link-light break-all text-paper hover:!text-cadwell-soft">
                   {site.email}
-                </a>
+                </TrackLink>
               </li>
               <li className="pt-2 text-[0.8125rem] leading-relaxed text-paper/55">
                 {site.brokerage.address}

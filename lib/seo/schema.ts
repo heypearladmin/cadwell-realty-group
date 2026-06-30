@@ -209,6 +209,23 @@ export function blogPostingSchema(params: {
   });
 }
 
+export function webPageSchema(params: {
+  name: string;
+  url: string;
+  description: string;
+}): SchemaObject {
+  return withContext({
+    "@type": "WebPage",
+    "@id": `${params.url}#webpage`,
+    name: params.name,
+    url: params.url,
+    description: params.description,
+    isPartOf: { "@id": `${base}/#website` },
+    about: { "@id": `${base}/#agent` },
+    inLanguage: "en-US",
+  });
+}
+
 export function organizationSchema(): SchemaObject {
   return withContext({
     "@type": "Organization",

@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ContactForm } from "@/components/forms/ContactForm";
+import { TrackLink } from "@/components/TrackLink";
 import { site } from "@/lib/site";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { localBusinessSchema, breadcrumbSchema } from "@/lib/seo/schema";
+import { localBusinessSchema, breadcrumbSchema, webPageSchema } from "@/lib/seo/schema";
 
 export const metadata: Metadata = {
   title: "Contact Jason Cadwell · Albany Oregon Realtor",
@@ -22,6 +23,11 @@ export default function ContactPage() {
             { name: "Home", url: site.websiteUrl },
             { name: "Contact", url: `${site.websiteUrl}/contact` },
           ]),
+          webPageSchema({
+            name: "Contact Jason Cadwell · Albany Oregon Realtor",
+            url: `${site.websiteUrl}/contact`,
+            description: `Get in touch with ${site.agentName} of ${site.brand}. Hyperlocal Albany, Oregon real estate guidance for sellers, move-up buyers, and new construction families.`,
+          }),
         ]}
       />
       <section className="section-wrap pb-section-y-md pt-40 md:pt-48 md:pb-section-y-lg">
@@ -43,15 +49,15 @@ export default function ContactPage() {
             <div className="mt-12 space-y-4 border-t border-ink/[0.08] pt-10 text-[0.95rem] text-charcoal">
               <p>
                 <span className="caption block">Call</span>
-                <Link href={site.phoneHref} className="mt-2 inline-block font-display text-[1.5rem] font-medium text-ink hover:text-cadwell">
+                <TrackLink href={site.phoneHref} eventName="phone_click" className="mt-2 inline-block font-display text-[1.5rem] font-medium text-ink hover:text-cadwell">
                   {site.phone}
-                </Link>
+                </TrackLink>
               </p>
               <p>
                 <span className="caption block">Email</span>
-                <Link href={site.emailHref} className="mt-2 inline-block text-ink hover:text-cadwell">
+                <TrackLink href={site.emailHref} eventName="email_click" className="mt-2 inline-block text-ink hover:text-cadwell">
                   {site.email}
-                </Link>
+                </TrackLink>
               </p>
               <p>
                 <span className="caption block">Office</span>

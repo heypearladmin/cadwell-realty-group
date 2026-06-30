@@ -3,7 +3,7 @@ import Link from "next/link";
 import { newConstruction } from "@/lib/home-content";
 import { site } from "@/lib/site";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { serviceSchema, breadcrumbSchema } from "@/lib/seo/schema";
+import { serviceSchema, breadcrumbSchema, webPageSchema } from "@/lib/seo/schema";
 
 export const metadata: Metadata = {
   title: "New Construction in Albany, Oregon",
@@ -29,6 +29,11 @@ export default function NewConstructionPage() {
             { name: "Home", url: site.websiteUrl },
             { name: "New Construction", url: `${site.websiteUrl}/new-construction` },
           ]),
+          webPageSchema({
+            name: "New Construction in Albany, Oregon",
+            url: `${site.websiteUrl}/new-construction`,
+            description: "New construction homes in Albany, Oregon. Cadwell Realty Group partners with respected Albany builders to advocate for buyers from lot selection through final walkthrough.",
+          }),
         ]}
       />
       <section className="section-wrap pt-40 pb-section-y md:pt-48 md:pb-section-y-md">
@@ -65,7 +70,8 @@ export default function NewConstructionPage() {
           <p className="eyebrow">The process</p>
         </div>
         <h2 className="display-lg mt-7 max-w-3xl text-ink">
-          From discovery <span className="italic-serif">to the keys.</span>
+          How does buying new construction
+          <span className="italic-serif"> in Albany, Oregon work?</span>
         </h2>
 
         <ol className="mt-14 grid gap-4 md:grid-cols-4 md:gap-6">

@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { LegalShell } from "@/components/legal/LegalShell";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { breadcrumbSchema, webPageSchema } from "@/lib/seo/schema";
 import { site } from "@/lib/site";
 
 export const revalidate = 0;
@@ -12,7 +14,21 @@ export const metadata: Metadata = {
 
 export default function TermsPage() {
   return (
-    <LegalShell
+    <>
+      <JsonLd
+        schema={[
+          breadcrumbSchema([
+            { name: "Home", url: site.websiteUrl },
+            { name: "Terms & Conditions", url: `${site.websiteUrl}/terms` },
+          ]),
+          webPageSchema({
+            name: "Cadwell Realty Group Terms & Conditions",
+            url: `${site.websiteUrl}/terms`,
+            description: "Terms governing the use of the Cadwell Realty Group website, services, SMS messaging, and AI-assisted communications.",
+          }),
+        ]}
+      />
+      <LegalShell
       eyebrow="Legal"
       title="Cadwell Realty Group Terms & Conditions"
       description="The terms governing the use of the Cadwell Realty Group website, services, SMS messaging, and AI-assisted communications."
@@ -203,5 +219,6 @@ export default function TermsPage() {
         },
       ]}
     />
+    </>
   );
 }

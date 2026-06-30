@@ -3,7 +3,7 @@ import Link from "next/link";
 import { sellerSection } from "@/lib/home-content";
 import { site } from "@/lib/site";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { serviceSchema, breadcrumbSchema } from "@/lib/seo/schema";
+import { serviceSchema, breadcrumbSchema, webPageSchema } from "@/lib/seo/schema";
 
 export const metadata: Metadata = {
   title: "Sell Your Home · Albany Oregon",
@@ -29,6 +29,11 @@ export default function SellPage() {
             { name: "Home", url: site.websiteUrl },
             { name: "Sell Your Home", url: `${site.websiteUrl}/sell` },
           ]),
+          webPageSchema({
+            name: "Sell Your Home · Albany Oregon",
+            url: `${site.websiteUrl}/sell`,
+            description: "Sell your home in Albany, Oregon with confidence. Cadwell Realty Group offers a seller-focused marketing playbook, calm strategy, and a single point of contact from listing to close.",
+          }),
         ]}
       />
       <section className="section-wrap pt-40 pb-section-y md:pt-48 md:pb-section-y-md">
@@ -68,7 +73,8 @@ export default function SellPage() {
           <p className="eyebrow">The seller playbook</p>
         </div>
         <h2 className="display-lg mt-7 max-w-3xl text-ink">
-          Honest. Modern. <span className="italic-serif">Repeatable.</span>
+          How does Cadwell Realty Group
+          <span className="italic-serif"> sell Albany homes for more?</span>
         </h2>
 
         <ol className="mt-14 grid gap-4 md:grid-cols-2 md:gap-6">

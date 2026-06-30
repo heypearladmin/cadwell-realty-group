@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { site } from "@/lib/site";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { personSchema, breadcrumbSchema } from "@/lib/seo/schema";
+import { personSchema, breadcrumbSchema, webPageSchema } from "@/lib/seo/schema";
 
 export const metadata: Metadata = {
   title: `About ${site.agentName} · Albany Oregon Realtor`,
@@ -41,6 +41,11 @@ export default function AboutPage() {
             { name: "Home", url: site.websiteUrl },
             { name: `About ${site.agentName}`, url: `${site.websiteUrl}/about` },
           ]),
+          webPageSchema({
+            name: `About ${site.agentName} · Albany Oregon Realtor`,
+            url: `${site.websiteUrl}/about`,
+            description: `About ${site.agentName} of ${site.brand}. ${site.description}`,
+          }),
         ]}
       />
       <section className="relative isolate overflow-hidden bg-paper-deep pb-section-y-md pt-40 md:pb-section-y-lg md:pt-section-y-md">
@@ -89,7 +94,8 @@ export default function AboutPage() {
           <p className="eyebrow">What we stand for</p>
         </div>
         <h2 className="display-lg mt-7 max-w-[40rem] text-ink">
-          A practice built around <span className="italic-serif">calm, clear, hyperlocal guidance.</span>
+          Why do Albany sellers and buyers
+          <span className="italic-serif"> choose Jason Cadwell?</span>
         </h2>
 
         <ul className="mt-14 grid gap-4 md:grid-cols-2 md:gap-6">

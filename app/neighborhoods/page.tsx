@@ -4,7 +4,7 @@ import Link from "next/link";
 import { neighborhoods } from "@/lib/home-content";
 import { site } from "@/lib/site";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { breadcrumbSchema } from "@/lib/seo/schema";
+import { breadcrumbSchema, webPageSchema } from "@/lib/seo/schema";
 
 export const metadata: Metadata = {
   title: "Albany Oregon Neighborhoods",
@@ -18,10 +18,17 @@ export default function NeighborhoodsIndexPage() {
   return (
     <main id="main" className="bg-paper">
       <JsonLd
-        schema={breadcrumbSchema([
-          { name: "Home", url: site.websiteUrl },
-          { name: "Neighborhoods", url: `${site.websiteUrl}/neighborhoods` },
-        ])}
+        schema={[
+          breadcrumbSchema([
+            { name: "Home", url: site.websiteUrl },
+            { name: "Neighborhoods", url: `${site.websiteUrl}/neighborhoods` },
+          ]),
+          webPageSchema({
+            name: "Albany Oregon Neighborhoods",
+            url: `${site.websiteUrl}/neighborhoods`,
+            description: "Featured Albany, Oregon neighborhoods. North Albany, Historic Downtown, Periwinkle, Knox Butte, and Oak Creek. Hyperlocal guides from Cadwell Realty Group.",
+          }),
+        ]}
       />
       <section className="section-wrap pt-40 pb-section-y md:pt-48 md:pb-section-y-md">
         <div className="flex items-center gap-3">

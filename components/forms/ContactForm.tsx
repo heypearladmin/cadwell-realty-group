@@ -66,6 +66,8 @@ export function ContactForm() {
       }
 
       setStatus({ type: "success" });
+      const w = window as Window & { gtag?: (...args: unknown[]) => void };
+      if (w.gtag) w.gtag("event", "form_submit", { event_category: "contact", event_label: "Contact Form" });
     } catch (err) {
       setStatus({
         type: "error",

@@ -5,7 +5,7 @@ import { exploreTiles, insightCards } from "@/lib/home-content";
 import { blogPosts } from "@/lib/blog-posts";
 import { site } from "@/lib/site";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { breadcrumbSchema } from "@/lib/seo/schema";
+import { breadcrumbSchema, webPageSchema } from "@/lib/seo/schema";
 
 export const metadata: Metadata = {
   title: "Journal · Albany Oregon Field Notes",
@@ -16,10 +16,17 @@ export const metadata: Metadata = {
 };
 
 export default function BlogIndexPage() {
-  const crumbs = breadcrumbSchema([
-    { name: "Home", url: site.websiteUrl },
-    { name: "Journal", url: `${site.websiteUrl}/blog` },
-  ]);
+  const crumbs = [
+    breadcrumbSchema([
+      { name: "Home", url: site.websiteUrl },
+      { name: "Journal", url: `${site.websiteUrl}/blog` },
+    ]),
+    webPageSchema({
+      name: "Journal · Albany Oregon Field Notes",
+      url: `${site.websiteUrl}/blog`,
+      description: "Field notes from Albany, Oregon. Moving guides, cost of living, lifestyle rituals, new construction insights, and real estate market trends from Cadwell Realty Group.",
+    }),
+  ];
 
   const all = [
     ...blogPosts.map((p) => ({

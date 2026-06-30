@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { LegalShell } from "@/components/legal/LegalShell";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { breadcrumbSchema, webPageSchema } from "@/lib/seo/schema";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -12,7 +14,21 @@ export const metadata: Metadata = {
 
 export default function PoliciesPage() {
   return (
-    <LegalShell
+    <>
+      <JsonLd
+        schema={[
+          breadcrumbSchema([
+            { name: "Home", url: site.websiteUrl },
+            { name: "Privacy Policy", url: `${site.websiteUrl}/policies` },
+          ]),
+          webPageSchema({
+            name: "Cadwell Realty Group Privacy Policy",
+            url: `${site.websiteUrl}/policies`,
+            description: "Cadwell Realty Group Privacy Policy: How We Collect, Use & Protect Your Data.",
+          }),
+        ]}
+      />
+      <LegalShell
       eyebrow="Legal"
       title="Cadwell Realty Group Privacy Policy: How We Collect, Use & Protect Your Data"
       description="An overview of Cadwell Realty Group's Privacy Policy — how we collect, use, and protect your information, including SMS opt-in data for A2P 10DLC compliance."
@@ -171,5 +187,6 @@ export default function PoliciesPage() {
         },
       ]}
     />
+    </>
   );
 }

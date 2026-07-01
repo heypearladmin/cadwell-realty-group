@@ -74,6 +74,7 @@ export default async function BlogArticlePage({
             url: pageUrl,
             image: article.imageSrc,
             keywords: [article.category, "Albany Oregon", "Albany real estate"],
+            ...(post?.publishedAt ? { datePublished: post.publishedAt } : {}),
           }),
           breadcrumbSchema([
             { name: "Home", url: site.websiteUrl },
@@ -113,7 +114,7 @@ export default async function BlogArticlePage({
             <span aria-hidden className="text-paper/30">·</span>
             <span>{article.category}</span>
             <span aria-hidden className="text-paper/30">·</span>
-            <span>Updated regularly</span>
+            <span>{post?.publishedAt ?? "Updated regularly"}</span>
           </div>
         </div>
       </section>

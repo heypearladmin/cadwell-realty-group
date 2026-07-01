@@ -12,12 +12,143 @@ export type BlogPost = {
   imageSrc: string;
   imageAlt: string;
   href: string;
+  publishedAt?: string;
+  isNew?: boolean;
   sections: BlogSection[];
 };
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "relocating-to-albany-oregon-2026",
+    title: "Relocating to Albany, Oregon: The Complete 2026 Guide",
+    dek: "Everything families and remote workers need to know before moving to Albany — cost of living, neighborhoods, schools, commute times, and what local buyers wish they'd known first.",
+    eyebrow: "Relocation Guide",
+    category: "Relocation",
+    imageSrc: "/images/blog-relocating-to-albany-oregon.webp",
+    imageAlt: "Aerial view of Albany Oregon neighborhoods and the Willamette Valley at golden hour.",
+    href: "/blog/relocating-to-albany-oregon-2026",
+    publishedAt: "July 1, 2026",
+    isNew: true,
+    sections: [
+      {
+        heading: "Why Families and Remote Workers Are Choosing Albany, Oregon in 2026",
+        paragraphs: [
+          "Albany, Oregon has become one of the Pacific Northwest's most compelling relocation destinations in 2026. Sitting at the geographic heart of the Willamette Valley between Portland and Eugene, Albany offers what most high-cost Oregon cities no longer can: genuine affordability, a walkable historic core, two rivers within city limits, and a pace of life that doesn't require a weekend to recover from the week. For families relocating from the Bay Area, Seattle, or Portland, the contrast is immediate.",
+          "The median home price in Albany sits around $420,000 in mid-2026, compared to $650,000+ in Salem and well over $500,000 in Corvallis. Remote workers who no longer need to commute daily are increasingly choosing to own in Albany and drive or take Amtrak to Portland for occasional office days. Albany's active development of new construction in North Albany, Knox Butte, and the Oak Creek corridor means inventory options that simply don't exist in more saturated Oregon markets.",
+        ],
+      },
+      {
+        heading: "What Does It Cost to Live in Albany, Oregon?",
+        paragraphs: [
+          "Albany consistently ranks among Oregon's more affordable mid-sized cities. Oregon has no state sales tax, which immediately changes the math on everyday spending. Groceries, utilities, and fuel costs run broadly in line with national averages. Median household income in Linn County is approximately $62,000, and Albany's housing cost-to-income ratio remains healthier than Portland or Bend.",
+          "Monthly utilities for a standard Albany home average $150–$200, depending on season and size. Property taxes in Linn County run approximately 1.1% of assessed value annually, and homeowners insurance averages $1,200–$1,500 per year. For relocators coming from California or Pacific Northwest tier-one metros, the financial shift is often significant enough to meaningfully improve quality of life within the first year of ownership.",
+        ],
+      },
+      {
+        heading: "Which Albany Neighborhood Should You Move to?",
+        paragraphs: [
+          "North Albany is the default choice for families relocating from out of state who prioritize school ratings and new construction. The neighborhood offers modern builds in the $450,000–$650,000 range with larger lots, newer infrastructure, and direct access to the Corvallis corridor on Highway 20. North Albany properties in some sections fall within Benton County and access Corvallis-adjacent school options, which many relocating families specifically seek.",
+          "Historic Downtown (the Monteith and Hackleman districts) attracts buyers who want character over square footage — original Craftsman and Victorian homes, walkable access to the farmers market, and proximity to the Willamette riverfront. Knox Butte and Oak Creek appeal to move-up buyers and families seeking new construction at slightly lower price points. South Albany and Periwinkle offer the most accessible entry prices in the city, typically $280,000–$380,000, with established neighborhoods and proximity to Linn County services.",
+        ],
+      },
+      {
+        heading: "What Are the Schools Like in Albany, Oregon?",
+        paragraphs: [
+          "The Greater Albany Public Schools (GAPS) district serves most of Albany and covers 14 elementary schools, three middle schools, and two high schools: West Albany High and South Albany High. GAPS consistently scores above state averages in reading and math at the elementary level. Both high schools offer Advanced Placement courses, Career Technical Education programs, and college-readiness pathways.",
+          "North Albany families in Benton County may also have access to Corvallis School District options, which are among the highest-rated in Oregon. For relocating families who place high priority on educational environment, visiting the specific school zone for a property before purchasing is strongly recommended. The attendance zone difference between two streets can shift school assignment significantly — something a local Albany agent can clarify before you make an offer.",
+        ],
+      },
+      {
+        heading: "How Far Is Albany from Portland, Corvallis, and Salem?",
+        paragraphs: [
+          "Albany's location on Interstate 5 makes it unusually well-connected for a city of its size. Portland is approximately 75 miles north — a 1.5-hour drive under normal conditions. The Amtrak Cascades line stops at Albany Station, giving commuters a car-free option to Portland or Eugene on a regular schedule. For remote workers with weekly or bi-weekly city trips, the train option removes highway driving entirely.",
+          "Corvallis is just 10 miles west — typically a 20-minute drive via Highway 20. Salem is 25 miles north (30–40 minutes on I-5). Eugene is 45 miles south (approximately 50 minutes). Albany sits at the center of a triangle formed by three significant economic hubs: Oregon State University in Corvallis, state government in Salem, and Portland's private sector. Many residents hold jobs in any of these cities while living in Albany at a meaningfully lower cost.",
+        ],
+      },
+      {
+        heading: "What Should Out-of-State Buyers Know Before Purchasing in Albany?",
+        paragraphs: [
+          "Relocating buyers benefit enormously from working with a local Albany agent who understands the micro-differences between neighborhoods — not just average price, but which streets flood in winter, which new construction builders honor their punch lists, and which listing prices reflect a motivated seller versus an anchored one. The Albany market moves quickly in the $350,000–$500,000 range, and out-of-state buyers without local intelligence often miss competitive windows.",
+          "Oregon uses escrow-based transactions without attorneys at close in most cases. The standard inspection period is 10 business days. Oregon's seller disclosure requirements are among the more comprehensive in the western US, which generally protects buyers who know how to read them. Pre-approval from a lender familiar with Oregon property taxes and HOA structures — common in newer North Albany subdivisions — is strongly recommended before making offers. Contact Jason Cadwell at Cadwell Realty Group for a relocation consultation before or during your Albany visit.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions About Relocating to Albany, Oregon",
+        paragraphs: [
+          "Is Albany, Oregon a good place to live? Albany is consistently rated among Oregon's most livable mid-sized cities. The combination of affordability, two-river access, a walkable historic core, reasonable commute distance to Corvallis and Portland, and a genuine small-city community character makes it attractive to a wide range of buyers. It doesn't have Portland's restaurant density or Bend's mountain access, but it offers a quality of life that larger Oregon markets have priced out for many families.",
+          "How does Albany compare to Corvallis for home buyers? Corvallis commands a significant price premium — median home prices typically run $80,000–$120,000 higher for comparable properties. Many buyers choose Albany specifically to access Corvallis employment and Oregon State University at a lower ownership cost. The 20-minute commute is a real consideration, but for buyers who prioritize ownership affordability, Albany consistently wins the comparison.",
+          "What is the job market like in Albany, Oregon? Albany's primary employment sectors include manufacturing (Linn County is a hub for specialty metals and rare-earth processing), healthcare through Samaritan Albany General Hospital, retail, and government services. Linn County's unemployment rate was approximately 3.8% in early 2026. Many Albany residents commute to Corvallis (Oregon State University, HP, and tech sector) or Salem for professional employment while living in Albany for cost-of-living reasons.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "albany-oregon-home-valuation-guide",
+    title: "What Is My Home Worth in Albany, Oregon? The Complete Seller's Valuation Guide",
+    dek: "How Albany home values are determined, what factors move the number up or down, the difference between a CMA and appraisal, and when to get a valuation before selling.",
+    eyebrow: "Seller Guide",
+    category: "Selling",
+    imageSrc: "/images/blog-albany-home-valuation-guide.webp",
+    imageAlt: "Albany Oregon residential street with well-maintained homes at warm afternoon light — home valuation guide.",
+    href: "/blog/albany-oregon-home-valuation-guide",
+    publishedAt: "June 25, 2026",
+    isNew: true,
+    sections: [
+      {
+        heading: "How Do Real Estate Professionals Determine Your Albany Home's Value?",
+        paragraphs: [
+          "A home's value in Albany is not a single number — it's a range determined by analyzing what similar homes in your specific area have sold for recently, adjusted for the differences between those properties and yours. Real estate agents use a Comparative Market Analysis (CMA) to build this picture. A CMA pulls recent closed sales within roughly a half-mile of your property, typically within the last 90 days, and compares square footage, lot size, bedroom and bathroom count, condition, and location factors.",
+          "Experienced local agents add a layer that no automated tool can replicate: micro-knowledge. Which street drains better in winter. Which side of the neighborhood school attendance line a property falls on. Which recent sale closed below market because of a motivated seller, and which inflated the data because of a bidding war on an unusually renovated home. This context is what separates a precise Albany CMA from a Zillow Zestimate that treats your address the same as the one two blocks over.",
+        ],
+      },
+      {
+        heading: "What Factors Affect Home Values Most in Albany, Oregon?",
+        paragraphs: [
+          "Location within Albany is the single largest value driver. North Albany properties near top-rated schools consistently trade at a premium over South Albany or Periwinkle properties of comparable size. A 2,000 square foot home in North Albany near North Albany Elementary will typically sell $40,000–$80,000 higher than an identical home in South Albany, all else equal. The school district line is not just an education consideration — it is a real dollar value embedded in the property.",
+          "Condition and updates are the second major factor. Kitchens and primary bathrooms drive buyer perception disproportionately. A home with original 1990s finishes in an otherwise strong location will trade at a discount compared to a renovated comparable — sometimes 8–15% depending on the price band. Lot size matters in Albany more than in many markets because buyers coming from Portland or the Bay Area specifically value outdoor space. Proximity to parks, the Willamette riverfront path, and walkable areas adds measurable value in the Historic Downtown and Monteith District neighborhoods.",
+        ],
+      },
+      {
+        heading: "What Is the Difference Between a CMA and a Formal Home Appraisal?",
+        paragraphs: [
+          "A CMA is a professional analysis performed by a licensed real estate agent, provided at no cost as part of the listing consultation process. It establishes a pricing range for your home based on market data and agent expertise. A formal appraisal is performed by a licensed appraiser, typically costs $400–$650 in the Albany area, and produces a single certified value used by lenders to confirm they are not lending more than a property is worth.",
+          "Sellers don't typically pay for a pre-listing appraisal — a thorough agent CMA is the standard tool. However, pre-listing appraisals can be valuable in complex situations: estate sales, divorce proceedings, unique properties with few direct comparables (such as Historic Downtown Victorians), or situations where the seller and agent have a significant pricing disagreement. For most Albany sellers, a comprehensive CMA from a local expert is sufficient to price confidently and correctly.",
+        ],
+      },
+      {
+        heading: "How Have Albany Home Values Changed in 2025 and 2026?",
+        paragraphs: [
+          "Albany's residential market maintained steady appreciation through 2025 into 2026. Year-over-year price growth has run approximately 4.2% across the broader market, with stronger appreciation in North Albany (5.5–6%) driven by school premium and constrained new construction inventory. South Albany and Periwinkle saw more moderate appreciation in the 2.5–3.5% range as inventory was slightly more available in those price bands.",
+          "The $350,000–$500,000 range remains the most competitive segment of Albany's market in 2026, with average days on market hovering between 18 and 22 days for well-priced listings. Overpriced listings in every neighborhood are sitting 45–60+ days before either selling at a discount or expiring. The margin between a well-priced listing and an aspirationally priced one has widened in 2026 as mortgage rates have kept some buyers at the edge of affordability — precise pricing matters more now than it did in 2021–2022.",
+        ],
+      },
+      {
+        heading: "Which Home Improvements Add the Most Value Before Selling in Albany?",
+        paragraphs: [
+          "In Albany's market, the improvements with the best return on investment before listing are consistent: kitchen updates — specifically countertop replacement, cabinet repainting, and hardware upgrades — typically return 70–85% of their cost in increased sale price while dramatically speeding up buyer interest. Primary bathroom refreshes (vanity, lighting, tile recaulk) return a similar ratio. Both create the show-ready impression that separates a home with strong first-week showings from one that sits.",
+          "Curb appeal investments have an outsized return in Albany because most buyers form their first impression from listing photos, and the exterior shot is the first frame. Fresh exterior or front door paint, clean landscaping, and a pressure-washed driveway cost relatively little but communicate maintenance care that buyers extend to their view of the whole home. Conversely, large structural projects like full kitchen renovations, additions, or pool installations rarely return their full cost in Albany's current price bands — the market doesn't support the premium required to justify $80,000+ in renovation spend.",
+        ],
+      },
+      {
+        heading: "When Is the Right Time to Get a Home Valuation in Albany?",
+        paragraphs: [
+          "The most common trigger for a home valuation is considering a sale within the next 6–24 months. Getting a valuation 12–18 months before you intend to list gives you time to make targeted improvements that will maximize your return, time your launch to Albany's strongest seasonal windows (spring and early summer for family-driven demand), and avoid panic decisions driven by life changes. A valuation with time to act on it is far more valuable than one requested the week you decide to sell.",
+          "Valuations are also useful for refinancing decisions, estate planning, divorce proceedings, and insurance coverage reviews. For Albany homeowners who purchased before 2020, the appreciation since then has been significant — many owners are sitting on equity they haven't priced in years. A no-pressure, no-obligation valuation from Cadwell Realty Group takes 30–45 minutes and gives you a current, hyperlocal read on your home's position in the market. Contact Jason Cadwell at (541) 619-4303 to schedule.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions About Albany Home Valuations",
+        paragraphs: [
+          "How accurate is Zillow's Zestimate for Albany homes? Zillow's Zestimate can be 10–20% off for Albany properties, particularly in neighborhoods with limited recent sales activity or highly variable home conditions. The algorithm cannot account for micro-location factors — school attendance zones, specific street desirability, condition differences between adjacent blocks — that are significant in Albany's market. A CMA from a local Albany agent produces a meaningfully more accurate range than any automated valuation tool.",
+          "Should I renovate before selling my Albany home? It depends on the renovation and your price band. In Albany's $350,000–$550,000 range, targeted cosmetic improvements — kitchen counters, bathroom fixtures, fresh paint, landscaping — typically return more than their cost and reduce days on market. Large structural renovations rarely recover their full investment. A pre-listing consultation with Cadwell Realty Group includes a specific improvement recommendation based on your home's condition and current local buyer expectations.",
+          "What time of year is best to sell in Albany, Oregon? Spring (March–May) and early summer (June–July) consistently produce the most buyer activity, driven by families wanting to close before the school year begins. Well-priced listings in North Albany and neighborhoods near top schools often receive multiple offers in the first two weeks during these windows. Fall markets (September–October) can also be active for motivated buyers. Correctly priced homes sell year-round in Albany.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "your-ultimate-guide-to-buy-albany-oregon-homes",
+    publishedAt: "June 18, 2026",
     title: "Your Ultimate Guide to Buy Albany Oregon Homes",
     dek: "Essential local buyer resources for first-time and experienced buyers — financing, market trends, neighborhoods, and how to find the right agent.",
     eyebrow: "Buyer Guide",
@@ -65,6 +196,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "sell-your-north-albany-home-with-local-expertise",
+    publishedAt: "June 12, 2026",
     title: "Sell Your North Albany Home with Local Expertise",
     dek: "Trusted strategies, market insights, and agent guidance for homeowners ready to sell in North Albany, Oregon.",
     eyebrow: "Seller Guide",
@@ -112,6 +244,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "sell-your-home-in-albany-oregon",
+    publishedAt: "June 5, 2026",
     title: "Sell Your Home in Albany, Oregon with Cadwell Realty Group",
     dek: "Expert guidance for fast, profitable home sales — pricing strategies, cinematic marketing, staging, and negotiation in the Albany Oregon market.",
     eyebrow: "Seller Guide",
@@ -159,6 +292,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "sell-your-historic-downtown-albany-home",
+    publishedAt: "May 29, 2026",
     title: "Sell Your Historic Downtown Albany Home with Care",
     dek: "Expert guidance and valuation tips for selling a historic property in Downtown Albany — preservation guidelines, marketing strategies, and tax considerations.",
     eyebrow: "Seller Guide",
@@ -206,6 +340,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "discover-north-albany-2026-guide",
+    publishedAt: "May 24, 2026",
     title: "Discover North Albany: Your 2026 Guide to Local Living",
     dek: "Top-ranked schools, real estate trends, family amenities, and lifestyle insights for one of Albany's most sought-after neighborhoods.",
     eyebrow: "Neighborhood Guide",
@@ -253,6 +388,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "buy-in-south-albany",
+    publishedAt: "May 20, 2026",
     title: "Buy in South Albany: Neighborhood Prospects and Schools",
     dek: "A buyer's guide to South Albany, Oregon — quiet neighborhoods, quality schools in the GAPS district, and a steadily appreciating real estate market.",
     eyebrow: "Buyer Guide",
@@ -300,6 +436,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "2026-interest-rates-albany-home-buyers",
+    publishedAt: "May 16, 2026",
     title: "2026 Interest Rates and Albany Home Buyers: What the Current Market Means for Your Purchase",
     dek: "Mortgage rate forecasts, neighborhood price dynamics, first-time buyer programs, and refinancing strategies for Albany home buyers in 2026.",
     eyebrow: "Market Insights",
@@ -347,6 +484,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "2026-albany-home-buying-guide-new-vs-existing",
+    publishedAt: "May 13, 2026",
     title: "2026 Albany Oregon Home Buying Guide: New vs. Existing Homes",
     dek: "A detailed comparison of new construction and existing homes in Albany — costs, financing, energy efficiency, neighborhood options, and resale potential.",
     eyebrow: "Buyer Guide",

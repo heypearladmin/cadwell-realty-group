@@ -38,8 +38,10 @@ export default function BlogIndexPage() {
       imageSrc: p.imageSrc,
       imageAlt: p.imageAlt,
       tag: p.eyebrow,
+      publishedAt: p.publishedAt,
+      isNew: p.isNew ?? false,
     })),
-    ...insightCards.map((c) => ({ ...c, tag: c.eyebrow })),
+    ...insightCards.map((c) => ({ ...c, tag: c.eyebrow, publishedAt: undefined, isNew: false })),
     ...exploreTiles.map((t) => ({
       kind: t.category,
       eyebrow: "Explore Albany",
@@ -49,6 +51,8 @@ export default function BlogIndexPage() {
       imageSrc: t.imageSrc,
       imageAlt: t.imageAlt,
       tag: "Explore Albany",
+      publishedAt: undefined,
+      isNew: false,
     })),
   ];
 
@@ -85,11 +89,23 @@ export default function BlogIndexPage() {
                     className="object-cover transition-transform duration-[1100ms] ease-cinema group-hover:scale-[1.05]"
                   />
                   <div aria-hidden className="pointer-events-none absolute inset-0 bg-gradient-to-t from-ink/55 via-ink/10 to-transparent" />
-                  <div className="absolute left-6 top-6 inline-flex items-center gap-2 rounded-full bg-paper/15 px-3 py-1.5 backdrop-blur-md">
-                    <span className="caption !text-paper/80">{card.tag}</span>
+                  <div className="absolute left-6 top-6 flex items-center gap-2">
+                    <span className="inline-flex items-center rounded-full bg-paper/15 px-3 py-1.5 backdrop-blur-md">
+                      <span className="caption !text-paper/80">{card.tag}</span>
+                    </span>
+                    {card.isNew && (
+                      <span className="inline-flex items-center rounded-full bg-cadwell px-3 py-1.5">
+                        <span className="caption !text-paper">NEW</span>
+                      </span>
+                    )}
                   </div>
                 </div>
                 <div className="mt-6">
+                  {card.publishedAt && (
+                    <p className="mb-2 text-[0.78rem] uppercase tracking-[0.18em] text-muted">
+                      {card.publishedAt}
+                    </p>
+                  )}
                   <h2 className="display-sm text-ink">{card.title}</h2>
                   <p className="mt-3 text-[0.9375rem] leading-[1.7] text-charcoal/85">{card.dek}</p>
                   <span className="mt-5 inline-flex items-center gap-2 text-[0.78rem] font-semibold uppercase tracking-[0.22em] text-cadwell">

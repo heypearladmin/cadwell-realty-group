@@ -10,8 +10,8 @@ import { breadcrumbSchema, webPageSchema } from "@/lib/seo/schema";
 export const metadata: Metadata = {
   title: "Journal · Albany Oregon Field Notes",
   description:
-    "Field notes from Albany, Oregon. Moving guides, cost of living, lifestyle rituals, new construction insights, and real estate market trends from Cadwell Realty Group.",
-  openGraph: { images: [{ url: site.ogImage, width: 1200, height: 630 }] },
+    "Field notes from Albany, Oregon — moving guides, neighborhood deep dives, market insights, and real estate trends from Cadwell Realty Group.",
+  openGraph: { description: "Field notes from Albany, Oregon — moving guides, neighborhood deep dives, market insights, and real estate trends from Cadwell Realty Group.", images: [{ url: site.ogImage, width: 1200, height: 630 }] },
   twitter: { images: [site.ogImage] },
 };
 

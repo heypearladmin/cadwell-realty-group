@@ -22,15 +22,19 @@ export async function generateMetadata({
   const { slug } = await params;
   const article = findBlogArticle(slug);
   if (!article) return {};
+  const canonicalUrl = `${site.websiteUrl}/blog/${slug}`;
   return {
     title: article.title,
     description: article.dek,
+    alternates: { canonical: canonicalUrl },
     openGraph: {
       title: article.title,
       description: article.dek,
       type: "article",
+      url: canonicalUrl,
       images: [{ url: article.imageSrc, alt: article.imageAlt }],
     },
+    twitter: { site: "@cadwellrealty", images: [article.imageSrc] },
   };
 }
 

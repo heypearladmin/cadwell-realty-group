@@ -20,7 +20,7 @@ export const site = {
   phoneHref: "tel:+15416194303",
   email: "jason@cadwellrealtygroup.com",
   emailHref: "mailto:jason@cadwellrealtygroup.com",
-  websiteUrl: "https://cadwellrealtygroup.com",
+  websiteUrl: "https://www.jason-cadwell.com",
 
   // Brokerage
   brokerage: {

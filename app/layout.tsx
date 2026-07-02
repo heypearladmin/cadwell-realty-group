@@ -31,16 +31,17 @@ const body = Inter({
   weight: ["400", "500", "600"],
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://cadwellrealtygroup.com";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.jason-cadwell.com";
 
-const seoTitle = `${site.brand} · ${site.tagline}`;
+const seoTitle = `${site.brand} · Albany Real Estate`;
+const seoTitleFull = `${site.brand} · ${site.tagline}`;
 
 const siteSchema = [realEstateAgentSchema(), webSiteSchema(), organizationSchema()];
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: seoTitle,
+    default: seoTitleFull,
     template: `%s · ${site.brand}`,
   },
   description: site.description,
@@ -49,7 +50,7 @@ export const metadata: Metadata = {
   alternates: { canonical: site.websiteUrl },
   openGraph: {
     title: seoTitle,
-    description: site.description,
+    description: "Albany, Oregon real estate guided by Jason Cadwell — hyperlocal expertise for buyers, sellers, and relocators.",
     type: "website",
     locale: "en_US",
     url: site.websiteUrl,
@@ -65,8 +66,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
+    site: "@cadwellrealty",
     title: seoTitle,
-    description: site.description,
+    description: "Albany, Oregon real estate guided by Jason Cadwell — hyperlocal expertise for buyers, sellers, and relocators.",
     images: [site.ogImage],
   },
   robots: { index: true, follow: true },

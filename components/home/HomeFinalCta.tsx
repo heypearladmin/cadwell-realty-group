@@ -33,7 +33,7 @@ export function HomeFinalCta() {
         <div className="absolute inset-0 hidden md:block">
           <Image
             src={finalCta.desktopSrc}
-            alt=""
+            alt={finalCta.imageAlt}
             fill
             sizes="100vw"
             className="object-cover"
@@ -42,7 +42,7 @@ export function HomeFinalCta() {
         <div className="absolute inset-0 md:hidden">
           <Image
             src={finalCta.mobileSrc}
-            alt=""
+            alt={finalCta.imageAlt}
             fill
             sizes="100vw"
             className="object-cover"

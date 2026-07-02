@@ -21,7 +21,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "relocating-to-albany-oregon-2026",
     title: "Relocating to Albany, Oregon: The Complete 2026 Guide",
-    dek: "Everything families and remote workers need to know before moving to Albany — cost of living, neighborhoods, schools, commute times, and what local buyers wish they'd known first.",
+    dek: "What families and remote workers need to know before moving to Albany: cost of living, neighborhoods, schools, commute times, and local buyer insights.",
     eyebrow: "Relocation Guide",
     category: "Relocation",
     imageSrc: "/images/blog-relocating-to-albany-oregon.png",
@@ -84,8 +84,8 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "albany-oregon-home-valuation-guide",
-    title: "What Is My Home Worth in Albany, Oregon? The Complete Seller's Valuation Guide",
-    dek: "How Albany home values are determined, what factors move the number up or down, the difference between a CMA and appraisal, and when to get a valuation before selling.",
+    title: "What Is My Albany Home Worth? A Seller's Valuation Guide",
+    dek: "How Albany home values are set, what moves the number up or down, the CMA vs. appraisal difference, and when to get a valuation before selling.",
     eyebrow: "Seller Guide",
     category: "Selling",
     imageSrc: "/images/blog-albany-home-valuation-guide.png",
@@ -437,7 +437,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "2026-interest-rates-albany-home-buyers",
     publishedAt: "May 16, 2026",
-    title: "2026 Interest Rates and Albany Home Buyers: What the Current Market Means for Your Purchase",
+    title: "What 2026 Interest Rates Mean for Albany Home Buyers",
     dek: "Mortgage rate forecasts, neighborhood price dynamics, first-time buyer programs, and refinancing strategies for Albany home buyers in 2026.",
     eyebrow: "Market Insights",
     category: "Market Trends",

@@ -8,8 +8,8 @@ import { localBusinessSchema, breadcrumbSchema, webPageSchema } from "@/lib/seo/
 
 export const metadata: Metadata = {
   title: "Contact Jason Cadwell · Albany Oregon Realtor",
-  description: `Get in touch with ${site.agentName} of ${site.brand}. Hyperlocal Albany, Oregon real estate guidance for sellers, move-up buyers, and new construction families.`,
-  openGraph: { images: [{ url: site.ogImage, width: 1200, height: 630 }] },
+  description: `Reach ${site.agentName} at ${site.brand} for Albany real estate guidance. Sellers, buyers, and new construction families welcome.`,
+  openGraph: { description: `Reach ${site.agentName} at ${site.brand} for Albany real estate guidance. Sellers, buyers, and new construction families welcome.`, images: [{ url: site.ogImage, width: 1200, height: 630 }] },
   twitter: { images: [site.ogImage] },
 };
 

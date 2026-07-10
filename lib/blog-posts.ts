@@ -28,7 +28,6 @@ export const blogPosts: BlogPost[] = [
     imageAlt: "Aerial view of Albany Oregon neighborhoods and the Willamette Valley at golden hour.",
     href: "/blog/relocating-to-albany-oregon-2026",
     publishedAt: "July 1, 2026",
-    isNew: true,
     sections: [
       {
         heading: "Why Families and Remote Workers Are Choosing Albany, Oregon in 2026",
@@ -92,7 +91,6 @@ export const blogPosts: BlogPost[] = [
     imageAlt: "Albany Oregon residential street with well-maintained homes at warm afternoon light — home valuation guide.",
     href: "/blog/albany-oregon-home-valuation-guide",
     publishedAt: "June 25, 2026",
-    isNew: true,
     sections: [
       {
         heading: "How Do Real Estate Professionals Determine Your Albany Home's Value?",
@@ -192,6 +190,14 @@ export const blogPosts: BlogPost[] = [
           "Understanding the eligibility criteria for these programs can be instrumental in making homeownership more attainable. Local events and workshops also foster community integration and provide networking opportunities with fellow buyers.",
         ],
       },
+      {
+        heading: "Frequently Asked Questions About Buying a Home in Albany",
+        paragraphs: [
+          "How long does it take to buy a home in Albany, Oregon? From accepted offer to close, the typical Albany transaction takes 30–45 days. The timeline depends on financing type — conventional loans often close faster than FHA or VA loans — and the complexity of the inspection negotiation. Pre-approval before you write your first offer is the single most effective way to compress the timeline.",
+          "Do I need a buyer's agent to purchase in Albany? You are not legally required to have a buyer's agent, but working without one in Albany's market means negotiating directly against a listing agent whose fiduciary duty is to the seller. A buyer's agent costs you nothing — their commission is paid by the seller — and brings comparable sales data, inspection expertise, and negotiation support at no out-of-pocket cost.",
+          "What credit score do I need to buy a home in Albany? Conventional loans typically require a 620 minimum credit score, though 700+ secures the best rates. FHA loans allow scores as low as 580 with 3.5% down. Oregon Housing and Community Services (OHCS) first-time buyer programs have their own requirements — typically 640+. Contact Jason Cadwell at Cadwell Realty Group for lender referrals who work regularly with Albany buyers across credit profiles.",
+        ],
+      },
     ],
   },
   {
@@ -238,6 +244,14 @@ export const blogPosts: BlogPost[] = [
         paragraphs: [
           "Home appraisal services provide an objective assessment of your home's value based on local market data and comparable sales. An accurate appraisal helps set a competitive selling price and offers insights into home improvements that might enhance your valuation.",
           "Appraisers use the Sales Comparison Approach, Cost Approach, and Income Approach for investment properties. Understanding your home's market value allows you to better navigate offers and counteroffers effectively.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions About Selling in North Albany",
+        paragraphs: [
+          "How long does it take to sell a home in North Albany? Well-priced North Albany homes in the $450,000–$650,000 range typically sell within 14–21 days in spring and early summer. Overpriced listings in any season will sit 45–60+ days before sellers accept a price reduction. Accurate pricing from day one is the single most effective tool for a fast sale.",
+          "Do I need to renovate before selling my North Albany home? Not necessarily. The improvements with the strongest return in North Albany are targeted cosmetic updates — fresh paint, countertop replacement, landscaping, and professional photography. Large structural renovations rarely recover their full cost in Albany's current price bands. A pre-listing consultation with Cadwell Realty Group includes a specific recommendation based on your home's current condition.",
+          "What commission does a North Albany listing agent charge? Commission structures vary and are negotiable. What matters more than the rate is the marketing reach and negotiation skill of the agent you choose. An agent who underprices your home or fails to generate competitive interest will cost you far more than any commission difference. Contact Jason Cadwell at (541) 619-4303 for a transparent conversation about our approach and fee structure.",
         ],
       },
     ],
@@ -288,6 +302,14 @@ export const blogPosts: BlogPost[] = [
           "This subjective appeal can lead to quicker offers and often results in multiple bids. Implementing effective lighting strategies, decluttering, and depersonalizing the space further enhance the property's attractiveness. With homes making quick impressions, professional staging is essential in today's competitive market.",
         ],
       },
+      {
+        heading: "Frequently Asked Questions About Selling a Home in Albany",
+        paragraphs: [
+          "What is the best time of year to sell a home in Albany, Oregon? Spring (March through May) and early summer (June through July) consistently produce the strongest buyer activity in Albany, driven by families wanting to close before the school year starts. Well-priced listings in North Albany and neighborhoods near top schools frequently receive multiple offers within the first two weeks during these windows. Correctly priced homes do sell in every season — fall markets can also be active for motivated buyers.",
+          "How do I choose the right listing price for my Albany home? Pricing should be based on a Comparative Market Analysis using recent closed sales within the past 90 days in your specific neighborhood — not automated tools like Zillow, which can be 10–20% off for Albany properties. The right price attracts serious buyers immediately and prevents the stigma of a price reduction. Jason Cadwell provides no-obligation CMAs for Albany homeowners — call (541) 619-4303 to schedule.",
+          "Should I accept the first offer I receive on my Albany home? Not necessarily — but don't dismiss it either. The first offer often comes from the most motivated buyer who has been waiting for your home to hit the market. The right response depends on how the offer compares to your listing price, the buyer's financing strength, and whether you're in a window likely to generate competing offers. A skilled listing agent will advise you on whether to accept, counter, or wait.",
+        ],
+      },
     ],
   },
   {
@@ -334,6 +356,14 @@ export const blogPosts: BlogPost[] = [
         paragraphs: [
           "Sellers of historic homes in Albany, Oregon may benefit from a variety of tax incentives that promote preservation efforts. These can include state and local tax credits and deductions for maintaining and restoring significant architectural elements.",
           "Engaging with a tax professional knowledgeable about Oregon real estate and historic property can provide valuable insights into potential benefits. This can be an important aspect of financial planning for sellers.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions About Selling Historic Downtown Albany Homes",
+        paragraphs: [
+          "Do historic homes in Downtown Albany sell for more than standard homes? Historic Downtown Albany homes — particularly well-maintained Craftsman and Victorian properties in the Monteith and Hackleman districts — command a premium over comparable square footage elsewhere in Albany due to their architectural character and location. However, the premium depends heavily on condition. A neglected historic home will trade at a discount; a properly maintained or thoughtfully restored one will consistently outperform comparable non-historic properties.",
+          "Do I need special permits to make repairs before selling my historic Albany home? Alterations to the exterior of a property within Albany's historic districts may require review by the city's Historic Preservation Commission. Interior work is generally not subject to review. Before beginning any pre-sale repairs or updates, confirm whether your property falls within a designated district and what approvals may be needed. Working with an agent familiar with Historic Downtown transactions can help you avoid costly missteps.",
+          "How do buyers finance historic homes in Albany? Historic homes are financed the same way as standard homes — conventional, FHA, or VA loans. The key difference is that lenders require an appraisal, and appraisers must find comparable sales to support the value. In Historic Downtown Albany, the pool of direct comparables can be limited, which means an experienced local appraiser familiar with the neighborhood is essential. Contact Jason Cadwell to connect with lenders and appraisers who regularly work with Downtown Albany properties.",
         ],
       },
     ],
@@ -384,6 +414,14 @@ export const blogPosts: BlogPost[] = [
           "For direct inquiries about North Albany real estate, contact Cadwell Realty Group at (541) 619-4303. Our team provides updated information on school performance, housing data, and community engagement opportunities to help you make the best choice.",
         ],
       },
+      {
+        heading: "Frequently Asked Questions About North Albany, Oregon",
+        paragraphs: [
+          "What are home prices like in North Albany in 2026? North Albany home prices in 2026 range from approximately $450,000 for entry-level newer builds to $650,000+ for larger homes with premium lots and finishes. The neighborhood commands a price premium over South Albany and Periwinkle due to school ratings, newer construction, and proximity to the Corvallis corridor. Year-over-year appreciation in North Albany has run 5.5–6%, slightly above Albany's overall market rate of 4.2%.",
+          "Is North Albany in Linn County or Benton County? Parts of North Albany fall within Benton County rather than Linn County, which affects school district assignment and property tax rates. Properties in the Benton County portion may access Corvallis School District options, which are among Oregon's highest-rated. Confirming the county and school zone for any specific property is essential before making an offer — this is one area where working with a knowledgeable local agent pays dividends.",
+          "How far is North Albany from Oregon State University? North Albany is approximately 12–15 miles from Oregon State University's main campus in Corvallis, typically a 20–25 minute drive via Highway 20. This proximity makes North Albany a practical choice for OSU faculty, staff, and families who want access to Corvallis amenities and employment at a meaningfully lower housing cost.",
+        ],
+      },
     ],
   },
   {
@@ -430,6 +468,14 @@ export const blogPosts: BlogPost[] = [
         paragraphs: [
           "Local real estate agents play a crucial role in the home-buying process in South Albany. They provide valuable insights into market conditions, helping buyers navigate the complexities of purchasing a property. The expertise of agents familiar with local neighborhoods and schools can significantly enhance buyers' experiences.",
           "To connect with an experienced agent for South Albany, contact Jason Cadwell at (541) 619-4303 or jason@cadwellrealtygroup.com. It's advisable to seek referrals and review testimonials to ensure you work with reputable agents who understand the unique market factors at play.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions About Buying in South Albany",
+        paragraphs: [
+          "What are home prices like in South Albany in 2026? South Albany offers Albany's most accessible entry-level price points, with homes typically ranging from $280,000 to $380,000. The neighborhood attracts first-time buyers and move-down buyers who prioritize ownership affordability. Price appreciation has been moderate — approximately 2.5–3.5% year-over-year — with more inventory available than in North Albany, giving buyers slightly more negotiating room.",
+          "Are schools good in South Albany? South Albany is served by the Greater Albany Public Schools (GAPS) district, which covers South Albany High School and several well-regarded elementary schools. GAPS consistently performs above Oregon state averages in reading and math at the elementary level. South Albany High offers AP courses and Career Technical Education pathways. For families with specific school priorities, confirming the attendance zone for any property you are considering is strongly recommended before making an offer.",
+          "Is South Albany a safe neighborhood? South Albany is a stable, established residential area with a long history of family occupancy. Like any mid-sized city, specific blocks and streets vary — working with a local agent who knows the neighborhood at a street level provides the most accurate picture. Jason Cadwell has deep familiarity with South Albany and can give you an honest assessment of any specific property's immediate area.",
         ],
       },
     ],
@@ -480,6 +526,14 @@ export const blogPosts: BlogPost[] = [
           "Refinancing remains a viable option as rates fluctuate. Homeowners should monitor rate trends, calculate break-even points for refinancing costs, and gather updated credit and income documentation. Consulting financial advisors helps align refinancing decisions with personal long-term goals.",
         ],
       },
+      {
+        heading: "Frequently Asked Questions About Interest Rates and Albany Home Buying",
+        paragraphs: [
+          "Should I wait for interest rates to drop before buying in Albany? Waiting for rates to fall is a gamble that carries real costs. Albany home prices have appreciated approximately 4.2% year-over-year — a delay of 12 months at that rate means a $420,000 home costs roughly $437,000 before financing. If rates do fall significantly, you can refinance. If they don't, you've paid more for the same home. Most local lenders and agents recommend buying when you are financially ready rather than trying to time the market.",
+          "What is the monthly payment on a $420,000 home in Albany at 2026 rates? At a 5.5% rate with 10% down ($42,000), a 30-year fixed mortgage on $378,000 produces a principal and interest payment of approximately $2,147/month. Adding estimated property taxes ($385/month at 1.1% assessed value) and homeowners insurance ($110/month) brings the total to approximately $2,642/month before any HOA fees. Your lender will produce a precise estimate based on your credit profile and down payment.",
+          "Are adjustable-rate mortgages (ARMs) a good idea for Albany buyers in 2026? ARMs can make sense for buyers who are confident they will sell or refinance within 5–7 years, particularly if the initial fixed rate is meaningfully lower than a 30-year fixed. The risk is rate uncertainty after the fixed period ends. For buyers planning to stay in their Albany home long-term, a 30-year fixed provides payment certainty that most families find worth the slightly higher initial rate.",
+        ],
+      },
     ],
   },
   {
@@ -526,6 +580,142 @@ export const blogPosts: BlogPost[] = [
         paragraphs: [
           "Existing homes in neighborhoods like Monteith Historic District often benefit from established community identity and mature landscaping, which can enhance appreciation rates. New construction appeals to buyers who prioritize modern amenities and sustainable features.",
           "Rising interest in energy efficiency and smart home integration continues to drive demand for new homes. The Albany market in 2026 shows strong activity in both segments — the right choice depends on your budget, lifestyle preferences, and how long you plan to stay in the home.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions: New Construction vs. Existing Homes in Albany",
+        paragraphs: [
+          "Can I negotiate the price on a new construction home in Albany? Builder pricing is less flexible than resale pricing, but negotiation is possible — particularly on lot premiums, upgrade packages, and closing cost contributions. Builders are more likely to offer concessions than outright price cuts, especially on spec homes that have been sitting. Having a buyer's agent who regularly works with Albany builders is critical — they know which builders negotiate and on what terms, and their commission is paid by the builder, not you.",
+          "What warranty comes with a new construction home in Albany? Oregon law requires builders to provide a one-year workmanship warranty, a two-year systems warranty (electrical, plumbing, HVAC), and a ten-year structural defect warranty. Builder warranty terms vary beyond these minimums. Review the builder's warranty documentation carefully before signing a purchase agreement, and consider an independent third-party inspection at each construction phase rather than relying solely on the builder's self-inspection.",
+          "How long does it take to close on a new construction home in Albany? For spec homes (already built), closing typically takes 30–45 days — similar to a resale transaction. For build-to-order homes, the timeline from contract to close depends on the builder's backlog and material availability, but commonly runs 6–12 months in the current Albany market. Confirm construction timelines in writing before committing, as delays are common and can affect rate lock strategies.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "what-makes-a-home-sell-faster-in-albany",
+    title: "What Makes a Home Sell Faster in Albany, Oregon",
+    dek: "Why some Albany homes go under contract in days while others sit for months — pricing, condition, marketing, and the preparation decisions that move the needle.",
+    eyebrow: "Seller Guide",
+    category: "Selling",
+    imageSrc: "/images/blog-what-makes-home-sell-faster-albany.png",
+    imageAlt: "Well-presented Albany Oregon home with strong curb appeal ready for a fast sale.",
+    href: "/blog/what-makes-a-home-sell-faster-in-albany",
+    publishedAt: "July 6, 2026",
+    isNew: true,
+    sections: [
+      {
+        heading: "Why Some Albany Homes Sell in Days and Others Sit for Months",
+        paragraphs: [
+          "In Albany's 2026 market, the gap between a home that sells in the first week and one that languishes for 60+ days almost always comes down to the same three variables: price, condition, and marketing. Well-priced, well-presented Albany homes in the $350,000–$550,000 range are averaging 18–22 days on market. Overpriced listings or homes with deferred maintenance are averaging 50–70 days — and often sell for less than they would have if priced correctly from day one.",
+          "The dynamic is not mysterious. Albany buyers in 2026 are informed. They have seen every comparable sale within a mile of your property. They know what $430,000 looks like and what it should include. A home that is priced correctly and shows well generates a sense of urgency — buyers feel the competition and act. A home that is priced aspirationally sends the opposite signal: something must be wrong if it's still available.",
+        ],
+      },
+      {
+        heading: "Pricing: The Fastest Lever You Have",
+        paragraphs: [
+          "No single decision affects days on market more than your list price. In Albany's current environment, homes priced within 2% of market value sell 3–4 times faster than homes priced 5% or more above it. The first 10 days on market are when your listing receives peak online visibility — the window when motivated, pre-approved buyers are actively searching. Miss that window with an inflated price and you will spend the rest of your listing period chasing the market down.",
+          "The temptation to price high and 'leave room to negotiate' is understandable but counterproductive. Buyers in Albany are not making low offers on overpriced homes — they are simply skipping them. A price reduction after 30–45 days of no activity signals to the market that the seller is now motivated, which invites lower offers than you would have received if you had priced correctly on day one. A precise CMA from a local Albany agent is your most valuable pre-listing tool.",
+        ],
+      },
+      {
+        heading: "What Condition Issues Make Albany Homes Harder to Sell",
+        paragraphs: [
+          "Buyers in Albany's price bands are making one of the largest financial decisions of their lives, and they are looking for reasons to feel confident — or reasons to walk away. Deferred maintenance signals risk. A roof that is clearly at end-of-life, a water heater past its expected service window, or visible wood rot on the exterior creates doubt that extends beyond the specific item to the entire home. Buyers begin to wonder what else was neglected.",
+          "The issues that slow Albany sales most consistently are: major system age (roof, HVAC, water heater), moisture intrusion signs in crawlspaces or basements, visible deferred maintenance on the exterior, and significantly outdated kitchens or primary bathrooms. None of these require full replacement before listing — but they do require a strategy, whether that is addressing them, pricing to reflect them, or disclosing them transparently with repair bids in hand to prevent buyers from assuming the worst-case cost.",
+        ],
+      },
+      {
+        heading: "What Sellers Should Repair Before Listing in Albany",
+        paragraphs: [
+          "The repairs with the strongest return before listing in Albany follow a consistent pattern: address anything that will appear on an inspection report as a safety or functional issue, and make targeted cosmetic improvements that change buyer first impressions. Fresh interior paint is the highest-ROI single improvement available to most sellers — it costs $2,000–$5,000 for a full interior and communicates cleanliness and move-in readiness. Replacing dated cabinet hardware, light fixtures, and faucets delivers outsized visual impact for modest cost.",
+          "Exterior work is equally high-leverage because listing photos determine whether buyers schedule a showing. A freshly painted front door, clean landscaping, pressure-washed driveway, and replaced exterior light fixtures transform the first photo — the shot that either generates a click or a scroll past. Avoid large renovations (full kitchen remodels, room additions) that rarely recover their full cost in Albany's current price range and add weeks of delay to your listing timeline.",
+        ],
+      },
+      {
+        heading: "How Marketing Affects How Fast Your Albany Home Sells",
+        paragraphs: [
+          "In 2026, the majority of Albany home buyers begin their search online. The quality of your listing's visual presentation — photography, video, virtual tour — determines whether they click through or skip past. Professional photography is not optional for a competitive Albany listing. Homes with professional photos generate 3–5 times more showing requests than those with phone camera images, and showing volume in the first week is the most reliable predictor of final sale price.",
+          "Beyond photography, effective Albany marketing means placement on the MLS with full syndication to Zillow, Realtor.com, and major search platforms, plus targeted social media exposure to buyers actively searching in your price range and neighborhood. Open houses generate local foot traffic and sometimes produce competing offers from buyers who weren't ready to commit sight-unseen. The combination of visual quality and broad distribution is what separates a listing that creates urgency from one that sits.",
+        ],
+      },
+      {
+        heading: "When Is the Best Time to List Your Albany Home?",
+        paragraphs: [
+          "Spring — specifically March through May — is Albany's strongest selling season, driven by families who want to close before the school year ends. Listings launched in this window benefit from the highest buyer pool concentration of the calendar year. Early summer (June–July) remains strong for the same reason. If you are targeting a spring launch, your pre-listing preparation should begin in January or February to allow time for repairs, staging, and photography without rushing.",
+          "Fall (September–October) is Albany's second-strongest season, driven by motivated buyers who missed the spring window and are determined to be settled before winter. Winter listings face the smallest buyer pool, but the buyers who are searching in December and January are typically highly motivated — job relocations, estate situations, or buyers who have been pre-approved and are tired of waiting. A well-priced, well-presented Albany home will sell in any season; the question is how much patience you have and what your competing inventory looks like.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions: Selling Faster in Albany",
+        paragraphs: [
+          "What is the average time to sell a home in Albany, Oregon in 2026? Well-priced Albany homes are averaging 18–22 days on market in 2026. Homes priced within 2% of market value in North Albany and neighborhoods with strong school access are frequently going under contract within 7–10 days in the spring season. Overpriced listings or homes with significant condition issues average 50–70+ days before either selling at a reduced price or expiring.",
+          "Does staging really help sell Albany homes faster? Yes — consistently. Staged homes in Albany sell an average of 20–30% faster than unstaged equivalents at the same price point, and frequently sell closer to or above asking price because the perceived value is higher. Full professional staging is most impactful for vacant homes. For occupied homes, decluttering, depersonalizing, and strategic furniture arrangement accomplish much of the same result at lower cost.",
+          "What makes a home harder to sell in Albany specifically? The most common obstacles to a fast Albany sale are: (1) overpricing relative to recent comparable sales, (2) deferred maintenance visible to buyers during showings or flagged in inspections, (3) poor listing photography, and (4) limited marketing distribution. All four are correctable. Contact Jason Cadwell at Cadwell Realty Group for a no-obligation pre-listing consultation — (541) 619-4303.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "first-time-buyer-guide-albany-oregon",
+    title: "First-Time Buyer's Guide to Albany, Oregon: What to Know Before You Buy",
+    dek: "What first-time buyers need to know before purchasing in Albany — neighborhoods, financing, down payment programs, what to look for in a home, and how the process actually works.",
+    eyebrow: "Buyer Guide",
+    category: "Buyer Resources",
+    imageSrc: "/images/blog-first-time-buyer-guide-albany-oregon.png",
+    imageAlt: "First-time home buyers viewing an Albany Oregon home with a local real estate agent.",
+    href: "/blog/first-time-buyer-guide-albany-oregon",
+    publishedAt: "July 9, 2026",
+    isNew: true,
+    sections: [
+      {
+        heading: "Why Albany Is a Strong Market for First-Time Buyers in 2026",
+        paragraphs: [
+          "Albany, Oregon offers first-time buyers something increasingly rare in the Pacific Northwest: a real path to ownership without relocating to a rural area or stretching a budget to its breaking point. With a median home price around $420,000 and entry-level homes in South Albany and Periwinkle available from $280,000 to $350,000, Albany sits well below the ownership thresholds of Portland ($550,000+), Corvallis ($500,000+), or Bend ($650,000+). Oregon's lack of a state sales tax further improves the financial picture for buyers establishing a household budget.",
+          "First-time buyers in Albany also benefit from genuine inventory variety — single-family homes in established neighborhoods, townhomes, and new construction in Knox Butte and Oak Creek all exist within reach of a first purchase budget. The $280,000–$380,000 price band, where most first-time Albany buyers compete, offers enough supply that buyers who are prepared and working with a knowledgeable local agent can move decisively without the frantic bidding wars that define Portland's entry-level market.",
+        ],
+      },
+      {
+        heading: "How Much Home Can a First-Time Buyer Afford in Albany?",
+        paragraphs: [
+          "A useful starting benchmark: most lenders recommend that total monthly housing costs (mortgage principal and interest, property taxes, and homeowners insurance) stay at or below 28–30% of gross monthly income. For a household earning $70,000 annually — close to Albany's median household income — that translates to approximately $1,633–$1,750 per month in housing costs. At a 5.5% rate with 5% down, that supports a purchase price in the $280,000–$310,000 range. At 10% down, the same monthly budget stretches to approximately $320,000–$340,000.",
+          "Down payment assistance programs can meaningfully expand what is affordable. Oregon Housing and Community Services (OHCS) offers the Oregon Bond Residential Loan program, which provides below-market interest rates and optional down payment assistance of up to 3% for income-qualifying first-time buyers. Linn County-specific programs and USDA Rural Development loans (available in qualifying areas near Albany) can reduce or eliminate down payment requirements for eligible buyers. Getting pre-approved through a lender familiar with these programs — before you start touring homes — is the most important first step.",
+        ],
+      },
+      {
+        heading: "Which Albany Neighborhoods Make Sense for First-Time Buyers?",
+        paragraphs: [
+          "South Albany and Periwinkle are the most accessible neighborhoods for first-time buyers on a budget, with typical prices from $280,000 to $370,000. These are established, quiet residential areas with good proximity to Linn County services, parks, and South Albany High School. The trade-off compared to North Albany is school ratings and newer construction — something buyers should weigh based on their specific priorities.",
+          "Knox Butte offers new and near-new construction in a slightly higher range ($380,000–$480,000), appealing to first-time buyers who want modern finishes and minimal deferred maintenance. The Oak Creek corridor in South Albany provides a middle ground — newer construction at more accessible price points than North Albany. For buyers who prioritize character and walkability over school ratings, Historic Downtown Albany (Monteith and Hackleman districts) offers Craftsman and Victorian homes with walkable access to the farmers market and riverfront, typically in the $320,000–$430,000 range depending on size and condition.",
+        ],
+      },
+      {
+        heading: "What Do First-Time Buyers Actually Look For in Albany Homes?",
+        paragraphs: [
+          "Based on buyer activity in Albany's current market, first-time buyers consistently prioritize: move-in-ready condition, at least three bedrooms and two bathrooms, a garage or dedicated parking, and outdoor space. Buyers coming from apartments or rentals place particular value on a private yard — even a modest one — and on having storage that dedicated living spaces don't provide. A single-level layout is increasingly popular among younger buyers who are already thinking about long-term livability and aging-in-place functionality.",
+          "What first-time buyers routinely underestimate is the true cost of deferred maintenance. A home priced attractively because the roof, HVAC, or water heater needs replacement may look like a deal until the inspection report arrives with $25,000–$40,000 in recommended repairs. First-time buyers benefit from a thorough pre-offer walkthrough with an agent who can flag major system ages and rough replacement costs before they fall in love with a home that will stretch their post-closing budget uncomfortably.",
+        ],
+      },
+      {
+        heading: "How the Albany Home-Buying Process Works for First-Time Buyers",
+        paragraphs: [
+          "The Oregon home-buying process moves in a predictable sequence: get pre-approved, tour homes with an agent, write an offer, negotiate, open escrow, complete inspections within the 10-business-day inspection period, remove contingencies, and close. The typical timeline from accepted offer to close is 30–45 days. Oregon uses escrow-based closings — a title or escrow company manages the transaction, and you do not need an attorney present at signing.",
+          "Oregon's seller disclosure requirements are among the most comprehensive in the western US. Sellers are required to disclose known material defects, history of water intrusion, boundary disputes, HOA obligations, and a range of other property conditions. As a first-time buyer, reading the seller's disclosure statement carefully — and asking your agent to explain anything unfamiliar — is one of the most important steps in protecting yourself. A licensed home inspector provides an independent assessment of the property's physical condition during the inspection period, giving you the information needed to negotiate repairs or credits, or walk away if the condition warrants it.",
+        ],
+      },
+      {
+        heading: "Down Payment Assistance and First-Time Buyer Programs in Oregon",
+        paragraphs: [
+          "Oregon offers several programs specifically designed to help first-time buyers enter the market. The Oregon Bond Residential Loan program through OHCS provides a below-market 30-year fixed rate plus optional down payment assistance of 3% of the purchase price in the form of a second loan. Income limits apply — for Linn County, the household income limit for a family of 1–2 is approximately $115,000 in 2026. The program is available through participating lenders and requires homebuyer education completion.",
+          "USDA Rural Development loans are available in qualifying geographic areas near Albany and provide 100% financing — no down payment required — for income-eligible buyers purchasing in eligible rural zones. Some areas within Linn County qualify. FHA loans remain the most widely used first-time buyer product nationally, requiring 3.5% down with a 580+ credit score, and are a reliable option for Albany buyers who do not qualify for specialized programs. Your buyer's agent can connect you with local lenders who specialize in first-time buyer transactions and are familiar with which programs are currently funded and accepting applications.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions for First-Time Buyers in Albany",
+        paragraphs: [
+          "Do I need a buyer's agent as a first-time buyer in Albany? Working with a buyer's agent costs you nothing — their commission is paid by the seller at closing. For a first-time buyer navigating Albany's market without prior transaction experience, a knowledgeable local agent is the most valuable resource you have access to at no out-of-pocket cost. They provide comparable sales data to prevent overpaying, guide you through the inspection process, and negotiate on your behalf against a listing agent whose job is to serve the seller's interests.",
+          "How much should I have in savings before buying a home in Albany? Beyond the down payment (3.5–10% depending on loan type), plan for closing costs of 2–3% of the purchase price — on a $320,000 home, that is $6,400–$9,600. Additionally, having 1–2% of the purchase price in a post-closing reserve fund for immediate repairs or unexpected expenses is strongly recommended. First-time buyers who deplete all savings to close often find themselves financially stretched by the first maintenance issue that arises.",
+          "What questions should I ask as a first-time buyer when touring homes in Albany? Ask about the age of the roof, HVAC system, water heater, and any major appliances included. Ask whether there is a crawlspace and when it was last inspected. Ask about the school attendance zone for the specific address. Ask what utilities typically run monthly. And ask your agent — before you make an offer — to walk you through what comparable homes have sold for within the past 60 days within a half-mile radius. That conversation, more than any other, will tell you whether the asking price is reasonable. Contact Jason Cadwell at (541) 619-4303 to schedule a no-pressure buyer consultation.",
         ],
       },
     ],

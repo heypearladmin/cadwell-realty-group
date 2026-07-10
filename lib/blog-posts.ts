@@ -722,6 +722,13 @@ export const blogPosts: BlogPost[] = [
   },
 ];
 
+// Sorted newest-first by publishedAt
+blogPosts.sort((a, b) => {
+  const da = a.publishedAt ? new Date(a.publishedAt).getTime() : 0;
+  const db = b.publishedAt ? new Date(b.publishedAt).getTime() : 0;
+  return db - da;
+});
+
 export function findBlogPost(slug: string): BlogPost | undefined {
   return blogPosts.find((p) => p.slug === slug);
 }

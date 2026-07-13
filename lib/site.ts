@@ -1,11 +1,11 @@
 export const site = {
-  brand: "Cadwell Realty Group",
+  brand: "Cadwell Group",
   shortBrand: "Cadwell",
   agentName: "Jason Cadwell",
   legalName: "Cadwell Realty Group",
   tagline: "Albany Real Estate, Guided With Confidence",
   description:
-    "Cadwell Realty Group, led by Jason Cadwell and powered by Jason Mitchell Group, is the trusted Albany, Oregon real estate authority. Hyperlocal expertise, seller-focused strategy, and calm, confident guidance for every move.",
+    "Jason Cadwell is a local Albany, Oregon real estate professional focused on seller strategy, move-up buyers, relocation, and new construction. Through Cadwell Group, powered by Jason Mitchell Group, he brings calm strategy and local insight to every move.",
 
   // Hyperlocal positioning
   city: "Albany",
@@ -16,8 +16,8 @@ export const site = {
   positioning: "The trusted Albany real estate authority helping people make confident moves.",
 
   // Contact
-  phone: "(541) 619-4303",
-  phoneHref: "tel:+15416194303",
+  phone: "(541) 229-1856",
+  phoneHref: "tel:+15412291856",
   email: "jason@cadwellrealtygroup.com",
   emailHref: "mailto:jason@cadwellrealtygroup.com",
   websiteUrl: "https://www.jason-cadwell.com",
@@ -25,14 +25,14 @@ export const site = {
   // Brokerage
   brokerage: {
     name: "Jason Mitchell Group",
-    fullName: "Cadwell Realty Group · Powered by Jason Mitchell Group",
+    fullName: "Cadwell Group · Powered by Jason Mitchell Group",
     licenseLine: "Licensed in the State of Oregon",
     address: "Albany, Oregon · Serving Linn & Benton Counties",
   },
 
   // Brand mark
   logoSrc: "/images/cadwell-logo.png",
-  logoAlt: "Cadwell Realty Group monogram",
+  logoAlt: "Cadwell Group monogram",
 
   // Open Graph
   ogImage: "/images/og-cadwell-realty-albany.jpg",

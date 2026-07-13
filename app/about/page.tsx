@@ -19,7 +19,7 @@ const pillars = [
   },
   {
     title: "Powered by scale",
-    dek: "Cadwell Realty Group is powered by Jason Mitchell Group — one of the country's most respected real estate teams. National infrastructure, local intel, single point of contact.",
+    dek: "Cadwell Group is powered by Jason Mitchell Group — one of the country's most respected real estate teams. National infrastructure, local intel, single point of contact.",
   },
   {
     title: "Seller-led",
@@ -61,9 +61,7 @@ export default function AboutPage() {
               <span className="italic-serif"> not a high-pressure salesperson.</span>
             </h1>
             <p className="dek mt-7">
-              Over a decade quietly studying Albany. The streets that hold value when the market
-              shifts. The schools families actually walk to. The builders who honor their punch
-              list. Real estate is the easy part. The trust is the part I take seriously.
+              Jason Cadwell leads Cadwell Group, powered by Jason Mitchell Group, with a focus on helping buyers and sellers navigate the Albany, Oregon market with more clarity and confidence. His work centers on seller strategy, move-up buyers, relocation, and new construction across Linn and Benton Counties. Jason's brand stands apart through calm strategy, practical guidance, and strong local market context — designed to help people understand pricing, positioning, neighborhood differences, and the tradeoffs that shape a real estate decision.
             </p>
           </div>
           <div className="md:col-span-5">

@@ -11,7 +11,7 @@ import { site } from "@/lib/site";
  * Required env (set in Vercel → Project → Settings → Environment Variables):
  *   - RESEND_API_KEY        required for live email delivery
  *   - CONTACT_TO_EMAIL      optional; defaults to site.email
- *   - CONTACT_FROM_EMAIL    optional; defaults to "Cadwell Realty Group <noreply@cadwellrealtygroup.com>"
+ *   - CONTACT_FROM_EMAIL    optional; defaults to "Cadwell Group <noreply@cadwellrealtygroup.com>"
  *   - GHL_API_KEY           GHL private integration token (pit-...)
  *   - GHL_LOCATION_ID       GHL location ID
  */
@@ -96,7 +96,7 @@ export async function POST(req: NextRequest) {
   const to = process.env.CONTACT_TO_EMAIL ?? site.email;
   const from =
     process.env.CONTACT_FROM_EMAIL ??
-    "Cadwell Realty Group <noreply@cadwellrealtygroup.com>";
+    "Cadwell Group <noreply@cadwellrealtygroup.com>";
   const apiKey = process.env.RESEND_API_KEY;
   const ghlApiKey = process.env.GHL_API_KEY;
   const ghlLocationId = process.env.GHL_LOCATION_ID;

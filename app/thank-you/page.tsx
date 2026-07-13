@@ -3,7 +3,7 @@ import Link from "next/link";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Message Received · Cadwell Realty Group",
+  title: "Message Received · Cadwell Group",
   description: "Your message has been received. Jason Cadwell will be in touch within one business day.",
   robots: { index: false, follow: false },
 };

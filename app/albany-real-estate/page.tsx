@@ -10,9 +10,9 @@ import {
 } from "@/lib/seo/schema";
 
 export const metadata: Metadata = {
-  title: "Albany Oregon Real Estate · Cadwell Realty Group",
+  title: "Albany Oregon Real Estate · Cadwell Group",
   description:
-    "Albany, Oregon real estate guided by Jason Cadwell of Cadwell Realty Group. Buy, sell, or value your home in Albany, Linn County, and Benton County with a hyperlocal expert.",
+    "Albany, Oregon real estate guided by Jason Cadwell of Cadwell Group. Buy, sell, or value your home in Albany, Linn County, and Benton County with a hyperlocal expert.",
   alternates: { canonical: `${site.websiteUrl}/albany-real-estate` },
   openGraph: { images: [{ url: site.ogImage, width: 1200, height: 630 }] },
   twitter: { images: [site.ogImage] },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 const cityFaqs = [
   {
     q: "What is the Albany, Oregon real estate market like right now?",
-    a: "Albany's market remains active across most price bands, with strongest buyer demand in North Albany's newer subdivisions and Historic Downtown's walkable blocks. Inventory is tighter than the national average in the $350K–$550K range. Cadwell Realty Group tracks weekly showing activity and price adjustments to give sellers and buyers the most current read.",
+    a: "Albany's market remains active across most price bands, with strongest buyer demand in North Albany's newer subdivisions and Historic Downtown's walkable blocks. Inventory is tighter than the national average in the $350K–$550K range. Cadwell Group tracks weekly showing activity and price adjustments to give sellers and buyers the most current read.",
   },
   {
     q: "How much do homes cost in Albany, Oregon?",
@@ -33,7 +33,7 @@ const cityFaqs = [
   },
   {
     q: "How do I sell my home in Albany, Oregon for the highest price?",
-    a: "The three biggest levers are pricing strategy, presentation, and launch timing. Cadwell Realty Group provides a custom seller playbook: a pricing analysis based on current comps, professional photography and digital marketing, and a coordinated launch to maximize early showing velocity — which is where most of the best offers come from.",
+    a: "The three biggest levers are pricing strategy, presentation, and launch timing. Cadwell Group provides a custom seller playbook: a pricing analysis based on current comps, professional photography and digital marketing, and a coordinated launch to maximize early showing velocity — which is where most of the best offers come from.",
   },
   {
     q: "Is Albany, Oregon a good place to live?",
@@ -68,7 +68,7 @@ export default function AlbanyRealEstatePage() {
             name: "Albany Oregon Real Estate",
             url: pageUrl,
             description:
-              "Albany, Oregon real estate services — buying, selling, and home valuations across Linn and Benton Counties, guided by Jason Cadwell of Cadwell Realty Group.",
+              "Albany, Oregon real estate services — buying, selling, and home valuations across Linn and Benton Counties, guided by Jason Cadwell of Cadwell Group.",
             category: "Real Estate Services",
           }),
           breadcrumbSchema([
@@ -76,10 +76,10 @@ export default function AlbanyRealEstatePage() {
             { name: "Albany Oregon Real Estate", url: pageUrl },
           ]),
           webPageSchema({
-            name: "Albany Oregon Real Estate · Cadwell Realty Group",
+            name: "Albany Oregon Real Estate · Cadwell Group",
             url: pageUrl,
             description:
-              "Albany, Oregon real estate guided by Jason Cadwell of Cadwell Realty Group. Buy, sell, or value your home in Albany, Linn County, and Benton County with a hyperlocal expert.",
+              "Albany, Oregon real estate guided by Jason Cadwell of Cadwell Group. Buy, sell, or value your home in Albany, Linn County, and Benton County with a hyperlocal expert.",
           }),
           faqSchema(cityFaqs),
         ]}
@@ -96,7 +96,7 @@ export default function AlbanyRealEstatePage() {
           <span className="italic-serif"> guided by a local who knows every block.</span>
         </h1>
         <p className="dek mt-8 max-w-3xl">
-          Jason Cadwell of Cadwell Realty Group is Albany&rsquo;s hyperlocal real estate authority.
+          Jason Cadwell of Cadwell Group is Albany&rsquo;s hyperlocal real estate authority.
           Whether you&rsquo;re selling a family home, buying your first property, or evaluating a
           new construction lot, you get one advisor who reads this market daily — not a team that
           hands you off.
@@ -220,7 +220,7 @@ export default function AlbanyRealEstatePage() {
         </h2>
         <p className="dek mt-6 max-w-2xl">
           The answer is pricing precision, modern marketing, and a launch timed to buyer momentum.
-          Cadwell Realty Group gives sellers a custom playbook — not a generic checklist.
+          Cadwell Group gives sellers a custom playbook — not a generic checklist.
         </p>
         <div className="mt-8 flex flex-wrap gap-3">
           <Link href={site.sellPath} className="btn-primary">See the seller playbook</Link>

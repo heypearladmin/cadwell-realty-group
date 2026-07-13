@@ -9,7 +9,7 @@ import { breadcrumbSchema, webPageSchema } from "@/lib/seo/schema";
 export const metadata: Metadata = {
   title: "Albany Oregon Neighborhoods",
   description:
-    "Featured Albany, Oregon neighborhoods. North Albany, Historic Downtown (Monteith & Hackleman), Periwinkle, Knox Butte, and Oak Creek. Hyperlocal guides from Cadwell Realty Group.",
+    "Featured Albany, Oregon neighborhoods. North Albany, Historic Downtown (Monteith & Hackleman), Periwinkle, Knox Butte, and Oak Creek. Hyperlocal guides from Cadwell Group.",
   openGraph: { images: [{ url: site.ogImage, width: 1200, height: 630 }] },
   twitter: { images: [site.ogImage] },
 };
@@ -26,7 +26,7 @@ export default function NeighborhoodsIndexPage() {
           webPageSchema({
             name: "Albany Oregon Neighborhoods",
             url: `${site.websiteUrl}/neighborhoods`,
-            description: "Featured Albany, Oregon neighborhoods. North Albany, Historic Downtown, Periwinkle, Knox Butte, and Oak Creek. Hyperlocal guides from Cadwell Realty Group.",
+            description: "Featured Albany, Oregon neighborhoods. North Albany, Historic Downtown, Periwinkle, Knox Butte, and Oak Creek. Hyperlocal guides from Cadwell Group.",
           }),
         ]}
       />

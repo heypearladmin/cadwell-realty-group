@@ -29,7 +29,7 @@ export function HomeHero() {
     <section
       ref={wrapRef}
       className="relative isolate flex min-h-[100svh] w-full items-end overflow-hidden text-paper"
-      aria-label="Cadwell Realty Group hero"
+      aria-label="Cadwell Group hero"
     >
       {/* Background imagery: desktop landscape + mobile portrait */}
       <motion.div
@@ -130,7 +130,7 @@ export function HomeHero() {
           >
             <span className="flex items-center gap-2 text-[0.72rem] uppercase tracking-[0.28em]">
               <span className="live-dot" aria-hidden />
-              Cadwell Realty Group
+              Cadwell Group
             </span>
             <span className="hidden h-3 w-px bg-paper/30 md:block" aria-hidden />
             <span className="text-[0.78rem] uppercase tracking-[0.22em] text-paper/55">

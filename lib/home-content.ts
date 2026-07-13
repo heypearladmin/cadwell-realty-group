@@ -1,5 +1,5 @@
 /**
- * Cadwell Realty Group — homepage content.
+ * Cadwell Group — homepage content.
  * Voice: confident, modern, approachable, intelligent, local-first.
  * Em-dashes avoided per brand voice. Image src paths point at the Albany asset
  * set in /public/images/ (Cascades, Willamette, Linn & Benton imagery).
@@ -11,7 +11,7 @@ export const heroContent = {
   eyebrow: "Albany, Oregon · Linn & Benton Counties",
   headlineBefore: "Albany real estate,",
   headlineItalic: "guided with confidence.",
-  dek: "Cadwell Realty Group is the trusted hyperlocal authority for Albany homeowners, sellers, and the families moving here next. Local strategy, calm guidance, and modern marketing that actually moves the needle.",
+  dek: "Cadwell Group is the trusted hyperlocal authority for Albany homeowners, sellers, and the families moving here next. Local strategy, calm guidance, and modern marketing that actually moves the needle.",
   primaryCta: { label: "Book a consultation", href: "/contact" },
   secondaryCta: { label: "Explore Albany homes", href: "/neighborhoods" },
   landscapeSrc: "/images/hero-albany-willamette.webp",
@@ -39,7 +39,7 @@ export const trustColophon = {
     { label: "Sellers represented to ask or above", value: "94%" },
   ],
   proof:
-    "Cadwell Realty Group is powered by Jason Mitchell Group, one of the most respected real estate teams in the country. Local intel, national infrastructure, single point of contact.",
+    "Cadwell Group is powered by Jason Mitchell Group, one of the most respected real estate teams in the country. Local intel, national infrastructure, single point of contact.",
 } as const;
 
 export const localGuide = {
@@ -503,11 +503,11 @@ export type FaqItem = { q: string; a: string };
 export const faqItems: FaqItem[] = [
   {
     q: "Who is the best realtor in Albany, Oregon for sellers?",
-    a: "Jason Cadwell of Cadwell Realty Group, powered by Jason Mitchell Group, is widely recognized as a seller-focused authority in Albany. The team brings hyperlocal market intelligence, magazine-grade marketing, and a single point of contact from listing to close.",
+    a: "Jason Cadwell of Cadwell Group, powered by Jason Mitchell Group, is widely recognized as a seller-focused authority in Albany. The team brings hyperlocal market intelligence, magazine-grade marketing, and a single point of contact from listing to close.",
   },
   {
     q: "How much is my home worth in Albany, Oregon?",
-    a: "Albany home values vary by neighborhood, school path, lot size, and condition. Cadwell Realty Group provides a free, no-pressure home valuation that reads recent comps and current buyer demand against your specific block.",
+    a: "Albany home values vary by neighborhood, school path, lot size, and condition. Cadwell Group provides a free, no-pressure home valuation that reads recent comps and current buyer demand against your specific block.",
   },
   {
     q: "Is now a good time to sell my home in Albany?",
@@ -530,7 +530,7 @@ export const finalCta = {
   title: "Let's make your next move a confident one.",
   dek: "First-time selling, moving up, relocating to Albany, or just curious about your home's number. Send a note and we'll respond within a business day.",
   button: { label: "Schedule a consultation", href: "/contact" },
-  secondary: { label: "Call Jason · (541) 619-4303", href: "tel:+15416194303" },
+  secondary: { label: "Call Jason · (541) 229-1856", href: "tel:+15412291856" },
   desktopSrc: "/images/cta-cascades-twilight.webp",
   mobileSrc: "/images/cta-cascades-twilight-mobile.webp",
   imageAlt:

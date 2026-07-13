@@ -9,7 +9,6 @@ import { HomeNewConstruction } from "@/components/home/HomeNewConstruction";
 import { HomeSeller } from "@/components/home/HomeSeller";
 import { HomeSocialProof } from "@/components/home/HomeSocialProof";
 import { HomeTrust } from "@/components/home/HomeTrust";
-import { HomeVideoAuthority } from "@/components/home/HomeVideoAuthority";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { faqSchema, speakableSchema, webPageSchema } from "@/lib/seo/schema";
 import { site } from "@/lib/site";
@@ -35,7 +34,6 @@ export default function HomePage() {
       <HomeNewConstruction />
       <HomeNeighborhoods />
       <HomeMarket />
-      <HomeVideoAuthority />
       <HomeSocialProof />
       <HomeFaq />
       <HomeFinalCta />

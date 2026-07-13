@@ -265,8 +265,11 @@ export default function AlbanyRealEstatePage() {
           <Link href={site.contactPath} className="btn-primary">
             Start a conversation
           </Link>
-          <Link href={`tel:${site.phone}`} className="btn-ghost">
+          <Link href={site.phoneHref} className="btn-ghost">
             Call {site.phone}
+          </Link>
+          <Link href={site.trackingPhoneHref} className="btn-ghost">
+            {site.trackingPhone}
           </Link>
         </div>
         <p className="mt-6 text-[0.8125rem] text-muted">

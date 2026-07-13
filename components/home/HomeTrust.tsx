@@ -141,11 +141,12 @@ export function HomeTrust() {
                 {localGuide.aboutLabel}
               </Link>
               <span className="hidden h-3 w-px bg-ink/15 md:block" aria-hidden />
-              <a
-                href={site.phoneHref}
-                className="nav-link text-ink/70 hover:text-cadwell"
-              >
+              <a href={site.phoneHref} className="nav-link text-ink/70 hover:text-cadwell">
                 {site.phone}
+              </a>
+              <span className="hidden h-3 w-px bg-ink/15 md:block" aria-hidden />
+              <a href={site.trackingPhoneHref} className="nav-link text-ink/45 hover:text-cadwell">
+                {site.trackingPhone}
               </a>
             </div>
           </motion.div>

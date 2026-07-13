@@ -143,6 +143,12 @@ export function HomeHero() {
             >
               {site.phone}
             </a>
+            <a
+              href={site.trackingPhoneHref}
+              className="text-[0.72rem] uppercase tracking-[0.18em] text-paper/45 transition-colors hover:text-paper/70"
+            >
+              {site.trackingPhone}
+            </a>
           </motion.div>
         </motion.div>
 

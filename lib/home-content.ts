@@ -530,7 +530,7 @@ export const finalCta = {
   title: "Let's make your next move a confident one.",
   dek: "First-time selling, moving up, relocating to Albany, or just curious about your home's number. Send a note and we'll respond within a business day.",
   button: { label: "Schedule a consultation", href: "/contact" },
-  secondary: { label: "Call Jason · (541) 229-1856", href: "tel:+15412291856" },
+  secondary: { label: "Call Jason · (541) 619-4303", href: "tel:+15416194303" },
   desktopSrc: "/images/cta-cascades-twilight.webp",
   mobileSrc: "/images/cta-cascades-twilight-mobile.webp",
   imageAlt:

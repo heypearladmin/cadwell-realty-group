@@ -192,6 +192,9 @@ export function SiteHeader() {
                 <a href={site.phoneHref} className="block text-[1.05rem] font-medium text-paper">
                   {site.phone}
                 </a>
+                <a href={site.trackingPhoneHref} className="block text-[0.9rem] text-paper/70">
+                  {site.trackingPhone}
+                </a>
                 <a href={site.emailHref} className="block text-[0.95rem] text-paper/80">
                   {site.email}
                 </a>

@@ -131,7 +131,7 @@ export const blogPosts: BlogPost[] = [
         heading: "When Is the Right Time to Get a Home Valuation in Albany?",
         paragraphs: [
           "The most common trigger for a home valuation is considering a sale within the next 6–24 months. Getting a valuation 12–18 months before you intend to list gives you time to make targeted improvements that will maximize your return, time your launch to Albany's strongest seasonal windows (spring and early summer for family-driven demand), and avoid panic decisions driven by life changes. A valuation with time to act on it is far more valuable than one requested the week you decide to sell.",
-          "Valuations are also useful for refinancing decisions, estate planning, divorce proceedings, and insurance coverage reviews. For Albany homeowners who purchased before 2020, the appreciation since then has been significant — many owners are sitting on equity they haven't priced in years. A no-pressure, no-obligation valuation from Cadwell Group takes 30–45 minutes and gives you a current, hyperlocal read on your home's position in the market. Contact Jason Cadwell at (541) 229-1856 to schedule.",
+          "Valuations are also useful for refinancing decisions, estate planning, divorce proceedings, and insurance coverage reviews. For Albany homeowners who purchased before 2020, the appreciation since then has been significant — many owners are sitting on equity they haven't priced in years. A no-pressure, no-obligation valuation from Cadwell Group takes 30–45 minutes and gives you a current, hyperlocal read on your home's position in the market. Contact Jason Cadwell at (541) 619-4303 to schedule.",
         ],
       },
       {
@@ -251,7 +251,7 @@ export const blogPosts: BlogPost[] = [
         paragraphs: [
           "How long does it take to sell a home in North Albany? Well-priced North Albany homes in the $450,000–$650,000 range typically sell within 14–21 days in spring and early summer. Overpriced listings in any season will sit 45–60+ days before sellers accept a price reduction. Accurate pricing from day one is the single most effective tool for a fast sale.",
           "Do I need to renovate before selling my North Albany home? Not necessarily. The improvements with the strongest return in North Albany are targeted cosmetic updates — fresh paint, countertop replacement, landscaping, and professional photography. Large structural renovations rarely recover their full cost in Albany's current price bands. A pre-listing consultation with Cadwell Group includes a specific recommendation based on your home's current condition.",
-          "What commission does a North Albany listing agent charge? Commission structures vary and are negotiable. What matters more than the rate is the marketing reach and negotiation skill of the agent you choose. An agent who underprices your home or fails to generate competitive interest will cost you far more than any commission difference. Contact Jason Cadwell at (541) 229-1856 for a transparent conversation about our approach and fee structure.",
+          "What commission does a North Albany listing agent charge? Commission structures vary and are negotiable. What matters more than the rate is the marketing reach and negotiation skill of the agent you choose. An agent who underprices your home or fails to generate competitive interest will cost you far more than any commission difference. Contact Jason Cadwell at (541) 619-4303 for a transparent conversation about our approach and fee structure.",
         ],
       },
     ],
@@ -306,7 +306,7 @@ export const blogPosts: BlogPost[] = [
         heading: "Frequently Asked Questions About Selling a Home in Albany",
         paragraphs: [
           "What is the best time of year to sell a home in Albany, Oregon? Spring (March through May) and early summer (June through July) consistently produce the strongest buyer activity in Albany, driven by families wanting to close before the school year starts. Well-priced listings in North Albany and neighborhoods near top schools frequently receive multiple offers within the first two weeks during these windows. Correctly priced homes do sell in every season — fall markets can also be active for motivated buyers.",
-          "How do I choose the right listing price for my Albany home? Pricing should be based on a Comparative Market Analysis using recent closed sales within the past 90 days in your specific neighborhood — not automated tools like Zillow, which can be 10–20% off for Albany properties. The right price attracts serious buyers immediately and prevents the stigma of a price reduction. Jason Cadwell provides no-obligation CMAs for Albany homeowners — call (541) 229-1856 to schedule.",
+          "How do I choose the right listing price for my Albany home? Pricing should be based on a Comparative Market Analysis using recent closed sales within the past 90 days in your specific neighborhood — not automated tools like Zillow, which can be 10–20% off for Albany properties. The right price attracts serious buyers immediately and prevents the stigma of a price reduction. Jason Cadwell provides no-obligation CMAs for Albany homeowners — call (541) 619-4303 to schedule.",
           "Should I accept the first offer I receive on my Albany home? Not necessarily — but don't dismiss it either. The first offer often comes from the most motivated buyer who has been waiting for your home to hit the market. The right response depends on how the offer compares to your listing price, the buyer's financing strength, and whether you're in a window likely to generate competing offers. A skilled listing agent will advise you on whether to accept, counter, or wait.",
         ],
       },
@@ -411,7 +411,7 @@ export const blogPosts: BlogPost[] = [
         heading: "Making the Move to North Albany",
         paragraphs: [
           "Prospective residents can utilize a wealth of information regarding schools and real estate trends to evaluate their options. Families should consider performance ratings and educational programs at local schools, how different neighborhoods cater to family needs, and average home prices in desirable areas.",
-          "For direct inquiries about North Albany real estate, contact Cadwell Group at (541) 229-1856. Our team provides updated information on school performance, housing data, and community engagement opportunities to help you make the best choice.",
+          "For direct inquiries about North Albany real estate, contact Cadwell Group at (541) 619-4303. Our team provides updated information on school performance, housing data, and community engagement opportunities to help you make the best choice.",
         ],
       },
       {
@@ -467,7 +467,7 @@ export const blogPosts: BlogPost[] = [
         heading: "Working with a South Albany Agent",
         paragraphs: [
           "Local real estate agents play a crucial role in the home-buying process in South Albany. They provide valuable insights into market conditions, helping buyers navigate the complexities of purchasing a property. The expertise of agents familiar with local neighborhoods and schools can significantly enhance buyers' experiences.",
-          "To connect with an experienced agent for South Albany, contact Jason Cadwell at (541) 229-1856 or jason@cadwellrealtygroup.com. It's advisable to seek referrals and review testimonials to ensure you work with reputable agents who understand the unique market factors at play.",
+          "To connect with an experienced agent for South Albany, contact Jason Cadwell at (541) 619-4303 or jason@cadwellrealtygroup.com. It's advisable to seek referrals and review testimonials to ensure you work with reputable agents who understand the unique market factors at play.",
         ],
       },
       {
@@ -651,7 +651,7 @@ export const blogPosts: BlogPost[] = [
         paragraphs: [
           "What is the average time to sell a home in Albany, Oregon in 2026? Well-priced Albany homes are averaging 18–22 days on market in 2026. Homes priced within 2% of market value in North Albany and neighborhoods with strong school access are frequently going under contract within 7–10 days in the spring season. Overpriced listings or homes with significant condition issues average 50–70+ days before either selling at a reduced price or expiring.",
           "Does staging really help sell Albany homes faster? Yes — consistently. Staged homes in Albany sell an average of 20–30% faster than unstaged equivalents at the same price point, and frequently sell closer to or above asking price because the perceived value is higher. Full professional staging is most impactful for vacant homes. For occupied homes, decluttering, depersonalizing, and strategic furniture arrangement accomplish much of the same result at lower cost.",
-          "What makes a home harder to sell in Albany specifically? The most common obstacles to a fast Albany sale are: (1) overpricing relative to recent comparable sales, (2) deferred maintenance visible to buyers during showings or flagged in inspections, (3) poor listing photography, and (4) limited marketing distribution. All four are correctable. Contact Jason Cadwell at Cadwell Group for a no-obligation pre-listing consultation — (541) 229-1856.",
+          "What makes a home harder to sell in Albany specifically? The most common obstacles to a fast Albany sale are: (1) overpricing relative to recent comparable sales, (2) deferred maintenance visible to buyers during showings or flagged in inspections, (3) poor listing photography, and (4) limited marketing distribution. All four are correctable. Contact Jason Cadwell at Cadwell Group for a no-obligation pre-listing consultation — (541) 619-4303.",
         ],
       },
     ],
@@ -715,7 +715,7 @@ export const blogPosts: BlogPost[] = [
         paragraphs: [
           "Do I need a buyer's agent as a first-time buyer in Albany? Working with a buyer's agent costs you nothing — their commission is paid by the seller at closing. For a first-time buyer navigating Albany's market without prior transaction experience, a knowledgeable local agent is the most valuable resource you have access to at no out-of-pocket cost. They provide comparable sales data to prevent overpaying, guide you through the inspection process, and negotiate on your behalf against a listing agent whose job is to serve the seller's interests.",
           "How much should I have in savings before buying a home in Albany? Beyond the down payment (3.5–10% depending on loan type), plan for closing costs of 2–3% of the purchase price — on a $320,000 home, that is $6,400–$9,600. Additionally, having 1–2% of the purchase price in a post-closing reserve fund for immediate repairs or unexpected expenses is strongly recommended. First-time buyers who deplete all savings to close often find themselves financially stretched by the first maintenance issue that arises.",
-          "What questions should I ask as a first-time buyer when touring homes in Albany? Ask about the age of the roof, HVAC system, water heater, and any major appliances included. Ask whether there is a crawlspace and when it was last inspected. Ask about the school attendance zone for the specific address. Ask what utilities typically run monthly. And ask your agent — before you make an offer — to walk you through what comparable homes have sold for within the past 60 days within a half-mile radius. That conversation, more than any other, will tell you whether the asking price is reasonable. Contact Jason Cadwell at (541) 229-1856 to schedule a no-pressure buyer consultation.",
+          "What questions should I ask as a first-time buyer when touring homes in Albany? Ask about the age of the roof, HVAC system, water heater, and any major appliances included. Ask whether there is a crawlspace and when it was last inspected. Ask about the school attendance zone for the specific address. Ask what utilities typically run monthly. And ask your agent — before you make an offer — to walk you through what comparable homes have sold for within the past 60 days within a half-mile radius. That conversation, more than any other, will tell you whether the asking price is reasonable. Contact Jason Cadwell at (541) 619-4303 to schedule a no-pressure buyer consultation.",
         ],
       },
     ],

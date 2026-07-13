@@ -163,6 +163,9 @@ export default async function NeighborhoodPage({
               <a href={site.phoneHref} className="editorial-link text-sm font-medium tracking-wide">
                 {site.phone}
               </a>
+              <a href={site.trackingPhoneHref} className="text-[0.8rem] text-ink/50 hover:text-cadwell transition-colors">
+                {site.trackingPhone}
+              </a>
             </div>
           </div>
         </div>

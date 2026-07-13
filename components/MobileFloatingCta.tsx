@@ -37,12 +37,20 @@ export function MobileFloatingCta() {
           transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
           className="pointer-events-none fixed inset-x-0 bottom-4 z-30 flex justify-center px-5 sm:hidden"
         >
-          <div className="pointer-events-auto flex items-center gap-2 rounded-full bg-ink/85 p-1.5 shadow-glow backdrop-blur-xl">
+          <div className="pointer-events-auto flex items-center gap-1.5 rounded-full bg-ink/85 p-1.5 shadow-glow backdrop-blur-xl">
             <a
               href={site.phoneHref}
-              className="rounded-full px-4 py-2 text-[0.74rem] font-semibold uppercase tracking-[0.18em] text-paper/85"
+              className="rounded-full px-3 py-2 text-[0.74rem] font-semibold uppercase tracking-[0.18em] text-paper/85"
+              aria-label={"Call Jason at " + site.phone}
             >
               Call
+            </a>
+            <a
+              href={site.trackingPhoneHref}
+              className="rounded-full px-3 py-2 text-[0.74rem] font-semibold uppercase tracking-[0.18em] text-paper/55"
+              aria-label={"Call tracking line at " + site.trackingPhone}
+            >
+              Alt
             </a>
             <Link
               href={site.contactPath}

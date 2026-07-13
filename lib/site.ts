@@ -16,8 +16,10 @@ export const site = {
   positioning: "The trusted Albany real estate authority helping people make confident moves.",
 
   // Contact
-  phone: "(541) 229-1856",
-  phoneHref: "tel:+15412291856",
+  phone: "(541) 619-4303",
+  phoneHref: "tel:+15416194303",
+  trackingPhone: "(541) 229-1856",
+  trackingPhoneHref: "tel:+15412291856",
   email: "jason@cadwellrealtygroup.com",
   emailHref: "mailto:jason@cadwellrealtygroup.com",
   websiteUrl: "https://www.jason-cadwell.com",

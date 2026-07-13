@@ -117,6 +117,11 @@ export function SiteFooter() {
                 </TrackLink>
               </li>
               <li>
+                <TrackLink href={site.trackingPhoneHref} eventName="tracking_phone_click" className="editorial-link editorial-link-light text-paper/70 hover:!text-cadwell-soft">
+                  {site.trackingPhone}
+                </TrackLink>
+              </li>
+              <li>
                 <TrackLink href={site.emailHref} eventName="email_click" className="editorial-link editorial-link-light break-all text-paper hover:!text-cadwell-soft">
                   {site.email}
                 </TrackLink>

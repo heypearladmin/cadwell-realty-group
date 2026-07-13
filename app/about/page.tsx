@@ -61,7 +61,7 @@ export default function AboutPage() {
               <span className="italic-serif"> not a high-pressure salesperson.</span>
             </h1>
             <p className="dek mt-7">
-              Jason Cadwell leads Cadwell Group, powered by Jason Mitchell Group, with a focus on helping buyers and sellers navigate the Albany, Oregon market with more clarity and confidence. His work centers on seller strategy, move-up buyers, relocation, and new construction across Linn and Benton Counties. Jason's brand stands apart through calm strategy, practical guidance, and strong local market context — designed to help people understand pricing, positioning, neighborhood differences, and the tradeoffs that shape a real estate decision.
+              Jason Cadwell leads Cadwell Group, powered by Jason Mitchell Group, with a focus on helping buyers and sellers navigate the Albany, Oregon market with more clarity and confidence. His work centers on seller strategy, move-up buyers, relocation, and new construction across Linn and Benton Counties. Jason&apos;s brand stands apart through calm strategy, practical guidance, and strong local market context — designed to help people understand pricing, positioning, neighborhood differences, and the tradeoffs that shape a real estate decision.
             </p>
           </div>
           <div className="md:col-span-5">

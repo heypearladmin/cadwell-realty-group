@@ -602,7 +602,6 @@ export const blogPosts: BlogPost[] = [
     imageAlt: "Well-presented Albany Oregon home with strong curb appeal ready for a fast sale.",
     href: "/blog/what-makes-a-home-sell-faster-in-albany",
     publishedAt: "July 6, 2026",
-    isNew: true,
     sections: [
       {
         heading: "Why Some Albany Homes Sell in Days and Others Sit for Months",
@@ -666,7 +665,6 @@ export const blogPosts: BlogPost[] = [
     imageAlt: "First-time home buyers viewing an Albany Oregon home with a local real estate agent.",
     href: "/blog/first-time-buyer-guide-albany-oregon",
     publishedAt: "July 9, 2026",
-    isNew: true,
     sections: [
       {
         heading: "Why Albany Is a Strong Market for First-Time Buyers in 2026",
@@ -716,6 +714,134 @@ export const blogPosts: BlogPost[] = [
           "Do I need a buyer's agent as a first-time buyer in Albany? Working with a buyer's agent costs you nothing — their commission is paid by the seller at closing. For a first-time buyer navigating Albany's market without prior transaction experience, a knowledgeable local agent is the most valuable resource you have access to at no out-of-pocket cost. They provide comparable sales data to prevent overpaying, guide you through the inspection process, and negotiate on your behalf against a listing agent whose job is to serve the seller's interests.",
           "How much should I have in savings before buying a home in Albany? Beyond the down payment (3.5–10% depending on loan type), plan for closing costs of 2–3% of the purchase price — on a $320,000 home, that is $6,400–$9,600. Additionally, having 1–2% of the purchase price in a post-closing reserve fund for immediate repairs or unexpected expenses is strongly recommended. First-time buyers who deplete all savings to close often find themselves financially stretched by the first maintenance issue that arises.",
           "What questions should I ask as a first-time buyer when touring homes in Albany? Ask about the age of the roof, HVAC system, water heater, and any major appliances included. Ask whether there is a crawlspace and when it was last inspected. Ask about the school attendance zone for the specific address. Ask what utilities typically run monthly. And ask your agent — before you make an offer — to walk you through what comparable homes have sold for within the past 60 days within a half-mile radius. That conversation, more than any other, will tell you whether the asking price is reasonable. Contact Jason Cadwell at (541) 619-4303 to schedule a no-pressure buyer consultation.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "albany-oregon-property-taxes-guide-2026",
+    title: "Albany Oregon Property Taxes: What Every Buyer and Seller Should Know in 2026",
+    dek: "How Oregon's property tax system works, what Albany homeowners actually pay, Linn County vs. Benton County rates, exemptions available, and how taxes affect your monthly payment.",
+    eyebrow: "Market Insights",
+    category: "Market Trends",
+    imageSrc: "/images/blog-albany-property-taxes-guide.png",
+    imageAlt: "Albany Oregon residential neighborhood street with well-maintained homes reflecting local property tax value.",
+    href: "/blog/albany-oregon-property-taxes-guide-2026",
+    publishedAt: "July 15, 2026",
+    isNew: true,
+    sections: [
+      {
+        heading: "How Oregon's Property Tax System Works",
+        paragraphs: [
+          "Oregon's property tax system is unlike most states, and understanding it before buying or selling in Albany changes how you interpret prices and plan your housing budget. The foundation is Ballot Measure 50, passed in 1997, which separated two distinct values for every Oregon property: the real market value and the assessed value. The assessed value — the number used to calculate your tax bill — is capped at 3% annual growth regardless of how much the property's actual market value increases. This means Albany homes that have appreciated significantly over the past decade are often taxed on assessed values substantially below what they would sell for today.",
+          "For buyers, this is meaningful in two directions. First, it means the property tax history on a home you are purchasing may understate what taxes will eventually become as the assessed value slowly catches up — or as future owners lose the legacy benefit of years of 3% caps. Second, when you purchase a home, the assessed value does not reset to the purchase price (unlike California). You inherit the property's existing assessed value, which in Albany's appreciating market is often a meaningful advantage compared to buying in a state where reassessment at sale is the norm.",
+        ],
+      },
+      {
+        heading: "What Are Property Tax Rates in Linn County and Benton County?",
+        paragraphs: [
+          "Most of Albany falls within Linn County, where the effective property tax rate runs approximately 1.1% of assessed value annually. This is the blended rate that includes the city, county, school district, and special district levies stacked together. For a home with a $380,000 assessed value — realistic for a North Albany property with several years of 3% cap history — the annual tax bill is approximately $4,180, or about $348 per month added to your mortgage payment.",
+          "North Albany properties that fall within Benton County carry a slightly different rate — typically 1.05–1.15% of assessed value, depending on the specific district overlaps. The difference is often modest in dollar terms, but the school district access that comes with a Benton County address (Corvallis School District options in some areas) can be a more significant factor for families than the tax rate itself. When evaluating any North Albany property, confirming both the county and the precise tax district is standard practice — your agent or the county assessor can provide this before you make an offer.",
+        ],
+      },
+      {
+        heading: "How to Read Your Albany Property Tax Statement",
+        paragraphs: [
+          "Oregon property tax statements are mailed by October 25 each year, covering the tax year that runs July 1 through June 30. The statement shows three things: the real market value (what the county assessor believes the property would sell for), the maximum assessed value (the theoretical cap), and the assessed value (the lower of the two, which is what your taxes are calculated on). For most Albany homes purchased before 2020, the assessed value is meaningfully below the current real market value — the gap representing accumulated benefit from years of 3% cap growth.",
+          "Payment in Oregon offers flexibility. You can pay the full amount by November 15 and receive a 3% discount — the most cost-effective option if your budget allows it. Alternatively, you can pay in two-thirds by November 15 and receive a 2% discount, or pay in three equal installments due November 15, February 15, and May 15 with no discount. Most Albany homeowners with mortgages have their property taxes escrowed — the lender collects roughly one-twelfth of the annual bill each month and pays the county directly, which means the discount is typically captured by the lender on the owner's behalf.",
+        ],
+      },
+      {
+        heading: "Property Tax Exemptions Available to Albany Homeowners",
+        paragraphs: [
+          "Several exemption programs can meaningfully reduce property tax obligations for qualifying Albany homeowners. The Senior and Disabled Citizen Deferral program allows eligible Oregon residents — generally those 62 or older with a household income at or below $47,000 — to defer property taxes until the property is sold or transferred, with the deferred amount secured as a low-interest lien. This is not a forgiveness program, but it eliminates the cash flow burden of annual tax payments for income-constrained seniors.",
+          "Veterans with a service-connected disability rating of 40% or more may qualify for a property tax exemption on a portion of their home's assessed value — currently $25,455 in 2026. Surviving spouses of qualifying veterans may also be eligible. The exemption is applied automatically once approved through the county assessor's office. Additionally, Oregon's homestead exemption, farm and forest special assessment programs, and various nonprofit and nonprofit-adjacent exemptions exist — though most are not applicable to standard owner-occupied residential properties in Albany. The Linn County Assessor's office at 300 SW 4th Ave in Albany is the direct resource for confirming your eligibility for any program.",
+        ],
+      },
+      {
+        heading: "How Property Taxes Affect Your Monthly Payment in Albany",
+        paragraphs: [
+          "Property taxes are the most underestimated line item in first-time buyer budget planning. At 1.1% of assessed value, a $380,000 Albany home generates approximately $4,180 in annual taxes — $348 per month. Added to principal and interest on a $342,000 mortgage at 5.5% (assuming 10% down), the payment becomes approximately $1,941 + $348 + ~$110 for homeowners insurance = $2,399 per month. Many buyers calculate only the mortgage P&I when they assess affordability, then find the real monthly obligation is $400–$500 higher than expected.",
+          "For buyers comparing neighborhoods, the tax calculation matters at the margins. A South Albany home assessed at $295,000 generates roughly $3,245 in annual taxes ($270/month), while a North Albany home assessed at $430,000 generates $4,730/year ($394/month) — a $124/month difference that compounds meaningfully over time. Albany buyers who are close to their affordability ceiling should run the full PITI (principal, interest, taxes, insurance) calculation for each property before deciding how much to offer, not after. Cadwell Group includes property tax estimates in every buyer consultation as a standard step.",
+        ],
+      },
+      {
+        heading: "Property Taxes for Albany Home Sellers",
+        paragraphs: [
+          "When you sell your Albany home, property taxes are prorated at closing. The seller is responsible for taxes through the day of closing; the buyer takes responsibility from that day forward. Because Oregon's tax year runs July 1 to June 30 and statements are issued in October, many closings happen before the full-year tax amount is known with certainty. In these cases, escrow uses the prior year's tax amount as the basis for proration, with a post-closing reconciliation if the actual bill differs significantly.",
+          "For sellers who have owned their Albany home for many years, the assessed value advantage built up through years of 3% cap growth does not transfer to the buyer as a benefit. A buyer who purchases your $510,000 home — which carries a $310,000 assessed value from years of capped growth — will not inherit the $310,000 base. The assessed value for the new owner is reset based on the county's assessment cycle, which means property taxes on the same home can increase noticeably after a sale. This is a point worth explaining to buyers during negotiations, as it affects their true long-term cost of ownership.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions About Albany Oregon Property Taxes",
+        paragraphs: [
+          "How much are property taxes on a $420,000 home in Albany, Oregon? At Linn County's effective rate of approximately 1.1% of assessed value, the tax depends on the property's assessed value, which may be lower than the purchase price. If the assessed value is $380,000 (a reasonable estimate for an existing home), the annual tax is approximately $4,180, or $348 per month. For a new construction home where the assessed value is closer to the purchase price, expect taxes closer to $4,620/year. Always verify the specific property's assessed value through the Linn County Assessor before closing.",
+          "Can my Albany property taxes go up after I buy a home? Yes, but the annual increase in assessed value is capped at 3% under Oregon's Measure 50. What can cause a larger jump is a new construction assessment (first-time assessed after the building is complete) or significant improvements that trigger a reassessment of the structure's value. Albany homeowners who complete major additions or renovations should expect the improvement value to be added to their assessed value in the subsequent assessment cycle.",
+          "Do property taxes reset when I buy a home in Oregon? Oregon does not reset assessed values to the purchase price at sale, unlike California's Proposition 13 system. The buyer inherits the existing assessed value trajectory, which can be an advantage (if the assessed value is well below current market value) or neutral (on recently built or recently sold homes where assessed and market values are close). Confirming the current assessed value is a standard step in every buyer due diligence process.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "rent-vs-buy-albany-oregon-2026",
+    title: "Rent vs. Buy in Albany, Oregon: The 2026 Financial Breakdown",
+    dek: "A side-by-side comparison of renting and buying in Albany — real costs, break-even timelines, equity math, and the situations where each choice makes more sense.",
+    eyebrow: "Buyer Guide",
+    category: "Buyer Resources",
+    imageSrc: "/images/blog-rent-vs-buy-albany-oregon.png",
+    imageAlt: "Albany Oregon home exterior on a quiet residential street — comparing renting vs buying in the local market.",
+    href: "/blog/rent-vs-buy-albany-oregon-2026",
+    publishedAt: "July 18, 2026",
+    isNew: true,
+    sections: [
+      {
+        heading: "The Real Cost of Renting in Albany Right Now",
+        paragraphs: [
+          "Albany's rental market in 2026 reflects the same pressure squeezing housing across the Pacific Northwest: rents have risen steadily for four consecutive years with no meaningful relief in sight. A one-bedroom apartment in Albany currently averages $1,150–$1,300 per month depending on location and condition. Two-bedroom units — the most common rental for households with a child or a roommate — run $1,400–$1,700. Three-bedroom single-family rentals, the direct competitor to a starter home purchase, typically list at $1,800–$2,100 per month in established Albany neighborhoods.",
+          "What these numbers obscure is the trajectory. Albany rents have increased approximately 5–7% per year over the past three years. A household renting a two-bedroom at $1,500 today will likely face $1,575–$1,605 at renewal next year, and $1,655–$1,720 the year after. Unlike a fixed-rate mortgage where the principal and interest payment is locked for 30 years, renting offers no protection against market increases. Every lease renewal is an exposure to whatever the landlord's costs — property taxes, insurance, maintenance, and their own mortgage — have done in the intervening year.",
+        ],
+      },
+      {
+        heading: "What Does It Actually Cost to Own an Albany Home in 2026?",
+        paragraphs: [
+          "A realistic first-time buyer scenario in Albany: a three-bedroom home in South Albany or Periwinkle priced at $320,000. With 5% down ($16,000), the financed amount is $304,000. At a 5.5% rate on a 30-year fixed mortgage, the principal and interest payment is approximately $1,726/month. Adding property taxes ($295,000 assessed value × 1.1% ÷ 12 = $270/month) and homeowners insurance ($110/month) brings the total monthly housing cost to approximately $2,106. For the same three-bedroom unit renting at $1,900, the ownership premium is roughly $206/month — before factoring in what ownership builds over time.",
+          "At a slightly higher price point — a $380,000 North Albany home with 10% down ($38,000) — the financed amount is $342,000. Principal and interest at 5.5% is approximately $1,942/month. Taxes ($380,000 assessed × 1.1% ÷ 12 = $348/month) and insurance ($125/month) bring the total to approximately $2,415. A comparable three-bedroom rental in North Albany would run $1,950–$2,100. Here the ownership premium narrows to $315–$465/month, and at the higher end of the rental range, ownership is nearly cost-neutral from day one on the monthly line — while building equity rather than paying someone else's mortgage.",
+        ],
+      },
+      {
+        heading: "The Break-Even Point: When Does Buying Beat Renting in Albany?",
+        paragraphs: [
+          "The break-even point is the number of years you need to stay in the home before the financial benefits of ownership exceed the costs. In Albany's current market, the break-even for a typical first-time buyer purchase is approximately 3.5–5 years, depending on the down payment, purchase price, and assumed rent inflation rate. The calculation accounts for closing costs (2–3% of the purchase price paid at closing), early mortgage interest (front-loaded in a 30-year amortization), and property maintenance costs (typically budgeted at 1–1.5% of home value per year), weighed against equity accumulation from principal paydown and Albany's approximately 4.2% annual home price appreciation.",
+          "At 4.2% annual appreciation, a $320,000 Albany home is worth approximately $333,440 after year one, $347,420 after year two, and $395,000 after year five. The equity gained from appreciation alone — before factoring in principal paydown — covers the entire down payment within roughly 4–5 years. For buyers who plan to stay 5+ years, the math of buying in Albany's market is compelling. For buyers with a genuine 2–3 year horizon, the calculus shifts: transaction costs on both ends (buying and selling) consume the short-term appreciation gain, and renting preserves flexibility at a modest financial premium.",
+        ],
+      },
+      {
+        heading: "What Renting to Buying Misses: The Equity Argument",
+        paragraphs: [
+          "The monthly payment comparison between renting and owning misses the most important financial distinction: where the money goes. A $2,106 monthly mortgage payment on a $320,000 Albany home in year one allocates approximately $1,393 to interest (which is not equity), $333 to principal paydown (which is equity), $270 to property taxes (gone), and $110 to insurance (gone). In year five, the principal portion increases to approximately $405/month as the amortization curve works in the borrower's favor. In year ten, it is approaching $500/month in principal paydown.",
+          "Contrast this with $1,900/month in rent — where $1,900 goes to the landlord's equity, zero to yours. Over five years, renting at $1,900/month (assuming 5% annual increases) costs approximately $125,900 in total rent paid. Over the same five years, the Albany homeowner has paid approximately $126,360 in PITI, but has also accumulated roughly $19,800 in principal paydown and approximately $75,000 in appreciation gain on a $320,000 home at 4.2% per year. The net financial position of the homeowner after five years is meaningfully stronger — by roughly $90,000–$95,000 when accounting for transaction costs and maintenance.",
+        ],
+      },
+      {
+        heading: "When Renting Still Makes More Sense in Albany",
+        paragraphs: [
+          "The buy-always argument ignores legitimate situations where renting is the right financial and life decision. If your timeline in Albany is under 3 years — a job relocation, a temporary assignment, a life transition — the transaction costs of buying and selling will consume much or all of the appreciation gain. Closing costs of 2–3% at purchase plus 5–6% in selling costs (commissions, staging, closing credits) mean a short-term purchase needs meaningful appreciation just to break even on the transaction alone.",
+          "Renting also makes sense if your down payment savings are below 3.5% — the minimum for an FHA loan — and you are not eligible for down payment assistance programs. Purchasing with less than 3.5% down typically means private mortgage insurance (PMI) that adds $100–$200/month to your payment until you reach 20% equity, which changes the monthly comparison materially. Similarly, buyers who have not established stable employment history (lenders typically want two years of consistent income documentation), carry significant consumer debt that affects their debt-to-income ratio, or have credit scores below 580 will face meaningful financing obstacles. For those buyers, spending 12–18 months improving credit, reducing debt, and building savings before purchasing is often the financially optimal path.",
+        ],
+      },
+      {
+        heading: "What Albany Buyers Consistently Get Wrong in the Rent vs. Buy Math",
+        paragraphs: [
+          "The most common mistake Albany renters make when evaluating ownership is comparing their current rent to the full PITI mortgage payment — then stopping there. That comparison ignores rent inflation. A renter paying $1,700 today who projects forward 10 years at 5% annual rent increases is paying approximately $2,770/month in year ten. The homeowner with a 30-year fixed mortgage is paying the same principal and interest in year ten as on day one. The fixed payment that feels like a higher monthly cost today becomes a below-market cost as rent inflation compounds.",
+          "The second common mistake is treating the down payment as 'money lost.' The down payment is not spent — it is invested. A $16,000 down payment on a home that appreciates 4.2% annually returns approximately $13,440 in appreciated value over five years on the full home value (appreciation runs on the full asset, not just the down payment). That is the leverage effect of real estate: a $16,000 investment controlling a $320,000 asset. No savings account, CD, or typical investment vehicle produces equivalent returns on that capital at the risk profile most first-time buyers have access to. Contact Jason Cadwell at Cadwell Group to run a personalized rent vs. buy analysis for your specific situation — (541) 619-4303.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions: Rent vs. Buy in Albany, Oregon",
+        paragraphs: [
+          "Is it cheaper to rent or buy in Albany, Oregon right now? On a raw monthly payment basis, renting a three-bedroom in Albany is typically $200–$500 cheaper per month than buying a comparable home in 2026. However, when you factor in rent inflation, equity accumulation, and home price appreciation over a 5-year horizon, buying becomes meaningfully more advantageous. For buyers who plan to stay 5+ years and can meet down payment and credit requirements, buying is the stronger long-term financial choice in Albany's current market.",
+          "How much do I need saved to stop renting and buy in Albany? At minimum, you need 3.5% of the purchase price for an FHA loan (approximately $11,200 on a $320,000 home) plus closing costs of 2–3% (approximately $6,400–$9,600), plus a post-closing reserve of 1–2% for immediate repairs (approximately $3,200–$6,400). In total, plan for $20,800–$27,200 in minimum liquid savings for a $320,000 purchase. Down payment assistance programs through Oregon Housing and Community Services can reduce the down payment portion for income-qualifying first-time buyers.",
+          "What is the average rent in Albany, Oregon in 2026? Albany rents in 2026 average approximately $1,150–$1,300 for one-bedroom units, $1,400–$1,700 for two-bedroom units, and $1,800–$2,100 for three-bedroom single-family rentals. Rents have increased approximately 5–7% annually over the past three years with no significant softening expected given continued housing inventory constraints in the Willamette Valley.",
         ],
       },
     ],

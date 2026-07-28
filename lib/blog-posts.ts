@@ -728,7 +728,6 @@ export const blogPosts: BlogPost[] = [
     imageAlt: "Albany Oregon residential neighborhood street with well-maintained homes reflecting local property tax value.",
     href: "/blog/albany-oregon-property-taxes-guide-2026",
     publishedAt: "July 15, 2026",
-    isNew: true,
     sections: [
       {
         heading: "How Oregon's Property Tax System Works",
@@ -792,7 +791,6 @@ export const blogPosts: BlogPost[] = [
     imageAlt: "Albany Oregon home exterior on a quiet residential street — comparing renting vs buying in the local market.",
     href: "/blog/rent-vs-buy-albany-oregon-2026",
     publishedAt: "July 18, 2026",
-    isNew: true,
     sections: [
       {
         heading: "The Real Cost of Renting in Albany Right Now",
@@ -842,6 +840,325 @@ export const blogPosts: BlogPost[] = [
           "Is it cheaper to rent or buy in Albany, Oregon right now? On a raw monthly payment basis, renting a three-bedroom in Albany is typically $200–$500 cheaper per month than buying a comparable home in 2026. However, when you factor in rent inflation, equity accumulation, and home price appreciation over a 5-year horizon, buying becomes meaningfully more advantageous. For buyers who plan to stay 5+ years and can meet down payment and credit requirements, buying is the stronger long-term financial choice in Albany's current market.",
           "How much do I need saved to stop renting and buy in Albany? At minimum, you need 3.5% of the purchase price for an FHA loan (approximately $11,200 on a $320,000 home) plus closing costs of 2–3% (approximately $6,400–$9,600), plus a post-closing reserve of 1–2% for immediate repairs (approximately $3,200–$6,400). In total, plan for $20,800–$27,200 in minimum liquid savings for a $320,000 purchase. Down payment assistance programs through Oregon Housing and Community Services can reduce the down payment portion for income-qualifying first-time buyers.",
           "What is the average rent in Albany, Oregon in 2026? Albany rents in 2026 average approximately $1,150–$1,300 for one-bedroom units, $1,400–$1,700 for two-bedroom units, and $1,800–$2,100 for three-bedroom single-family rentals. Rents have increased approximately 5–7% annually over the past three years with no significant softening expected given continued housing inventory constraints in the Willamette Valley.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "how-to-make-a-competitive-offer-albany-oregon",
+    title: "How to Make a Competitive Offer on an Albany Home Without Overpaying",
+    dek: "What separates winning offers from losing ones in Albany's 2026 market — pricing strategy, earnest money, contingencies, escalation clauses, and what sellers actually care about.",
+    eyebrow: "Buyer Guide",
+    category: "Buyer Resources",
+    imageSrc: "/images/blog-competitive-offer-albany.png",
+    imageAlt: "Albany Oregon home buyer reviewing an offer with a real estate agent at a table.",
+    href: "/blog/how-to-make-a-competitive-offer-albany-oregon",
+    publishedAt: "July 21, 2026",
+    sections: [
+      {
+        heading: "Why Offer Strategy Matters in Albany's 2026 Market",
+        paragraphs: [
+          "In Albany's current market, the gap between a buyer who wins and one who loses is rarely the largest number on the page. Well-priced homes in the $350,000–$550,000 range — Albany's most active segment — are averaging 18–22 days on market, but the best-positioned listings in desirable North Albany neighborhoods are still going under contract in 7–10 days with multiple competing offers. Buyers who treat an offer as a simple price negotiation miss the full picture. Sellers are evaluating financing strength, timeline flexibility, contingency risk, and confidence that the deal will close.",
+          "The good news for Albany buyers is that the market is not the frenzied bidding-war environment of 2021–2022. Offers that are well-constructed and demonstrate buyer seriousness consistently outperform higher offers with weak terms. Understanding what moves an Albany seller to say yes — and what signals hesitation — is the foundation of an effective offer strategy in 2026.",
+        ],
+      },
+      {
+        heading: "How to Determine the Right Offer Price for an Albany Home",
+        paragraphs: [
+          "The right offer price is anchored in recent comparable sales, not the listing price. Before writing any offer, your agent should pull closed sales within the past 60–90 days within a half-mile radius that are comparable in square footage, bed and bath count, lot size, and condition. In Albany's market, this typically yields 3–6 reliable comparables. The listing price is the seller's aspiration — the comparables tell you what buyers have actually paid for similar homes. In Albany's current environment, well-priced listings are selling at 98–102% of list price. Listings that have been sitting 30+ days are increasingly negotiable.",
+          "One Albany-specific factor that matters at the offer stage: school district lines affect value significantly. A home priced at $460,000 in North Albany with access to a top-rated elementary school carries different market dynamics than a nominally similar home priced at $440,000 two streets away in a different attendance zone. Your agent should factor school premium into the comparable selection process rather than treating all North Albany addresses as equivalent for pricing purposes.",
+        ],
+      },
+      {
+        heading: "Earnest Money: How Much Is Standard in Albany, Oregon?",
+        paragraphs: [
+          "In Oregon real estate transactions, earnest money is the deposit a buyer submits with their offer to demonstrate serious intent. It is held in escrow and applied to the buyer's closing costs or down payment at close. If the buyer backs out for a reason covered by a contingency — such as an unsatisfactory inspection or financing failure — the earnest money is typically returned. If the buyer walks away without a contractual reason, the earnest money is at risk of being forfeited to the seller.",
+          "In Albany's current market, the standard earnest money deposit is 1–2% of the offer price. On a $400,000 offer, that is $4,000–$8,000. Submitting at 2% signals stronger commitment than the minimum and can be a differentiating factor when a seller is evaluating similar offers. For buyers who want to maximize competitiveness without increasing price, bumping earnest money from 1% to 2% is one of the lowest-risk ways to strengthen an offer — you are not paying more for the home, you are simply demonstrating greater financial commitment to closing.",
+        ],
+      },
+      {
+        heading: "Contingencies: Which to Keep and Which Are Negotiable",
+        paragraphs: [
+          "Oregon purchase agreements typically include three standard contingencies: inspection, financing, and appraisal. The inspection contingency gives the buyer 10 business days to complete a professional home inspection and negotiate repairs, request credits, or walk away if the condition warrants it. The financing contingency protects the buyer if their loan is not approved. The appraisal contingency protects the buyer if the home appraises below the offer price. All three exist to protect buyers from losing their earnest money due to circumstances beyond their control.",
+          "In competitive Albany offer situations, the question becomes which contingencies to keep, modify, or waive. Waiving the inspection contingency entirely is generally inadvisable unless you are a seasoned investor comfortable with unknown condition risk. However, offering a shortened inspection period — 7 business days instead of 10 — signals decisiveness. Waiving the appraisal contingency is more common among buyers with larger down payments who can cover a gap between offer price and appraised value. The financing contingency should almost never be waived unless you are purchasing cash. Work with your agent to calibrate contingency terms to the specific property and competitive environment.",
+        ],
+      },
+      {
+        heading: "What Albany Sellers Care About Beyond Price",
+        paragraphs: [
+          "Price is the headline, but experienced Albany sellers and their agents evaluate several factors before accepting. Financing type matters: a cash offer or a conventional loan with 20% down carries lower risk than an FHA or VA offer at the same price, because FHA and VA appraisals apply stricter property condition standards and occasionally require seller-funded repairs. A buyer who is pre-approved — not just pre-qualified — with a letter from a local or well-known lender carries more credibility than a buyer with a generic online pre-qualification.",
+          "Closing timeline is frequently as important as price for sellers with specific circumstances. A seller who has already purchased their next home and is carrying two mortgages wants to close as quickly as possible — a buyer offering a 21-day close at $5,000 below asking may win over a buyer offering full price with a 45-day close. Conversely, sellers still searching for their next home may specifically want a longer close or a rent-back provision. Understanding the seller's situation — which your agent can often learn through the listing agent — is how you structure an offer that solves their problem, not just yours.",
+        ],
+      },
+      {
+        heading: "Escalation Clauses: When They Help in Albany and When They Don't",
+        paragraphs: [
+          "An escalation clause allows a buyer to automatically outbid competing offers up to a stated maximum. The structure is: 'I offer $410,000, and I will beat any bona fide competing offer by $2,500, up to a maximum of $430,000.' If no competing offer materializes, the buyer pays $410,000. If a competing offer comes in at $415,000, the buyer pays $417,500 — without having to renegotiate. Escalation clauses are useful when you genuinely want to win a specific home and are willing to pay up to your maximum, but do not want to lead with your ceiling price.",
+          "Escalation clauses work best on well-priced Albany listings in high-demand neighborhoods where multiple offers are expected — primarily North Albany homes near top schools in the spring selling season. They are less effective in lower-demand situations or when the seller's agent does not communicate competing offers transparently. Some Albany sellers and their agents prefer clean offers without escalation clauses; your agent should gauge the listing agent's preference before including one. Never use an escalation clause with a maximum you are not genuinely willing to pay — a seller can simply present a competing offer at your ceiling and hold you to it.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions: Making an Offer in Albany, Oregon",
+        paragraphs: [
+          "How much should I offer over asking price in Albany? In Albany's current market, well-priced homes in desirable neighborhoods are selling at 98–102% of list price. Offering at list price is competitive for correctly priced homes. Offering above list is appropriate when comparable sales support the higher price — not simply to win. Overpaying by $20,000–$30,000 above market value is a poor strategy even if it wins the home, because the appraisal may not support the price and you will need to cover the gap in cash. Base your offer on comparables, not on the desire to simply outbid others.",
+          "Can I back out of an offer in Oregon after it's accepted? Yes, during the contingency periods. The inspection contingency (10 business days standard) and the financing contingency allow buyers to exit without losing earnest money if conditions are met. Backing out after contingencies are removed is where earnest money becomes at risk. Oregon's purchase agreement is detailed on cancellation rights — your agent and escrow officer will walk you through exactly where you stand at each stage of the transaction.",
+          "Should I write a personal letter to the seller with my offer? Oregon law restricts sellers from making decisions based on protected class characteristics, and many listing agents now advise sellers not to read personal letters to avoid fair housing liability exposure. A well-structured, clean offer with strong terms will outperform a heartfelt letter with weak financials in virtually every Albany transaction. Focus your energy on offer terms rather than persuasion letters. Contact Jason Cadwell at Cadwell Group to discuss offer strategy before writing on any Albany property — (541) 619-4303.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "knox-butte-oak-creek-neighborhood-guide",
+    title: "Knox Butte and Oak Creek: Albany Oregon's Best-Value Neighborhoods in 2026",
+    dek: "A complete guide to Albany's Knox Butte and Oak Creek corridors — home prices, new construction, schools, lifestyle, and why move-up buyers keep choosing these neighborhoods.",
+    eyebrow: "Neighborhood Guide",
+    category: "Neighborhoods",
+    imageSrc: "/images/blog-knox-butte-oak-creek-albany.png",
+    imageAlt: "Knox Butte and Oak Creek Albany Oregon — newer construction homes on a tree-lined residential street.",
+    href: "/blog/knox-butte-oak-creek-neighborhood-guide",
+    publishedAt: "July 24, 2026",
+    isNew: true,
+    sections: [
+      {
+        heading: "Where Knox Butte and Oak Creek Fit in Albany's Neighborhood Map",
+        paragraphs: [
+          "Knox Butte and Oak Creek occupy a distinct position in Albany's neighborhood hierarchy: newer than the city's historic core, more accessible than North Albany's premium corridors, and meaningfully more finished than Albany's outer suburban fringe. Both neighborhoods are located in the southern and southeastern quadrant of Albany, within Linn County, with convenient access to Highway 20 and Interstate 5. They sit between the established affordability of South Albany and the school-premium pricing of North Albany — which is precisely what makes them the destination of choice for move-up buyers who have outgrown their starter home but are not yet ready for North Albany prices.",
+          "Knox Butte is the slightly more established of the two, with residential development that began in earnest in the early 2010s and continued through 2020. Oak Creek, which runs adjacent to the Oak Creek Drive corridor in Southeast Albany, has seen more recent development activity and still has active new construction available in some sections. Both neighborhoods share a similar physical character: cul-de-sac-based street layouts, newer infrastructure, larger lots than Historic Downtown, and a quieter residential feel than the denser parts of central Albany.",
+        ],
+      },
+      {
+        heading: "What Types of Homes Are Available in Knox Butte and Oak Creek",
+        paragraphs: [
+          "The predominant housing stock in both neighborhoods consists of single-family homes built between 2008 and 2024, ranging from approximately 1,600 to 2,800 square feet. The typical Knox Butte home features three or four bedrooms, two and a half bathrooms, an attached two-car garage, and a private rear yard. Lot sizes average 6,500–9,000 square feet — meaningfully larger than comparable-vintage homes in North Albany's denser subdivisions. Architectural styles lean toward contemporary craftsman and traditional Northwest designs, with covered front porches, board-and-batten or lap siding, and open-concept interior floor plans.",
+          "Oak Creek's more recent construction phase includes homes built to current energy code with enhanced insulation packages, high-efficiency HVAC systems, and smart home prewiring that buyers from older Albany neighborhoods notice immediately. A portion of Oak Creek's active development includes new construction spec homes where buyers can still select finishes — countertops, cabinet colors, flooring — without the full custom-build timeline or cost. This makes Oak Creek one of the few Albany neighborhoods where buyers can access a new home at a price point below the North Albany premium while still personalizing the product.",
+        ],
+      },
+      {
+        heading: "Home Prices and Market Activity in Knox Butte and Oak Creek in 2026",
+        paragraphs: [
+          "Knox Butte homes are currently trading in the $390,000–$520,000 range depending on size, condition, and lot position. Homes at the lower end of that range are typically 1,600–1,800 square foot three-bedroom builds from the 2010–2014 construction era that have been lightly updated. The upper end captures larger four-bedroom homes with bonus rooms, premium lot positions backing to green space, or significant seller-invested improvements. Days on market for well-priced Knox Butte listings average 20–28 days — slightly longer than North Albany's most competitive streets, but faster than the broader Albany average, reflecting genuine demand.",
+          "Oak Creek pricing runs $380,000–$500,000 for resale homes, with new construction from active builders listing in the $445,000–$540,000 range depending on plan size and included features. Year-over-year appreciation in both neighborhoods is tracking at approximately 3.8–4.5%, in line with Albany's overall market rate. The value proposition compared to North Albany is meaningful: a buyer who would need $520,000–$560,000 to access a comparable-sized home near a top-rated North Albany elementary can often find a similar-quality home in Knox Butte or Oak Creek for $430,000–$470,000, with the school district trade-off being the primary variable to evaluate.",
+        ],
+      },
+      {
+        heading: "Schools Serving Knox Butte and Oak Creek",
+        paragraphs: [
+          "Both Knox Butte and Oak Creek are served by the Greater Albany Public Schools (GAPS) district. Elementary-age children in Knox Butte are typically assigned to Waverly Elementary or Oak Elementary depending on the specific street address. Middle school students feed to Timber Ridge Middle School. High school students attend South Albany High School, which offers Advanced Placement courses, Career Technical Education pathways, and a college-readiness curriculum broadly comparable to West Albany High. GAPS consistently performs above Oregon state averages in reading and math at the elementary level.",
+          "For families whose school priority is access to North Albany's highest-rated schools — specifically North Albany Elementary and its consistent top-tier ratings — Knox Butte and Oak Creek do not provide that access, which is the primary reason for the pricing differential. Families for whom good schools are the priority but the top-rated North Albany addresses are outside budget will find the GAPS schools serving Knox Butte and Oak Creek to be solid, engaged communities with active parent involvement. Verifying the exact attendance zone for any specific address before making an offer is always recommended, as zone boundaries can shift within a neighborhood.",
+        ],
+      },
+      {
+        heading: "Lifestyle: Parks, Shopping, and Daily Convenience",
+        paragraphs: [
+          "Knox Butte residents are within a short drive of Knox Butte Community Park, which offers open play fields, a dog park area, and walking paths suited to families and active adults. The South Albany commercial corridor along Geary Street and Waverly Drive provides grocery access, pharmacy services, restaurants, and everyday retail without requiring a cross-town drive. The proximity to Interstate 5 makes Knox Butte and Oak Creek practical choices for commuters heading south to Eugene or north toward Salem — a 25-minute drive in either direction under typical conditions.",
+          "Oak Creek benefits from its position near the Timber Linn Park complex, one of Albany's largest recreational assets, which includes athletic fields, a lake, picnic facilities, and walking trails. The neighborhood's southeastern location also provides relatively quick access to Highway 20 westbound toward Corvallis — a meaningful practical benefit for the significant number of Knox Butte and Oak Creek residents who work at Oregon State University or in Corvallis's healthcare and technology sectors. The 20–25 minute Corvallis commute at Albany's housing prices is the calculus that draws OSU-affiliated buyers to this part of Albany specifically.",
+        ],
+      },
+      {
+        heading: "Who Buys in Knox Butte and Oak Creek — and Why",
+        paragraphs: [
+          "The buyer profile for Knox Butte and Oak Creek in 2026 is consistent: move-up buyers from South Albany or Periwinkle who have built equity and want a larger, newer home without crossing into North Albany's price tier; Oregon State University employees and Corvallis-based workers who want a reasonable commute without Corvallis prices; and families for whom modern construction quality, lot size, and garage space are higher priorities than school brand. A meaningful secondary buyer pool is remote workers relocating from Portland, Seattle, or California who want a finished, move-in-ready product in a quiet neighborhood and are accustomed to paying substantially more for comparable quality elsewhere.",
+          "For sellers in Knox Butte and Oak Creek, the buyer competition dynamic is favorable: these neighborhoods attract motivated, financially qualified buyers who have already decided on this part of Albany and are not casually browsing. A well-priced, well-presented Knox Butte or Oak Creek listing generates genuine urgency from the buyers who are specifically searching this corridor. Contact Jason Cadwell at Cadwell Group for a current valuation of your Knox Butte or Oak Creek home, or to discuss what is available for buyers targeting this area — (541) 619-4303.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions About Knox Butte and Oak Creek",
+        paragraphs: [
+          "What is the difference between Knox Butte and Oak Creek in Albany? Knox Butte is a slightly more established neighborhood in southeastern Albany with homes primarily built between 2008 and 2020, characterized by larger lots and craftsman-style architecture. Oak Creek, adjacent to the Oak Creek Drive corridor, includes both established resale homes and active new construction, giving buyers the rare option to access new builds at below-North-Albany prices. Both are served by the GAPS district and share similar price ranges — approximately $380,000–$540,000 in 2026.",
+          "Is Knox Butte a good neighborhood in Albany, Oregon? Knox Butte consistently draws positive reviews from residents for its quiet streets, newer construction quality, generous lot sizes, and community feel. Its primary trade-off relative to North Albany is school attendance zone — families prioritizing Albany's top-rated elementary schools will find those assignments are not typically available from Knox Butte addresses. For buyers who want a newer, well-maintained neighborhood at a meaningful price savings versus North Albany, Knox Butte represents strong value.",
+          "Are there new construction homes available in Oak Creek Albany? Yes — as of mid-2026, active builders have remaining spec inventory and build-to-order lots available in portions of the Oak Creek corridor. New construction pricing in Oak Creek ranges from approximately $445,000 to $540,000 depending on plan size and finishes. New builds in this area typically include energy-efficient packages, smart home prewiring, and builder warranties not available on resale homes. Contact Jason Cadwell at Cadwell Group to get current availability and builder information.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "albany-home-seller-timeline-decision-to-close",
+    title: "The Albany Home Seller's Timeline: From Decision to Close",
+    dek: "A week-by-week guide to selling your Albany home — when to start preparing, how launch week works, what happens under contract, and how Oregon closings actually run.",
+    eyebrow: "Seller Guide",
+    category: "Selling",
+    imageSrc: "/images/blog-seller-timeline-albany-oregon.png",
+    imageAlt: "Albany Oregon home seller reviewing paperwork with a real estate agent — preparing to list a home.",
+    href: "/blog/albany-home-seller-timeline-decision-to-close",
+    publishedAt: "July 26, 2026",
+    isNew: true,
+    sections: [
+      {
+        heading: "Overview: How Long Does It Take to Sell a Home in Albany?",
+        paragraphs: [
+          "From the moment you decide to sell to the day you hand over keys, a well-run Albany home sale typically takes 10–16 weeks. That includes 4–6 weeks of pre-market preparation, an average of 18–22 days on market for a correctly priced listing, and a 30–45 day escrow period from accepted offer to close. Sellers who start early and move methodically through each phase consistently achieve better outcomes — higher prices, cleaner negotiations, and fewer surprises — than sellers who rush the process or skip preparation steps. Understanding the full timeline before you begin is the single most useful thing you can do to reduce stress and maximize your return.",
+          "The timeline varies meaningfully by how much preparation your home needs, your pricing accuracy, and how quickly an acceptable offer materializes. Homes that are move-in ready and priced within 2% of market value tend to compress the on-market phase significantly. Homes that need cosmetic work before listing, or that are priced aspirationally, extend the overall timeline and often net less than a properly prepared, correctly priced listing would have. This guide walks through each phase so you know what to expect — and what decisions to make — at every step.",
+        ],
+      },
+      {
+        heading: "3 to 6 Months Before Listing: The Preparation Phase",
+        paragraphs: [
+          "The highest-leverage work in any Albany home sale happens months before your sign goes in the ground. At 3–6 months out, the priority is a no-obligation consultation with a local Albany agent to get a current Comparative Market Analysis and a candid pre-listing assessment of your home's condition. A good pre-listing consultation identifies: which repairs or updates will return their cost in higher sale price or faster sale, which improvements are unnecessary, and what your realistic price range is given current comparable sales. This information lets you make smart decisions with time to act — rather than rushed decisions the week before listing.",
+          "In this phase, address any deferred maintenance that will appear on a buyer's inspection report as a safety or functional concern: roof condition, HVAC service records, water heater age, crawlspace moisture, and electrical issues are the most common inspection-phase surprises in Albany. Resolving known issues before listing prevents them from being weaponized during buyer negotiations. It also gives you the confidence to price firmly, knowing the home has been properly maintained. Sellers who complete a pre-listing inspection themselves — and address findings proactively — consistently have smoother transactions than those who wait for the buyer's inspector to find everything.",
+        ],
+      },
+      {
+        heading: "4 to 6 Weeks Before Listing: Pre-Market Positioning",
+        paragraphs: [
+          "Six weeks before your target launch date, the focus shifts to presentation and marketing preparation. This is when cosmetic improvements with strong ROI should be completed: interior paint, cabinet hardware replacement, bathroom fixture updates, light fixture upgrades, and landscaping refresh. These improvements need to be finished — not in progress — when your photographer arrives. A home that is half-painted or mid-renovation in listing photos creates doubt about completion and condition.",
+          "Professional photography should be scheduled for a specific day when the home is fully staged, cleaned, and all personal items are cleared from counters and surfaces. In Albany's 2026 market, professional photography is not optional — it is the minimum standard for a competitive listing. Homes with professional photos generate 3–5 times more showing requests than those with phone camera images. Your listing agent should also arrange drone photography if your home has a notable lot, view, or proximity to parks or the Willamette riverfront. The week before photography, focus on curb appeal: fresh mulch, trimmed hedges, pressure-washed driveway, and a clean front door make the exterior shot — the first image buyers see — as strong as possible.",
+        ],
+      },
+      {
+        heading: "Launch Week: Going Live on the Market",
+        paragraphs: [
+          "Launch week is the most important week of your entire sale. The first 7–10 days on market capture the full pool of active, pre-approved buyers who have been waiting for a home like yours. Traffic, showing volume, and offer activity are highest during this window — which is why pricing correctly from day one is so critical. A well-priced Albany listing that launches Thursday or Friday benefits from the weekend showing surge when buyers are most available to tour. Plan to be out of the home for showings as readily as possible during the first two weeks.",
+          "Your agent should schedule an open house for the first weekend on market — typically Saturday and Sunday. Open houses serve a dual purpose: they generate foot traffic from buyers who are still forming their criteria, and they create visible competition that motivates pre-approved buyers who are further along in their search. Online activity in the first 48–72 hours is a reliable indicator of your pricing accuracy. Strong early online engagement (saves, shares, showing requests) confirms you are priced correctly. Limited engagement signals a pricing problem that should be addressed quickly — the first price reduction is always more effective than the second.",
+        ],
+      },
+      {
+        heading: "Under Contract: Navigating Inspection and Appraisal",
+        paragraphs: [
+          "Once you accept an offer, you enter escrow. The first major milestone is the inspection period — 10 business days standard in Oregon. During this window, the buyer hires a licensed home inspector who examines the property's physical condition and produces a report. The buyer may then submit a repair request, ask for a credit at closing in lieu of repairs, accept the home as-is, or in significant cases, withdraw from the contract. How you respond to inspection requests sets the tone for the rest of the transaction.",
+          "Common Albany inspection findings that typically require a seller response include: roof age or minor leak history, crawlspace moisture or inadequate vapor barrier, HVAC service due dates, water heater age, and deferred exterior maintenance. A seller who has completed a pre-listing inspection and addressed major items is in a stronger position to decline minor requests — or to accept them gracefully because they are genuinely minor. After inspection contingency removal, the buyer's lender will order an appraisal if financing is involved. The appraisal must support the agreed purchase price. If it comes in low, the options are: seller reduces price, buyer covers the gap in cash, or both parties negotiate a middle ground. Low appraisals are uncommon on correctly priced Albany listings but not unheard of — particularly in neighborhoods with limited recent comparable sales.",
+        ],
+      },
+      {
+        heading: "The Final 10 Days: How Oregon Closings Work",
+        paragraphs: [
+          "After inspection and appraisal contingencies are cleared, the transaction moves into the final phase: title search, lender final approval, and closing document preparation. Oregon uses escrow-based closings — a licensed title or escrow company manages the transaction, holds all funds, and coordinates document execution. You do not need an attorney present at signing, which is standard in Oregon, unlike some East Coast states. Most Albany sellers sign closing documents 1–3 days before the official close date, with the deed recording and fund transfer happening on closing day itself.",
+          "At closing, you will receive your net proceeds — the sale price minus your remaining mortgage payoff, property tax proration, seller-paid closing costs, and agent commission. Oregon does not impose a state income tax on primary residence capital gains for most sellers who meet the federal exclusion threshold ($250,000 single, $500,000 married filing jointly) and have lived in the home for 2 of the last 5 years. After recording, keys transfer to the buyer. Most Albany closings complete without drama when both parties have been represented by experienced local agents and an organized escrow officer. Contact Jason Cadwell at Cadwell Group to walk through this timeline for your specific home — (541) 619-4303.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions: Albany Home Seller Timeline",
+        paragraphs: [
+          "How long does it take to close on a house in Albany, Oregon after accepting an offer? The typical Albany escrow period is 30–45 days from accepted offer to close. Cash transactions can close faster — sometimes in 14–21 days. FHA and VA loans occasionally take 45–50 days due to appraisal and underwriting timelines. The closing date is negotiated at offer — sellers who need more time can request a longer escrow, and buyers who want to close quickly can use that timeline preference as a negotiating tool.",
+          "Do I have to disclose everything about my home when selling in Albany? Oregon has some of the most comprehensive seller disclosure requirements in the western US. Sellers are required to disclose known material defects, water intrusion history, boundary disputes, HOA information, neighborhood nuisances, and a range of other property conditions on the Seller's Property Disclosure form. Failing to disclose known material issues creates significant legal liability. The best practice is complete transparency — buyers who feel deceived after closing are the sellers who end up in disputes. Your agent will walk you through the disclosure form before listing.",
+          "What are typical seller closing costs in Albany, Oregon? Albany seller closing costs typically include: real estate commission (negotiable, varies by agent), title insurance (seller pays for owner's policy in most Oregon transactions — approximately $1,200–$1,800 on a $400,000 sale), escrow fees (approximately $800–$1,200), property tax proration, and any closing credits negotiated with the buyer. Total seller-side closing costs in Albany typically run 7–9% of the sale price when commission is included — a meaningful number to factor into your net proceeds calculation before accepting an offer.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "linn-county-vs-benton-county-albany-buyers",
+    title: "Linn County vs. Benton County: What Albany Buyers Need to Know in 2026",
+    dek: "The county line running through North Albany affects school districts, property taxes, services, and home values in ways most buyers don't discover until after they've made an offer.",
+    eyebrow: "Market Insights",
+    category: "Market Trends",
+    imageSrc: "/images/blog-linn-county-vs-benton-county.png",
+    imageAlt: "North Albany Oregon residential street showing newer homes near the Linn and Benton County boundary.",
+    href: "/blog/linn-county-vs-benton-county-albany-buyers",
+    publishedAt: "July 29, 2026",
+    isNew: true,
+    sections: [
+      {
+        heading: "Why the County Line Through Albany Matters More Than Most Buyers Expect",
+        paragraphs: [
+          "Albany, Oregon straddles the boundary between Linn County and Benton County in a way that creates genuine, measurable differences in what two nearly identical homes will deliver to a buyer. The majority of Albany — including South Albany, Historic Downtown, Periwinkle, and most of the city's established neighborhoods — falls within Linn County. But a portion of North Albany, where some of the city's most desirable residential streets are located, crosses into Benton County. The county a property sits in affects school district assignment, property tax rates, voting districts, and which county's services and offices govern the property.",
+          "Most Albany buyers who are not working with a knowledgeable local agent discover the county distinction only after they've fallen in love with a specific home — sometimes after making an offer. The consequences of misunderstanding which county a property is in can be significant: a family that buys a North Albany home expecting Corvallis School District access may find their children are assigned to GAPS schools instead, depending on the specific address. Two homes on the same street, separated by 200 feet, can carry different county designations, different school assignments, and different tax rates. This article explains exactly how the distinction works and what Albany buyers should verify before making any offer in North Albany.",
+        ],
+      },
+      {
+        heading: "Property Values: How Prices Differ Across the County Line",
+        paragraphs: [
+          "The Benton County portions of North Albany command a measurable price premium over comparable Linn County properties in the same area, primarily driven by school district access. Homes in Benton County sections of North Albany that access Corvallis School District — consistently ranked among Oregon's best — typically trade $30,000–$60,000 higher than nearly identical homes across the county line in Linn County. In a market where a $450,000 home is the baseline, that premium represents a 7–13% valuation difference for otherwise equivalent properties.",
+          "For buyers evaluating North Albany homes, understanding which county a specific address falls in is therefore not just an administrative detail — it is a pricing variable with material financial implications. A buyer who pays $480,000 for a Benton County North Albany home believing they are accessing Corvallis schools, only to discover the property is actually in Linn County, has made a financially consequential error. The Linn County Assessor and Benton County Assessor both maintain online parcel search tools that confirm county and school district for any specific address. This should be a standard step in buyer due diligence on any North Albany property, not an afterthought.",
+        ],
+      },
+      {
+        heading: "School Districts: The Biggest Differentiator Between the Counties",
+        paragraphs: [
+          "School district access is the single most significant practical difference between Linn County and Benton County addresses in the North Albany area. Linn County properties in Albany are served by the Greater Albany Public Schools (GAPS) district, which operates 14 elementary schools, three middle schools, and two high schools: West Albany High and South Albany High. GAPS performs above state averages and offers strong AP and CTE programs, but its school ratings are generally in the good-to-strong range rather than the top-tier range that draws the most competitive buyer attention.",
+          "Benton County properties in the North Albany area may be assigned to the Corvallis School District, which operates under a separate administrative structure and has earned consistently high ratings — Crescent Valley High School and Corvallis High School are among Oregon's most academically recognized public high schools. The Corvallis district's academic outcomes, extracurricular depth, and college placement rates are what family buyers are paying the premium to access. It is worth noting that not all Benton County addresses in North Albany automatically access Corvallis schools — attendance zones within Benton County have their own boundaries, and verification for a specific parcel address is essential. Your Albany agent should confirm both the county and the exact school attendance zone for any property before you commit to an offer.",
+        ],
+      },
+      {
+        heading: "Property Taxes: What Changes Across the County Line",
+        paragraphs: [
+          "Property tax rates differ modestly between Linn County and Benton County, with the effective blended rate running approximately 1.1% of assessed value in Linn County and approximately 1.05–1.15% in Benton County depending on the specific district overlaps. On a $420,000 assessed value, the annual difference is roughly $0–$210 depending on which side of the line the property falls on — a modest figure that rarely drives purchase decisions on its own.",
+          "What matters more at the tax level is that Oregon's Measure 50 assessed value system operates independently in each county. The assessed value history of a specific parcel — and therefore the property's current tax bill — is county-specific and can vary considerably from comparable properties across the street. When evaluating any Albany home, confirm the current assessed value through the relevant county assessor before calculating your monthly PITI — a $480,000 listed home with a $310,000 assessed value will carry a meaningfully lower monthly tax obligation than a $480,000 home that was recently built or recently sold (resetting its assessed value trajectory). This is true on both sides of the county line and affects budget planning more than the rate difference between the two counties.",
+        ],
+      },
+      {
+        heading: "County Services, Amenities, and What Each Offers Residents",
+        paragraphs: [
+          "For day-to-day life, the county distinction is largely invisible to Albany residents. Linn County maintains county roads, parks, and government services centered in Albany, which is the county seat. The Linn County Courthouse, Assessor, and public health services are all located downtown on 4th Avenue. Linn County's library system, parks system, and emergency services all serve Linn County Albany addresses. Residents of Benton County sections of North Albany access Benton County services — with the Benton County Courthouse and Assessor located in Corvallis, approximately 10 miles west.",
+          "The practical service difference that matters most to North Albany residents is emergency services jurisdiction. Fire and emergency medical services in the North Albany area are handled by the Albany Fire Department and North Albany Fire Station regardless of county designation — so emergency response is effectively the same. The most tangible county service difference for families is the school district, discussed above. For most Albany residents, the county of their property has little visible daily impact beyond the government office they contact for assessor, planning, or permit questions.",
+        ],
+      },
+      {
+        heading: "Which County Is Right for Your Situation?",
+        paragraphs: [
+          "For buyers whose primary decision driver is school quality and who are willing to pay the premium for Corvallis School District access, targeting Benton County portions of North Albany is rational and the price premium is defensible long-term — Corvallis school access has consistently supported above-average appreciation in that specific pocket of Albany relative to comparable Linn County properties. For buyers whose primary drivers are value, newer construction, and a good-but-not-top-tier school environment, Linn County North Albany — as well as Knox Butte and Oak Creek — delivers strong quality of life at a more accessible price point.",
+          "The key practical guidance: never assume a North Albany address is in Benton County because it is in a desirable neighborhood, and never assume it is in Linn County because it carries an Albany, OR mailing address. Oregon addresses are assigned by city name based on postal geography, not county. A home with an Albany, OR address can be in either Linn or Benton County. Confirm county and school district for every North Albany property you consider seriously. Jason Cadwell at Cadwell Group verifies county and school zone as a standard step in every buyer consultation for North Albany properties — contact (541) 619-4303 to discuss which areas align with your priorities.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions: Linn County vs. Benton County for Albany Buyers",
+        paragraphs: [
+          "How do I know if a North Albany home is in Linn County or Benton County? The most reliable method is to look up the parcel on the county assessor's website. The Linn County Assessor (linncounty.org) and Benton County Assessor (co.benton.or.us) both have parcel search tools that confirm county, assessed value, tax history, and in many cases school district. Your real estate agent should confirm this for any North Albany property before you make an offer. Albany, OR mailing addresses appear on homes in both counties — the postal address does not determine county.",
+          "Do all Benton County addresses in North Albany get Corvallis schools? Not automatically. Benton County properties in the North Albany area are generally in the Corvallis School District for administrative purposes, but school attendance zone boundaries within the district determine which specific schools children attend. Some Benton County North Albany addresses feed to schools closer to Corvallis; others to schools in the North Albany area itself. Verifying the specific elementary school attendance zone for any address you are seriously considering is essential — ask your agent to confirm this from the district's zone maps before making an offer.",
+          "Is it better to buy in Linn County or Benton County near Albany? It depends on your priorities. Benton County North Albany delivers access to Corvallis School District and commands a $30,000–$60,000 premium for comparable properties. Linn County Albany offers more inventory across a wider price range, newer neighborhood options in Knox Butte and Oak Creek, and strong GAPS schools at a more accessible price point. For buyers without school-age children or who are prioritizing value and newer construction over school brand, Linn County Albany is the stronger choice. For families specifically seeking Corvallis School District, the Benton County premium is typically justified by long-term appreciation.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "downsizing-in-albany-oregon-guide",
+    title: "Downsizing in Albany, Oregon: A Complete Guide for Empty Nesters and Right-Sizers",
+    dek: "How to approach selling a larger Albany home and buying something smaller — the financial upside, which neighborhoods work best for downsizers, and how to sequence the move.",
+    eyebrow: "Seller Guide",
+    category: "Selling",
+    imageSrc: "/images/blog-downsizing-albany-oregon.png",
+    imageAlt: "Empty nester couple walking in front of a well-maintained Albany Oregon home on a quiet residential street.",
+    href: "/blog/downsizing-in-albany-oregon-guide",
+    publishedAt: "July 31, 2026",
+    isNew: true,
+    sections: [
+      {
+        heading: "Why More Albany Homeowners Are Choosing to Downsize in 2026",
+        paragraphs: [
+          "Albany's aging homeowner demographic is driving a steady rise in downsizing activity that is reshaping inventory patterns across the city. Empty nesters who purchased family homes in North Albany and established neighborhoods in the 1990s and 2000s are sitting on significant equity — often $200,000–$350,000 in unrealized gains — while managing properties whose square footage, yard maintenance demands, and stair counts no longer match how they live. The children are gone, the guest rooms are empty, and the cost of maintaining a 2,400-square-foot home on a third of an acre is no longer justified by how the space is actually used.",
+          "The financial case for downsizing in Albany's 2026 market is compelling. With median home values 40–60% higher than they were a decade ago, a homeowner who purchased a four-bedroom North Albany home for $280,000 in 2012 is likely sitting on a property worth $480,000–$520,000 today. Selling that home and purchasing a well-located two-bedroom or three-bedroom property in the $320,000–$380,000 range frees $100,000–$200,000 in equity that can be invested, used to eliminate debt, or held as a retirement reserve — while simultaneously reducing monthly housing costs by $600–$900.",
+        ],
+      },
+      {
+        heading: "What Albany Downsizers Actually Want in Their Next Home",
+        paragraphs: [
+          "The priorities of Albany buyers who are downsizing differ meaningfully from first-time buyers or move-up buyers, and understanding those priorities makes the property search more efficient. Single-level layouts are the most consistent requirement — buyers who are 55 or older frequently cite stairs as a primary obstacle to aging in place, and single-level homes in Albany carry a documented premium in the downsizer buyer pool. A 1,400-square-foot single-level ranch trades at a higher per-square-foot value than a two-story home with more total square footage when the buyer pool is dominated by right-sizers.",
+          "After single-level layout, the most common downsizer priorities in Albany are: low-maintenance exteriors (fiber cement siding, smaller lots, minimal landscaping obligation), proximity to medical services and Samaritan Albany General Hospital, walkable access to coffee, restaurants, and services in the Historic Downtown or nearby corridors, and a garage or covered parking. Attached or detached garages are particularly valued because downsizers often retain vehicles, outdoor equipment, and hobby storage that would otherwise be lost when reducing square footage. A two-bedroom, two-bathroom single-level home with a two-car garage and a manageable lot covers the wish list for the majority of Albany's active downsizer buyer pool.",
+        ],
+      },
+      {
+        heading: "The Financial Upside of Downsizing in Albany's Current Market",
+        paragraphs: [
+          "The equity math of downsizing in Albany is straightforward and significant. Consider a homeowner who purchased a four-bedroom, 2,200 square foot North Albany home in 2010 for $265,000. At Albany's average appreciation rate, that home is worth approximately $490,000 today. Selling it generates net proceeds (after commission and closing costs) of approximately $440,000. With no remaining mortgage — common for owners at this stage — that is $440,000 in liquid equity from a single transaction. Purchasing a quality two-bedroom, 1,400 square foot single-level home in a walkable Albany neighborhood for $355,000 in cash leaves $85,000 in reserve, eliminates monthly mortgage payments entirely, and reduces property taxes from approximately $450/month to approximately $310/month.",
+          "For homeowners with a remaining mortgage balance, the equity release calculation still favors action. A homeowner with a $150,000 remaining balance on that same $490,000 property nets approximately $290,000 after payoff and closing costs. Purchasing a smaller Albany home for $355,000 with a $65,000 down payment (leaving $225,000 in invested reserves) produces a mortgage of approximately $290,000 — but at a monthly payment ($1,649 at 5.5%) that is likely $400–$700 lower than their current payment on the larger home. The combination of lower monthly costs and newly accessible equity represents a meaningful lifestyle and retirement planning upgrade for many Albany homeowners. Oregon's capital gains exclusion for primary residences ($250,000 single, $500,000 married) means most Albany downsizers owe no state or federal capital gains tax on the transaction.",
+        ],
+      },
+      {
+        heading: "Albany Neighborhoods That Work Best for Downsizers",
+        paragraphs: [
+          "Historic Downtown Albany — specifically the Monteith and Hackleman districts — is the top destination for Albany downsizers who prioritize walkability and character. The Willamette riverfront path, the twice-weekly Albany Farmers Market, the downtown restaurant and coffee scene, and the proximity to services make Historic Downtown genuinely walkable in a way that most Albany neighborhoods are not. Craftsman and Victorian homes in this area range from $320,000 to $480,000 depending on size and condition, with smaller updated bungalows in the $320,000–$380,000 range representing strong value for buyers who want character and location without excess square footage.",
+          "South Albany and Periwinkle offer the most accessible entry points for downsizers on a tighter equity extraction budget — single-level ranch homes in established neighborhoods frequently available in the $290,000–$360,000 range. Knox Butte and Oak Creek attract downsizers who want newer construction quality with less maintenance obligation than a historic property but prefer the Southwest Albany lifestyle to Historic Downtown. For buyers whose priority is proximity to medical services, the blocks surrounding Samaritan Albany General Hospital in the east-central part of Albany have a strong concentration of smaller, single-level homes that are particularly well-positioned for that specific priority. Each neighborhood carries different trade-offs, and a conversation with a local agent who understands the downsizer buyer profile helps identify which trade-offs matter most for your specific situation.",
+        ],
+      },
+      {
+        heading: "Selling First vs. Buying First: The Downsizing Sequence",
+        paragraphs: [
+          "The biggest practical challenge in downsizing is sequencing: do you sell your current home first, then buy — or find your next home first, then list? In Albany's current market, the answer for most downsizers is sell first. Lining up a purchase contingent on the sale of your current home is possible but makes your offer meaningfully less competitive in Albany's active segments. Sellers prefer buyers who are not contingent, and in the $320,000–$400,000 range where most Albany downsizer purchases land, competition exists. A contingent offer can still win, but it typically requires a price premium or concessions that erode the value of the transaction.",
+          "A practical alternative that works well in Albany is a negotiated rent-back from the buyer of your current home. In a rent-back arrangement, you close the sale of your current home — releasing equity and removing contingency complications — and then rent the property back from the new owner for 30–60 days while you complete your purchase. Buyers in Albany's market will frequently agree to a rent-back, particularly if it secures an otherwise attractive deal. This approach requires coordination between your two transactions and a local agent who manages the logistics across both sides. Jason Cadwell at Cadwell Group has guided multiple Albany sellers through the downsizing sequence — contact (541) 619-4303 to map out a strategy specific to your timeline and target neighborhood.",
+        ],
+      },
+      {
+        heading: "What to Do with the Equity from Your Albany Downsize",
+        paragraphs: [
+          "The equity released by a successful Albany downsize is often the largest single liquidity event in a homeowner's financial life outside of retirement account distributions. How that capital is deployed matters as much as how it was accumulated. Common approaches among Albany downsizers include: paying cash for the smaller replacement home (eliminating mortgage payments and the associated peace-of-mind value), investing the net proceeds in a diversified portfolio managed by a fee-only financial advisor, funding long-term care insurance that protects the estate from healthcare cost exposure, and establishing a reserve fund that covers housing maintenance costs without stress for a decade or more.",
+          "Oregon has no inheritance tax for estates under $1 million, and the federal estate tax threshold is significantly higher — meaning most Albany homeowners doing a straightforward primary residence downsize are not in estate tax territory. The primary tax consideration is federal and state capital gains on the home sale, where the primary residence exclusion ($250,000 single/$500,000 married, if you have lived in the home 2 of the last 5 years) shelters most Albany sellers from any taxable gain. Consulting with a CPA or fee-only financial advisor before the sale closes is the most effective way to ensure the equity is deployed in a way that matches your specific retirement timeline and income situation.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions: Downsizing in Albany, Oregon",
+        paragraphs: [
+          "What is the best neighborhood to downsize to in Albany, Oregon? For walkability and lifestyle, Historic Downtown Albany (Monteith and Hackleman districts) is the top choice for most Albany downsizers — restaurants, the farmers market, riverfront access, and everyday services within walking distance, with smaller homes in the $320,000–$450,000 range. For newer construction and lower maintenance, Knox Butte and Oak Creek offer single-level ranch homes at similar prices. South Albany and Periwinkle provide the most affordable entry points. The right choice depends on your specific lifestyle priorities and equity budget.",
+          "How much equity will I free up by downsizing in Albany? It depends on your current home's value and remaining mortgage balance. A homeowner selling a $480,000 North Albany family home with no mortgage and purchasing a $355,000 replacement home frees approximately $85,000–$100,000 in equity after transaction costs. A homeowner with a $150,000 remaining balance on the same property would free approximately $230,000–$260,000 net. Use these numbers as rough planning inputs and get a current CMA from Cadwell Group to calculate your specific scenario — (541) 619-4303.",
+          "Do I have to pay capital gains tax when I downsize my Albany home? In most cases, no. The federal primary residence capital gains exclusion allows married couples filing jointly to exclude up to $500,000 in gain from the sale of a home they have lived in for at least 2 of the last 5 years. Single filers exclude up to $250,000. Albany homeowners who purchased before 2018 and have not significantly renovated are unlikely to have gains exceeding these thresholds given current market values. Oregon does not impose a separate capital gains tax on primary residence sales within the federal exclusion. Consult a CPA to confirm your specific situation before closing.",
         ],
       },
     ],

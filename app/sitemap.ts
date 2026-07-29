@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { site } from "@/lib/site";
 import { getAllNeighborhoodSlugs, getAllBlogSlugs } from "@/lib/home-content";
+import { getAllFaqs } from "@/lib/faq-utils";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = site.websiteUrl.replace(/\/$/, "");
@@ -51,5 +52,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   );
 
-  return [...staticEntries, ...neighborhoodEntries, ...blogEntries];
+  const faqEntries: MetadataRoute.Sitemap = getAllFaqs().map((faq) => ({
+    url: `${base}/faq/${faq.slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
+  return [...staticEntries, ...neighborhoodEntries, ...blogEntries, ...faqEntries];
 }

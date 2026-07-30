@@ -259,8 +259,8 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "sell-your-home-in-albany-oregon",
     publishedAt: "June 5, 2026",
-    title: "Sell Your Home in Albany, Oregon with Cadwell Group",
-    dek: "Expert guidance for fast, profitable home sales — pricing strategies, cinematic marketing, staging, and negotiation in the Albany Oregon market.",
+    title: "How to Sell Your Home in Albany, Oregon in 2026",
+    dek: "Step-by-step seller strategy for Albany Oregon — how to price correctly, what repairs pay off, when to list, and how to net the most from your sale.",
     eyebrow: "Seller Guide",
     category: "Selling",
     imageSrc: "/images/blog-sell-your-home-albany-oregon.png",
@@ -268,38 +268,38 @@ export const blogPosts: BlogPost[] = [
     href: "/blog/sell-your-home-in-albany-oregon",
     sections: [
       {
-        heading: "How to Quickly Sell Your Home in Albany",
+        heading: "Albany's 2026 Seller Market: What the Numbers Say",
         paragraphs: [
-          "Selling your home quickly in Albany requires strategic planning and execution. The process starts with effective pre-market positioning — preparing your home for sale and setting the right price. Implementing cinematic marketing techniques can also attract potential buyers, showcasing your property's unique features through high-quality visuals.",
-          "Maintaining transparent negotiation processes enhances buyer confidence. By combining these strategies, you can significantly increase your chances of a fast sale.",
+          "Albany's housing market in 2026 favors prepared sellers. The median sale price is approximately $420,000, with well-priced homes averaging 18–22 days on market. Listings in North Albany near top-rated schools are selling faster — often within 7–14 days — while correctly priced homes in South Albany and Periwinkle are averaging 20–30 days. Year-over-year appreciation is running at approximately 4.2%, meaning sellers who have owned for 5+ years are walking away with significant equity gains.",
+          "The $350,000–$500,000 price range is Albany's most competitive segment. Buyers in this range are pre-approved, move-ready, and actively comparing options. Sellers who price accurately and present well are capturing strong offers; sellers who price aspirationally are sitting on the market and eventually reducing. The difference between a 10-day sale and a 60-day sale in Albany almost always comes down to price and presentation — not luck.",
         ],
       },
       {
-        heading: "Pricing Strategies That Work",
+        heading: "How to Price Your Albany Home Correctly",
         paragraphs: [
-          "Determining the right price for your home is pivotal in achieving a successful sale. Pricing strategies include thorough market analyses, understanding neighborhood trends, and incorporating feedback from recent sales.",
-          "Pre-market positioning can significantly tilt the scales in your favor, ensuring that your property is both appealing and meets buyer expectations. It's essential to stay informed about current market conditions and adjust your strategies accordingly to maintain competitiveness.",
+          "The single most important decision in your Albany home sale is your list price. Price too high and you miss the surge of pre-approved buyers who evaluate your home in the first 10 days — the most valuable window of the entire listing. The right price comes from a Comparative Market Analysis based on closed sales within the past 60–90 days within a half-mile radius, adjusted for square footage, condition, lot size, and bedroom count. Automated tools like Zillow Zestimate are routinely 10–20% off for Albany properties — they cannot account for the school district premium or street-level differences between neighborhoods.",
+          "Jason Cadwell provides no-obligation CMAs for Albany sellers, typically delivered within 48 hours. The CMA includes the 3–6 most relevant comparable sales, a realistic price range with supporting data, and a net proceeds estimate so you know exactly what you walk away with before you commit to a number. Call (541) 619-4303 to schedule yours.",
         ],
       },
       {
-        heading: "Current Albany Real Estate Market Trends",
+        heading: "Which Pre-Sale Repairs and Updates Are Worth It in Albany",
         paragraphs: [
-          "The Albany real estate market showcases a steady increase in home prices, indicating a demand that continues to outpace supply in many neighborhoods. Specific areas have become highly desirable due to local amenities and community features.",
-          "Neighborhood characteristics play a significant role in determining home sale prices — the quality of local schools, proximity to amenities, and the overall desirability of the area can elevate home values. Understanding historical trends allows sellers to make informed decisions about pricing and marketing.",
+          "Not every dollar you put into your Albany home before listing comes back at close. The repairs and updates with the strongest return on investment are consistently: fresh interior paint in neutral tones ($1,500–$3,000, frequently returns $5,000–$10,000 in perceived value), professional carpet cleaning or replacement ($800–$2,500), updated light fixtures ($500–$1,500), landscaping cleanup and fresh mulch ($300–$800), and pressure-washing the driveway ($200–$400).",
+          "Larger projects — full kitchen remodels, bathroom additions, new HVAC — rarely return their full cost unless the existing conditions are genuinely failing. The exception is major deferred maintenance: a roof with documented leaks, a failing water heater, or a crawlspace moisture problem will be identified in the buyer's inspection and used as leverage to reduce your sale price or kill the deal. Addressing known functional issues before listing is almost always worth more than leaving them for the buyer to find.",
         ],
       },
       {
-        heading: "Preparing Your Home for Sale",
+        heading: "Maximizing Your First Week on the Albany Market",
         paragraphs: [
-          "Preparing your home for sale involves several critical steps. Proper staging highlights your home's strengths while making it feel inviting. Addressing minor repairs can significantly increase buyer confidence. Collaborating with your agent to analyze market positioning optimizes your selling strategy.",
-          "Key improvements with the best return on investment include curb appeal enhancements, kitchen upgrades, and bathroom renovations. Focusing on these areas transforms your home into a more desirable asset ready to capture buyer interest.",
+          "In Albany's market, the first 7–10 days on market are your highest-value window. Active, pre-approved buyers set up automatic alerts for new listings that match their criteria — your home surfaces in their inbox the moment it goes live. Capturing them requires launching with professional photography, a complete listing, and a price that immediately reads as fair. A listing that launches with phone-camera photos or an incomplete description loses buyers in the first 48 hours that it cannot get back.",
+          "Scheduling your launch for Thursday or Friday captures weekend showings — when buyers are most available to tour. Your first open house should happen that first weekend. If you receive strong interest and multiple showing requests in the first week, you are priced correctly. If your listing sits quiet for 10–14 days without offers, the price is the message — and the longer you wait to adjust, the more credibility the listing loses.",
         ],
       },
       {
-        heading: "How Staging Influences Buyer Interest",
+        heading: "Understanding Your Net Proceeds Before You Accept an Offer",
         paragraphs: [
-          "Staging plays a vital role in influencing buyer perception and can significantly impact sale speed. Effective staging emphasizes the home's best features and creates a welcoming atmosphere, allowing buyers to envision themselves living in the space.",
-          "This subjective appeal can lead to quicker offers and often results in multiple bids. Implementing effective lighting strategies, decluttering, and depersonalizing the space further enhance the property's attractiveness. With homes making quick impressions, professional staging is essential in today's competitive market.",
+          "Sellers in Albany often focus on the offer price without fully accounting for what they actually take home. Your net proceeds equal the sale price minus: your remaining mortgage balance, real estate commission, title insurance (approximately $1,200–$1,800 on a $400,000 transaction), escrow fees (approximately $800–$1,200), property tax proration, and any closing credits negotiated with the buyer. Total seller-side costs in a typical Albany transaction run 7–9% of the sale price when commission is included.",
+          "On a $440,000 sale with no remaining mortgage, a seller might net $400,000–$410,000 after all costs. Your listing agent should provide a net sheet alongside every offer you receive. If they don't, ask for one.",
         ],
       },
       {
@@ -308,6 +308,7 @@ export const blogPosts: BlogPost[] = [
           "What is the best time of year to sell a home in Albany, Oregon? Spring (March through May) and early summer (June through July) consistently produce the strongest buyer activity in Albany, driven by families wanting to close before the school year starts. Well-priced listings in North Albany and neighborhoods near top schools frequently receive multiple offers within the first two weeks during these windows. Correctly priced homes do sell in every season — fall markets can also be active for motivated buyers.",
           "How do I choose the right listing price for my Albany home? Pricing should be based on a Comparative Market Analysis using recent closed sales within the past 90 days in your specific neighborhood — not automated tools like Zillow, which can be 10–20% off for Albany properties. The right price attracts serious buyers immediately and prevents the stigma of a price reduction. Jason Cadwell provides no-obligation CMAs for Albany homeowners — call (541) 619-4303 to schedule.",
           "Should I accept the first offer I receive on my Albany home? Not necessarily — but don't dismiss it either. The first offer often comes from the most motivated buyer who has been waiting for your home to hit the market. The right response depends on how the offer compares to your listing price, the buyer's financing strength, and whether you're in a window likely to generate competing offers. A skilled listing agent will advise you on whether to accept, counter, or wait.",
+          "Is Cadwell Realty Group the same as Caldwell Realty Group Albany Oregon? Yes — Cadwell Realty Group (C-A-D-W-E-L-L) is sometimes searched as \"Caldwell Realty Group\" or \"Caldwell Real Estate Albany.\" Both refer to Jason Cadwell and the Cadwell Group, licensed in Oregon under the Jason Mitchell Group. If you found this page searching for Caldwell, you're in the right place — (541) 619-4303.",
         ],
       },
     ],
@@ -316,7 +317,7 @@ export const blogPosts: BlogPost[] = [
     slug: "sell-your-historic-downtown-albany-home",
     publishedAt: "May 29, 2026",
     title: "Sell Your Historic Downtown Albany Home with Care",
-    dek: "Expert guidance and valuation tips for selling a historic property in Downtown Albany — preservation guidelines, marketing strategies, and tax considerations.",
+    dek: "Selling a Monteith or Hackleman district home? Here's what buyers pay for historic character, how to price it right, and how to avoid the most common listing mistakes.",
     eyebrow: "Seller Guide",
     category: "Selling",
     imageSrc: "/images/blog-sell-historic-downtown-albany.png",
@@ -427,8 +428,8 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "buy-in-south-albany",
     publishedAt: "May 20, 2026",
-    title: "Buy in South Albany: Neighborhood Prospects and Schools",
-    dek: "A buyer's guide to South Albany, Oregon — quiet neighborhoods, quality schools in the GAPS district, and a steadily appreciating real estate market.",
+    title: "Buy in South Albany: Homes from $290K, Great Schools, Quiet Streets",
+    dek: "South Albany offers the most affordable entry point in the city — homes from $290K–$380K, GAPS schools, and established neighborhoods with real long-term value.",
     eyebrow: "Buyer Guide",
     category: "Neighborhoods",
     imageSrc: "/images/blog-buy-in-south-albany.png",
@@ -484,7 +485,7 @@ export const blogPosts: BlogPost[] = [
     slug: "2026-interest-rates-albany-home-buyers",
     publishedAt: "May 16, 2026",
     title: "What 2026 Interest Rates Mean for Albany Home Buyers",
-    dek: "Mortgage rate forecasts, neighborhood price dynamics, first-time buyer programs, and refinancing strategies for Albany home buyers in 2026.",
+    dek: "Mortgage rates in 2026 are running 5.4–6.1% — here's what that means for your monthly payment, buying power, and timing if you're shopping in Albany, Oregon.",
     eyebrow: "Market Insights",
     category: "Market Trends",
     imageSrc: "/images/blog-2026-interest-rates-albany-home-buyers.png",

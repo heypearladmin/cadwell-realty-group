@@ -265,7 +265,7 @@ export const neighborhoods: Neighborhood[] = [
   {
     slug: "knox-butte",
     title: "Knox Butte",
-    dek: "Newer construction, easy I-5 access, family-built streets, and views that climb gently toward the Cascades.",
+    dek: "Homes from $390K–$520K, I-5 access in minutes, newer construction since 2010, and Cascade views on quiet family streets.",
     vibe: "New & connected",
     href: "/neighborhoods/knox-butte",
     imageSrc: "/images/neighborhood-knox-butte.webp",

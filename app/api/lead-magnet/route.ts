@@ -3,7 +3,7 @@ import { NextResponse, type NextRequest } from "next/server";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-export const MAGNETS: Record<string, { label: string; tag: string; file: string }> = {
+const MAGNETS: Record<string, { label: string; tag: string; file: string }> = {
   "buyer-checklist": {
     label: "Albany Home Buyer's Checklist",
     tag: "lead-magnet-buyer-checklist",

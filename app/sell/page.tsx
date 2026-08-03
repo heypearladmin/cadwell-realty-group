@@ -4,6 +4,7 @@ import { sellerSection } from "@/lib/home-content";
 import { site } from "@/lib/site";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { serviceSchema, breadcrumbSchema, webPageSchema } from "@/lib/seo/schema";
+import { LeadMagnetForm } from "@/components/LeadMagnetForm";
 
 export const metadata: Metadata = {
   title: "Sell Your Home · Albany Oregon",
@@ -88,11 +89,17 @@ export default function SellPage() {
           ))}
         </ol>
 
-        <div className="mt-section-y border-t border-ink/[0.08] pt-10">
-          <div className="flex flex-wrap items-center justify-between gap-6">
+        <div className="mt-section-y border-t border-ink/[0.08] pt-10 grid gap-8 lg:grid-cols-2 lg:items-start">
+          <div>
             <p className="font-display text-[1.25rem] italic-serif text-ink md:text-[1.5rem]">Ready to see what your home is worth in this market?</p>
-            <Link href={site.contactPath} className="btn-primary">Get your home value</Link>
+            <Link href={site.contactPath} className="btn-primary mt-6 inline-flex">Get your home value</Link>
           </div>
+          <LeadMagnetForm
+            magnet="seller-prep-guide"
+            title="Free: Albany Seller's Prep Guide"
+            description="What to do in the 60 days before you list — repairs worth doing, what to skip, and how to price correctly."
+            ctaLabel="Download the free guide"
+          />
         </div>
       </section>
     </main>

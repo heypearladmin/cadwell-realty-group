@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { site } from "@/lib/site";
 import { JsonLd } from "@/components/seo/JsonLd";
+import { LeadMagnetForm } from "@/components/LeadMagnetForm";
 import {
   serviceSchema,
   breadcrumbSchema,
@@ -251,6 +252,23 @@ export default function AlbanyRealEstatePage() {
       </section>
 
       {/* Final CTA */}
+      <section className="section-wrap pb-section-y border-t border-ink/[0.08] pt-14">
+        <div className="grid gap-8 lg:grid-cols-2 lg:items-start">
+          <LeadMagnetForm
+            magnet="buyer-checklist"
+            title="Free: Albany Home Buyer's Checklist"
+            description="Everything you need to do before, during, and after buying a home in Albany — from credit check to closing day."
+            ctaLabel="Download the free checklist"
+          />
+          <LeadMagnetForm
+            magnet="market-report-2026"
+            title="Free: Albany Market Report 2026"
+            description="Median prices, days on market, appreciation rates, and neighborhood-by-neighborhood data for mid-2026."
+            ctaLabel="Download the free report"
+          />
+        </div>
+      </section>
+
       <section className="section-wrap pb-section-y-lg border-t border-ink/[0.08] pt-14">
         <p className="caption !text-ink/50">Ready to move?</p>
         <h2 className="display-lg mt-4 max-w-2xl text-ink">

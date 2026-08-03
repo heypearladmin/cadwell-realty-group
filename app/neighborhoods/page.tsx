@@ -5,6 +5,7 @@ import { neighborhoods } from "@/lib/home-content";
 import { site } from "@/lib/site";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { breadcrumbSchema, webPageSchema } from "@/lib/seo/schema";
+import { LeadMagnetForm } from "@/components/LeadMagnetForm";
 
 export const metadata: Metadata = {
   title: "Albany Oregon Neighborhoods",
@@ -72,6 +73,17 @@ export default function NeighborhoodsIndexPage() {
               </div>
             </Link>
           ))}
+        </div>
+      </section>
+
+      <section className="section-wrap pb-section-y-lg border-t border-ink/[0.08] pt-14">
+        <div className="max-w-lg">
+          <LeadMagnetForm
+            magnet="neighborhood-comparison"
+            title="Free: Albany Neighborhood Comparison Guide"
+            description="Side-by-side breakdown of all 5 Albany neighborhoods — prices, schools, commute times, and who each area is best for."
+            ctaLabel="Download the free comparison"
+          />
         </div>
       </section>
     </main>

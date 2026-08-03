@@ -99,14 +99,6 @@ export function SiteHeader() {
           </nav>
 
           <div className="flex items-center gap-3">
-            <a
-              href={site.phoneHref}
-              className={`hidden whitespace-nowrap text-[0.78rem] font-medium tracking-wide transition-colors duration-cinema ease-cinema xl:inline ${
-                opaque ? "text-ink/75 hover:text-cadwell" : "text-paper/85 hover:text-paper"
-              }`}
-            >
-              {site.phone}
-            </a>
             <Link
               href={site.contactPath}
               className={`hidden whitespace-nowrap !px-5 !py-2.5 sm:inline-flex ${

@@ -7,12 +7,13 @@ import Link from "next/link";
 import { site } from "@/lib/site";
 
 const links = [
+  { href: "/albany-real-estate", label: "Buying" },
+  { href: site.sellPath, label: "Selling" },
   { href: site.neighborhoodsPath, label: "Neighborhoods" },
-  { href: site.sellPath, label: "Sell" },
-  { href: site.newConstructionPath, label: "New Construction" },
-  { href: site.blogPath, label: "Journal" },
-  { href: site.aboutPath, label: "About" },
-  { href: site.contactPath, label: "Contact" },
+  { href: "/living-here", label: "Living Here" },
+  { href: "/local-business-guide", label: "Local Business Guide" },
+  { href: site.blogPath, label: "Blog" },
+  { href: "/resources", label: "Resources" },
 ] as const;
 
 export function SiteHeader() {
@@ -82,14 +83,14 @@ export function SiteHeader() {
             </span>
           </Link>
 
-          <nav className="hidden items-center gap-7 lg:flex" aria-label="Primary">
+          <nav className="hidden items-center gap-6 lg:flex" aria-label="Primary">
             {links.map((l) => (
               <Link
                 key={l.href}
                 href={l.href}
-                className={`nav-link text-[0.74rem] font-semibold uppercase tracking-[0.24em] transition-colors duration-cinema ease-cinema ${
+                className={`nav-link text-[0.9rem] font-medium transition-colors duration-cinema ease-cinema ${
                   opaque
-                    ? "text-ink/75 hover:text-cadwell"
+                    ? "text-ink/70 hover:text-cadwell"
                     : "text-paper/85 hover:text-paper"
                 }`}
               >

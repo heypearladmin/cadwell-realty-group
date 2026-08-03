@@ -32,13 +32,19 @@ export function NewsletterForm({
     setStatus("submitting");
     setMessage("");
     try {
-      await new Promise((r) => setTimeout(r, 600));
+      const res = await fetch("/api/newsletter", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email }),
+      });
+      const data = (await res.json().catch(() => ({}))) as { ok?: boolean; error?: string };
+      if (!res.ok || !data.ok) throw new Error(data.error || "Something went wrong. Please try again.");
       setStatus("ok");
       setMessage("You are on the list. Thanks for signing up.");
       setEmail("");
-    } catch {
+    } catch (err) {
       setStatus("error");
-      setMessage("Something went wrong. Please try again.");
+      setMessage(err instanceof Error ? err.message : "Something went wrong. Please try again.");
     }
   }
 

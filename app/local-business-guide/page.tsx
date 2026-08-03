@@ -166,7 +166,7 @@ export default function LocalBusinessGuidePage() {
           <span className="italic-serif">built from real transactions.</span>
         </h1>
         <p className="dek mt-8 max-w-2xl">
-          Every name on this list has worked with Cadwell Group clients. These aren't paid placements or random searches — they're professionals who've earned a place on this page by doing good work.
+          Every name on this list has worked with Cadwell Group clients. These aren&rsquo;t paid placements or random searches — they&rsquo;re professionals who&rsquo;ve earned a place on this page by doing good work.
         </p>
       </section>
 

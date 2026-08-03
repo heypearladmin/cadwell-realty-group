@@ -108,10 +108,10 @@ export default function LivingHerePage() {
         </div>
         <h1 className="display-xl mt-7 max-w-3xl text-ink">
           Albany, Oregon —{" "}
-          <span className="italic-serif">a local's honest guide.</span>
+          <span className="italic-serif">a local&rsquo;s honest guide.</span>
         </h1>
         <p className="dek mt-8 max-w-2xl">
-          What it's actually like to live here. Commutes, healthcare, schools, weather, events, and the things only locals know — written for people seriously considering making Albany home.
+          What it&rsquo;s actually like to live here. Commutes, healthcare, schools, weather, events, and the things only locals know — written for people seriously considering making Albany home.
         </p>
       </section>
 

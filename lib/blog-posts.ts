@@ -918,7 +918,6 @@ export const blogPosts: BlogPost[] = [
     imageAlt: "Knox Butte and Oak Creek Albany Oregon — newer construction homes on a tree-lined residential street.",
     href: "/blog/knox-butte-oak-creek-neighborhood-guide",
     publishedAt: "July 24, 2026",
-    isNew: true,
     sections: [
       {
         heading: "Where Knox Butte and Oak Creek Fit in Albany's Neighborhood Map",
@@ -982,7 +981,6 @@ export const blogPosts: BlogPost[] = [
     imageAlt: "Albany Oregon home seller reviewing paperwork with a real estate agent — preparing to list a home.",
     href: "/blog/albany-home-seller-timeline-decision-to-close",
     publishedAt: "July 26, 2026",
-    isNew: true,
     sections: [
       {
         heading: "Overview: How Long Does It Take to Sell a Home in Albany?",
@@ -1160,6 +1158,141 @@ export const blogPosts: BlogPost[] = [
           "What is the best neighborhood to downsize to in Albany, Oregon? For walkability and lifestyle, Historic Downtown Albany (Monteith and Hackleman districts) is the top choice for most Albany downsizers — restaurants, the farmers market, riverfront access, and everyday services within walking distance, with smaller homes in the $320,000–$450,000 range. For newer construction and lower maintenance, Knox Butte and Oak Creek offer single-level ranch homes at similar prices. South Albany and Periwinkle provide the most affordable entry points. The right choice depends on your specific lifestyle priorities and equity budget.",
           "How much equity will I free up by downsizing in Albany? It depends on your current home's value and remaining mortgage balance. A homeowner selling a $480,000 North Albany family home with no mortgage and purchasing a $355,000 replacement home frees approximately $85,000–$100,000 in equity after transaction costs. A homeowner with a $150,000 remaining balance on the same property would free approximately $230,000–$260,000 net. Use these numbers as rough planning inputs and get a current CMA from Cadwell Group to calculate your specific scenario — (541) 619-4303.",
           "Do I have to pay capital gains tax when I downsize my Albany home? In most cases, no. The federal primary residence capital gains exclusion allows married couples filing jointly to exclude up to $500,000 in gain from the sale of a home they have lived in for at least 2 of the last 5 years. Single filers exclude up to $250,000. Albany homeowners who purchased before 2018 and have not significantly renovated are unlikely to have gains exceeding these thresholds given current market values. Oregon does not impose a separate capital gains tax on primary residence sales within the federal exclusion. Consult a CPA to confirm your specific situation before closing.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "albany-vs-corvallis-oregon-home-buyers",
+    title: "Albany vs. Corvallis: Which Oregon City Should You Buy In?",
+    dek: "Price, schools, commute, and lifestyle compared side-by-side — the honest breakdown for buyers deciding between Albany and Corvallis in 2026.",
+    eyebrow: "Buyer Guide",
+    category: "Market Insight",
+    imageSrc: "/images/blog-albany-vs-corvallis.png",
+    imageAlt: "Willamette Valley view representing the choice between Albany and Corvallis Oregon for home buyers.",
+    href: "/blog/albany-vs-corvallis-oregon-home-buyers",
+    publishedAt: "August 5, 2026",
+    isNew: true,
+    sections: [
+      {
+        heading: "The Question Every Willamette Valley Buyer Eventually Asks",
+        paragraphs: [
+          "Albany and Corvallis sit 10 miles apart on Highway 20. To an outsider, they look like the same market. To anyone who has spent time in both cities — and especially to anyone shopping for a home — they are meaningfully different in ways that matter for the long term. Price is the most obvious difference. Albany's median home price in mid-2026 is approximately $420,000. Corvallis sits at $540,000–$570,000 for comparable properties. That $120,000–$150,000 gap is the starting point for this comparison, not the ending point.",
+          "The real question is what you get for that premium — and whether those things match what you actually need from where you live. This guide works through the honest comparison across price, schools, commute, lifestyle, and long-term value, so you can make a decision based on your specific situation rather than on a general sense that one city is 'better' than the other.",
+        ],
+      },
+      {
+        heading: "Home Prices: Albany vs. Corvallis in 2026",
+        paragraphs: [
+          "The price gap between Albany and Corvallis is persistent and structural, not a temporary market condition. Corvallis commands a premium driven by Oregon State University's employment base, the concentration of tech and research jobs in the area, and decades of housing supply constraint from Benton County's urban growth boundary policies. In practical terms: a three-bedroom, two-bathroom home on a standard lot that lists for $420,000 in North Albany lists for $540,000–$565,000 in a comparable Corvallis neighborhood. New construction in Albany's Knox Butte and Oak Creek corridors runs $450,000–$625,000. Comparable new builds in Corvallis — when available — typically start at $575,000 and run well past $700,000.",
+          "For buyers with a budget under $475,000, Albany isn't a compromise — it's often the only realistic path to homeownership in this corridor. For buyers with a budget of $550,000 or above, Corvallis becomes genuinely competitive and the comparison becomes more nuanced. The monthly payment difference on a $120,000 price gap at 6.5% (30-year fixed, 20% down) is approximately $640 per month. Over 10 years, that's $76,800 in additional carrying cost before accounting for property taxes, which run higher in Benton County than Linn County. Albany's Linn County property taxes average approximately 1.1% of assessed value annually; Benton County properties in Corvallis average closer to 1.3–1.5%.",
+        ],
+      },
+      {
+        heading: "Schools: GAPS vs. Corvallis School District",
+        paragraphs: [
+          "Schools are frequently cited as the primary reason buyers pay the Corvallis premium, and the comparison here is real but more nuanced than commonly presented. The Corvallis School District consistently ranks among Oregon's top 5 districts — high test scores, strong AP participation, significant parental involvement, and a college-town culture that permeates the educational environment from elementary through high school. Corvallis High School and Crescent Valley High School both have strong reputations, and the district's overall performance reflects the demographics of a university town with above-average household income and education levels.",
+          "The Greater Albany Public Schools (GAPS) district is genuinely competitive at the elementary level and above state averages in most metrics. The performance gap widens at the high school level, where GAPS schools trail Corvallis in college placement rates and AP course availability. West Albany and South Albany High Schools both offer solid programs, but parents who closely compare school performance data will find a measurable advantage in the Corvallis district. The key nuance: portions of North Albany fall within Benton County and may access Corvallis School District attendance zones. For buyers whose primary driver is school quality, confirming the specific attendance zone for any given Albany property before writing an offer is essential — the difference can sometimes be a single street.",
+        ],
+      },
+      {
+        heading: "Commute and Location: Who Benefits from Each City",
+        paragraphs: [
+          "If you work at Oregon State University, in Corvallis's tech or research sector, or at any of the major Corvallis-based employers (HP Inc., Garmin, ONAMI), buying in Corvallis eliminates a daily commute and the costs and time associated with it. A 10-mile, 20-minute Highway 20 commute sounds manageable — and it is, if you make it occasionally. For buyers commuting daily in both directions, the 40-minute round-trip adds up to approximately 170 hours per year, or the equivalent of four additional workweeks spent in the car. That's a real quality-of-life consideration.",
+          "Albany buyers who work in Salem, Portland, or Eugene benefit from Albany's Interstate 5 access in a way Corvallis buyers do not. Albany is 25 miles from Salem and 75 miles from Portland on I-5. Corvallis is not on I-5 — reaching the interstate requires the Highway 20 connector regardless of direction. For buyers with jobs in the Portland metro, Salem, or Eugene, Albany's position on I-5 is a meaningful practical advantage. Albany Station's Amtrak Cascades service also gives Albany buyers a car-free Portland option on a reliable schedule — a commuting advantage Corvallis cannot match.",
+        ],
+      },
+      {
+        heading: "Lifestyle: What Each City Actually Feels Like",
+        paragraphs: [
+          "Corvallis has a university-town energy that shapes its character year-round. The farmers market, independent restaurants, outdoor recreation culture, cycling infrastructure, and arts scene reflect a community built around Oregon State University. For buyers who want a walkable, progressive, amenity-rich small-city environment, Corvallis delivers that at a density Albany does not currently match. The trade-off is that Corvallis can feel transient — a significant portion of its population turns over with student cycles — and its housing market is heavily influenced by university-driven demand that pushes prices without being tied to typical regional economic fundamentals.",
+          "Albany's character is more distinctly its own — a working Willamette Valley city with deep manufacturing and agricultural roots, a walkable historic downtown, two rivers, and a community identity not defined by any single institution. The Historic Downtown's First Friday Art Walk, the Timber Carnival, the Farmers Market, and the riverfront trail system are genuine quality-of-life assets. Albany is quieter than Corvallis in terms of nightlife and density, which is a feature for some buyers and a gap for others. For families, the pace and character of Albany neighborhoods — particularly North Albany's newer subdivisions — is often described as a strong fit for the stage of life where schools, safety, and outdoor space matter most.",
+        ],
+      },
+      {
+        heading: "Long-Term Value and Appreciation: Which Market Is Stronger?",
+        paragraphs: [
+          "Both Albany and Corvallis have appreciated steadily over the past decade, but for different structural reasons. Corvallis appreciation is tied closely to OSU enrollment growth, the local tech sector, and Benton County's strict urban growth boundary, which constrains supply. Albany's appreciation reflects broader Willamette Valley population growth, improving local employment, and the long-term migration of buyers priced out of higher-cost Oregon cities. Both cities are within the same regional economy and subject to the same interest rate and employment forces.",
+          "One long-term value consideration that favors Albany: its appreciation runway may be longer precisely because prices are lower. Markets that have already appreciated 60–80% in a decade have compressed future upside relative to markets that have appreciated 40–50%. Albany's entry price point also makes it accessible to a broader buyer pool, which supports liquidity — the ability to sell when you need to. Corvallis's higher price point narrows the buyer pool and creates more volatility at the top of the price range. For investment-minded buyers who intend to sell within 5–10 years, Albany's liquidity and affordability are real considerations alongside Corvallis's premium positioning.",
+        ],
+      },
+      {
+        heading: "Who Should Buy in Albany vs. Corvallis",
+        paragraphs: [
+          "Buy in Albany if: your budget is under $500,000; you work in Salem, Portland, Eugene, or anywhere on I-5; you value lower carrying costs and the ability to own more square footage; you want new construction with modern finishes; or your school zone research confirms North Albany properties with Benton County school access that match what Corvallis offers at lower cost.",
+          "Buy in Corvallis if: you work at OSU or a Corvallis employer and a daily Highway 20 commute is a genuine quality-of-life factor; your budget supports the premium and you prioritize school district performance without the research required to locate the right Albany school zones; or the Corvallis lifestyle — walkability, restaurant density, arts access — is a primary driver for your household. Neither city is the wrong answer. The right answer is the one that matches your actual life, not someone else's comparison. Jason Cadwell at Cadwell Group works with buyers across both markets and can help you evaluate specific properties in both corridors before you commit — contact (541) 619-4303.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions: Albany vs. Corvallis for Home Buyers",
+        paragraphs: [
+          "Is Albany or Corvallis better for families? Both cities work well for families, but the right answer depends on your school priorities and budget. Corvallis School District has a documented performance advantage, particularly at the high school level. However, North Albany properties in Benton County school zones can access Corvallis district schools at Albany prices — making North Albany the value-optimized choice for school-focused families who do their zone research. For families where school performance is the primary driver and budget is flexible, Corvallis's straightforward district access simplifies the decision.",
+          "How much cheaper is Albany than Corvallis? Albany's median home price is approximately $120,000–$150,000 lower than Corvallis for comparable properties in mid-2026. On a 30-year mortgage at 6.5% with 20% down, that difference translates to roughly $600–$800 per month in lower payments, plus lower property taxes in Linn County vs. Benton County. The total carrying cost difference over a 5-year ownership period can exceed $55,000–$65,000.",
+          "Can I buy in Albany and send my kids to Corvallis schools? Some North Albany properties fall within Benton County and may be assigned to Corvallis School District attendance zones. This is not universal — many North Albany properties are in Linn County and within GAPS. Confirming the county line and school zone for a specific address before making an offer is essential. A knowledgeable local agent can run this check for any property you're evaluating.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "historic-downtown-albany-oregon-neighborhood-guide",
+    title: "Historic Downtown Albany, Oregon: The Neighborhood Guide for Buyers",
+    dek: "Monteith and Hackleman districts, riverfront access, Victorian homes, and a walkable core — what buyers need to know before purchasing in Historic Downtown Albany.",
+    eyebrow: "Neighborhood Guide",
+    category: "Neighborhoods",
+    imageSrc: "/images/blog-historic-downtown-albany.png",
+    imageAlt: "Historic Downtown Albany Oregon — Victorian and Craftsman homes in the Monteith and Hackleman historic districts.",
+    href: "/blog/historic-downtown-albany-oregon-neighborhood-guide",
+    publishedAt: "August 8, 2026",
+    isNew: true,
+    sections: [
+      {
+        heading: "What Makes Historic Downtown Albany Different from Every Other Albany Neighborhood",
+        paragraphs: [
+          "Every Albany neighborhood has an identity. North Albany is new construction and schools. South Albany is value and established streets. Knox Butte is family-oriented growth. Historic Downtown is something else entirely — a walkable, character-rich urban core built over 150 years of Willamette Valley history, where a Craftsman bungalow from 1912 sits three blocks from the riverfront path and two blocks from the Saturday farmers market. It is the only neighborhood in Albany where you can genuinely leave your car in the garage for an entire weekend.",
+          "Historic Downtown Albany comprises two formally designated historic districts: the Monteith District and the Hackleman District. Both are listed on the National Register of Historic Places. The Monteith District covers the area around First and Second Avenues near the Willamette River, named for Thomas Monteith who platted the original townsite. The Hackleman District extends south and east, covering the denser residential blocks of Victorian-era Albany. Together they contain over 700 historic homes spanning Queen Anne, Craftsman, Italianate, and Colonial Revival architectural styles — the largest and most intact collection of Victorian-era architecture in Oregon west of the Cascades.",
+        ],
+      },
+      {
+        heading: "Home Prices in Historic Downtown Albany in 2026",
+        paragraphs: [
+          "Historic Downtown Albany offers a wider price range than most Albany neighborhoods because the housing stock varies dramatically in condition, size, and renovation status. A two-bedroom, 1,100 square foot Craftsman bungalow in original condition (needing updates) can be found in the $310,000–$360,000 range. A fully renovated four-bedroom Victorian on a corner lot runs $480,000–$560,000. The spread reflects the renovation premium — updated kitchens, modernized systems, and restored historic detail command 20–30% more than comparable unrenovated properties in the same block.",
+          "The per-square-foot value in Historic Downtown often beats newer Albany neighborhoods when condition is held constant. A well-renovated 1,600 square foot Craftsman in the Hackleman District at $420,000 represents better value on a price-per-square-foot basis than a comparable new construction home in Knox Butte at $495,000 — and offers character and location that new construction cannot replicate. The trade-off is maintenance complexity: older homes require more active upkeep, older plumbing and electrical systems present ongoing management requirements, and renovation projects must navigate historic district design guidelines that restrict certain exterior changes.",
+        ],
+      },
+      {
+        heading: "The Monteith District vs. the Hackleman District: What's the Difference?",
+        paragraphs: [
+          "Both districts share the same architectural era and historic designation, but they have distinct micro-characters worth understanding before you search. The Monteith District occupies the original townsite blocks closest to the Willamette River and First Avenue — the most walkable section of downtown Albany, with direct access to Monteith Riverpark, the Dave Clark Riverfront Path, downtown restaurants, and the Saturday farmers market. Homes in the Monteith District tend to be slightly larger on average and sit on the oldest platted lots in the city. This is the section of Historic Downtown that draws the most buyer attention and commands the highest prices.",
+          "The Hackleman District covers the adjacent residential blocks extending south and east from downtown, roughly bounded by the rail corridor and Salem Avenue. It is quieter, more residential in character, and slightly more accessible in price — while sharing the same architectural stock and historic designation. For buyers who want the Historic Downtown character and walkability but find Monteith District prices stretched, the Hackleman District frequently offers comparable homes at a 5–10% discount. The two districts are separated by a short walk, not a meaningful lifestyle difference.",
+        ],
+      },
+      {
+        heading: "What Buyers Need to Know About Purchasing a Historic Home",
+        paragraphs: [
+          "Buying in a historic district is different from buying new construction in ways that matter before and after closing. The most important upfront consideration is the home inspection. Historic homes in Albany frequently have cast iron or galvanized steel plumbing, knob-and-tube or early aluminum wiring, older HVAC systems, and foundation types — pier and post, stone, early concrete — that require specialized evaluation. A standard home inspection is necessary but not sufficient. Requesting a sewer scope (to assess sewer line condition from house to street) and reviewing the electrical panel carefully are non-negotiable steps in any Historic Downtown purchase.",
+          "After purchase, exterior modifications to homes in the historic districts require review by the City of Albany's Historic Resource Commission. This applies to changes visible from the street: new siding, window replacement, additions, garage doors, and significant landscaping changes. The goal is preservation of the neighborhood's historic character, not prevention of all change — most reasonable updates are approved with appropriate materials and design. But buyers who plan to replace original wood windows with vinyl, add a large modern addition, or make significant exterior changes should review Albany's historic design guidelines before closing to confirm their plans are feasible. Interior renovations are not regulated.",
+        ],
+      },
+      {
+        heading: "Walkability, Parks, and Daily Life in Historic Downtown Albany",
+        paragraphs: [
+          "The walkability of Historic Downtown Albany is genuine by Pacific Northwest small-city standards — not Portland or Eugene walkability, but meaningful by Albany standards. From most Historic Downtown addresses, you can walk to the Saturday farmers market (spring through fall), multiple coffee shops, Sybaris Bistro and other downtown restaurants, the Willamette riverfront path, Monteith Riverpark, and First Friday Art Walk without a car. The Dave Clark Riverfront Path connects to Bowman Park and runs north along the Willamette, giving residents a year-round walking and cycling corridor that most Albany neighborhoods do not have.",
+          "Monteith Riverpark is the social center of Historic Downtown's outdoor life — the venue for the Albany Timber Carnival, summer concerts, and community events throughout the year. For residents who want to be embedded in Albany's community events calendar rather than driving to them, Historic Downtown is the only neighborhood that delivers that without planning. The trade-off is that daily errands requiring larger grocery runs or big-box retail still require a car — the neighborhood's walkability is concentrated around restaurants, cafes, and recreational access rather than everyday commercial infrastructure.",
+        ],
+      },
+      {
+        heading: "Who Is Historic Downtown Albany Best For?",
+        paragraphs: [
+          "Historic Downtown Albany attracts a consistent buyer profile: empty nesters and downsizers who want walkability and character without the maintenance of a large suburban home; remote workers who want an urban feel at a fraction of Portland's cost; design-conscious buyers who prioritize original architectural detail over square footage; and buyers relocating from Portland, the Bay Area, or Seattle who have a high tolerance for older-home maintenance and a strong preference for neighborhood character. It is less commonly the first choice of families with school-age children, primarily because the Monteith and Hackleman districts feed into Albany elementary schools whose ratings trail North Albany options.",
+          "For the right buyer, Historic Downtown Albany offers something unavailable in any other Albany neighborhood: a home with 100+ years of character, riverfront access on foot, a walkable community life, and a price point that is still achievable at $350,000–$480,000 for a renovated property. That combination does not exist in Corvallis, Salem, or Portland at any comparable price point. The buyers who thrive in Historic Downtown understand that they are not buying square footage — they are buying a way of living in Albany that is distinct from everything else the city offers.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions: Historic Downtown Albany, Oregon",
+        paragraphs: [
+          "What is the difference between the Monteith and Hackleman historic districts? Both are National Register-listed historic districts sharing Albany's Victorian and Craftsman architectural heritage. The Monteith District is closer to the Willamette River and downtown's commercial core — more walkable, slightly higher priced. The Hackleman District is the adjacent residential area to the south and east — quieter, slightly more affordable, same architectural character. Most buyers consider both districts part of the same Historic Downtown neighborhood; the designation distinction primarily affects which City review process applies to exterior changes.",
+          "Are there restrictions on renovating a historic home in Albany? Exterior modifications visible from the street require review by Albany's Historic Resource Commission. Interior renovations are unrestricted. Common exterior projects — window replacement, siding, additions — are typically approvable with historically appropriate materials and design. Buyers planning significant exterior modifications should review Albany's historic design guidelines and consult with the City's planning department before closing to confirm project feasibility.",
+          "What are home prices in Historic Downtown Albany in 2026? Prices range from approximately $310,000 for smaller unrenovated Craftsman bungalows to $560,000+ for fully renovated four-bedroom Victorians. Renovated three-bedroom properties in good condition typically land in the $390,000–$480,000 range. The renovation premium is meaningful — updated systems, kitchens, and historically appropriate finishes add 20–30% to comparable unrenovated properties on the same block. Contact Jason Cadwell at Cadwell Group for current market data specific to the address you are evaluating.",
         ],
       },
     ],

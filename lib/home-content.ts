@@ -14,8 +14,8 @@ export const heroContent = {
   dek: "Cadwell Group is the trusted hyperlocal authority for Albany homeowners, sellers, and the families moving here next. Local strategy, calm guidance, and modern marketing that actually moves the needle.",
   primaryCta: { label: "Book a consultation", href: "/contact" },
   secondaryCta: { label: "Explore Albany homes", href: "/neighborhoods" },
-  landscapeSrc: "/images/hero-albany-willamette.webp",
-  portraitSrc: "/images/hero-albany-willamette-mobile.webp",
+  landscapeSrc: "/images/hero-albany-willamette.png",
+  portraitSrc: "/images/hero-albany-willamette-mobile.png",
   imageAlt:
     "Cinematic golden-hour view of the Willamette River and downtown Albany, Oregon with warm documentary lighting.",
   marqueeLines: [
@@ -79,7 +79,7 @@ export const exploreTiles: ExploreTile[] = [
     title: "The Willamette & the Calapooia",
     dek: "Two rivers, one town. Riverfront paths, sturgeon mornings, and the quiet bends that locals keep for sunset.",
     href: "/blog/river-life",
-    imageSrc: "/images/explore-willamette-river.webp",
+    imageSrc: "/images/explore-willamette-river.png",
     imageAlt:
       "Soft morning light over the Willamette River in Albany, Oregon with mist rising off the water.",
   },
@@ -88,7 +88,7 @@ export const exploreTiles: ExploreTile[] = [
     title: "Historic downtown Albany",
     dek: "More National Register homes than almost anywhere on the West Coast. Brickwork, bookshops, and Saturday mornings on First Avenue.",
     href: "/blog/downtown-albany",
-    imageSrc: "/images/explore-downtown-albany.webp",
+    imageSrc: "/images/explore-downtown-albany.png",
     imageAlt:
       "Historic downtown Albany Oregon at golden hour with brick facades and warm storefront light.",
   },
@@ -97,7 +97,7 @@ export const exploreTiles: ExploreTile[] = [
     title: "Schools & school paths",
     dek: "Greater Albany Public Schools, charter options, and the neighborhoods that walk to their bell.",
     href: "/blog/schools",
-    imageSrc: "/images/explore-albany-schools.webp",
+    imageSrc: "/images/explore-albany-schools.png",
     imageAlt:
       "Tree-lined walking path leading to an Albany elementary school in soft afternoon light.",
   },
@@ -106,7 +106,7 @@ export const exploreTiles: ExploreTile[] = [
     title: "Parks & the riverfront",
     dek: "Monteith, Bryant, Takena Landing. Where families gather, dogs run, and Albany takes its weekend breath.",
     href: "/blog/parks",
-    imageSrc: "/images/explore-albany-parks.webp",
+    imageSrc: "/images/explore-albany-parks.png",
     imageAlt:
       "Families walking the Albany riverfront path at golden hour with autumn trees overhead.",
   },
@@ -115,7 +115,7 @@ export const exploreTiles: ExploreTile[] = [
     title: "Where Albany eats",
     dek: "Sybaris, Calapooia Brewing, Frankie's, and the corner spots locals quietly send their out-of-town family to first.",
     href: "/blog/restaurants",
-    imageSrc: "/images/explore-albany-restaurants.webp",
+    imageSrc: "/images/explore-albany-restaurants.png",
     imageAlt:
       "Warmly lit downtown Albany restaurant interior with brick walls and pendant lighting.",
   },
@@ -124,7 +124,7 @@ export const exploreTiles: ExploreTile[] = [
     title: "Weekend rhythm",
     dek: "Farmers market Saturdays, antique strolls down Lyon Street, slow Sunday coffee, and harvest drives toward the foothills.",
     href: "/blog/weekends",
-    imageSrc: "/images/explore-albany-farmers-market.webp",
+    imageSrc: "/images/explore-albany-farmers-market.png",
     imageAlt:
       "Albany Saturday farmers market with woven baskets of fresh Willamette Valley produce in soft morning light.",
   },
@@ -133,7 +133,7 @@ export const exploreTiles: ExploreTile[] = [
     title: "Neighborhood guides",
     dek: "North Albany, Periwinkle, South Albany, Knox Butte, Oak Creek. What each pocket is actually like to live in.",
     href: "/neighborhoods",
-    imageSrc: "/images/explore-albany-neighborhoods.webp",
+    imageSrc: "/images/explore-albany-neighborhoods.png",
     imageAlt:
       "Tree canopied residential street in North Albany with mature maples arching over the lane.",
   },
@@ -142,7 +142,7 @@ export const exploreTiles: ExploreTile[] = [
     title: "Hidden corners",
     dek: "Talking Water Gardens, Timber-Linn loops, the back routes to Lebanon. The Albany only locals reliably find.",
     href: "/blog/hidden-corners",
-    imageSrc: "/images/explore-albany-hidden-corners.webp",
+    imageSrc: "/images/explore-albany-hidden-corners.png",
     imageAlt:
       "Quiet wetland boardwalk at Talking Water Gardens with reflective pools and tall grasses.",
   },
@@ -248,7 +248,7 @@ export const neighborhoods: Neighborhood[] = [
     dek: "Across the Willamette and quietly its own town. Top schools, wide lots, and a calm that feels earned.",
     vibe: "Family-scale & calm",
     href: "/neighborhoods/north-albany",
-    imageSrc: "/images/neighborhood-north-albany.webp",
+    imageSrc: "/images/neighborhood-north-albany.png",
     imageAlt:
       "North Albany residential street at golden hour with mature trees and craftsman-style homes.",
   },
@@ -258,7 +258,7 @@ export const neighborhoods: Neighborhood[] = [
     dek: "Monteith and Hackleman districts. National Register homes, brick blocks, riverfront, and a Saturday rhythm.",
     vibe: "Walkable & historic",
     href: "/neighborhoods/historic-downtown",
-    imageSrc: "/images/neighborhood-historic-downtown.webp",
+    imageSrc: "/images/neighborhood-historic-downtown.png",
     imageAlt:
       "Historic downtown Albany Oregon at soft hour with brick storefronts and First Avenue light.",
   },
@@ -268,7 +268,7 @@ export const neighborhoods: Neighborhood[] = [
     dek: "Homes from $390K–$520K, I-5 access in minutes, newer construction since 2010, and Cascade views on quiet family streets.",
     vibe: "New & connected",
     href: "/neighborhoods/knox-butte",
-    imageSrc: "/images/neighborhood-knox-butte.webp",
+    imageSrc: "/images/neighborhood-knox-butte.png",
     imageAlt:
       "Aerial view of Knox Butte neighborhood in east Albany with new homes and Cascade foothills beyond.",
   },
@@ -278,7 +278,7 @@ export const neighborhoods: Neighborhood[] = [
     dek: "Mid-century roots and mature canopy. The kind of pocket where neighbors know each other and home values quietly hold.",
     vibe: "Established & leafy",
     href: "/neighborhoods/periwinkle",
-    imageSrc: "/images/neighborhood-periwinkle.webp",
+    imageSrc: "/images/neighborhood-periwinkle.png",
     imageAlt:
       "Periwinkle neighborhood in Albany Oregon with mature canopy oaks arching over a quiet residential lane.",
   },
@@ -288,7 +288,7 @@ export const neighborhoods: Neighborhood[] = [
     dek: "Wide lots, modern builds, walking trails, and an everyday quiet most growing families are quietly chasing.",
     vibe: "Quiet & growing",
     href: "/neighborhoods/oak-creek",
-    imageSrc: "/images/neighborhood-oak-creek.webp",
+    imageSrc: "/images/neighborhood-oak-creek.png",
     imageAlt:
       "Aerial of Oak Creek master-planned community in south Albany Oregon with trails and Cascade horizon.",
   },
@@ -321,7 +321,7 @@ export const videoCards: VideoCard[] = [
     eyebrow: "Market update",
     title: "What Albany is actually doing this month",
     dek: "Inventory by price band, what closed, and where the smart move is right now.",
-    posterSrc: "/images/video-market-update-poster.webp",
+    posterSrc: "/images/video-market-update-poster.png",
     posterAlt:
       "Editorial film poster of Albany Oregon skyline at soft hour with the Willamette bending through.",
     runtime: "6 min",
@@ -332,7 +332,7 @@ export const videoCards: VideoCard[] = [
     eyebrow: "Community spotlight",
     title: "A Saturday morning at Monteith Park",
     dek: "A walk through one of the most quietly beloved corners of Albany.",
-    posterSrc: "/images/video-community-spotlight-poster.webp",
+    posterSrc: "/images/video-community-spotlight-poster.png",
     posterAlt:
       "Cinematic still of Monteith Park footbridge in Albany Oregon with mature trees and morning sunlight.",
     runtime: "4 min",
@@ -343,7 +343,7 @@ export const videoCards: VideoCard[] = [
     eyebrow: "Lifestyle reel",
     title: "One perfect day in Albany",
     dek: "Coffee on First, paths along the Willamette, and the slow part of Sunday in 90 seconds.",
-    posterSrc: "/images/video-lifestyle-reel-poster.webp",
+    posterSrc: "/images/video-lifestyle-reel-poster.png",
     posterAlt:
       "Cinematic still of golden-hour light along the Willamette River in Albany with autumn trees.",
     runtime: "1 min",
@@ -460,7 +460,7 @@ export const insightCards: InsightCard[] = [
     title: "Moving to Albany, Oregon",
     dek: "Schools, commute math, weather rhythm, and which parts of town work for which season of life.",
     href: "/blog/moving-to-albany",
-    imageSrc: "/images/insight-moving-to-albany.webp",
+    imageSrc: "/images/insight-moving-to-albany.png",
     imageAlt:
       "Wide editorial photograph of Albany Oregon skyline at golden hour with river bend in foreground.",
   },
@@ -470,7 +470,7 @@ export const insightCards: InsightCard[] = [
     title: "Albany cost of living",
     dek: "Housing, taxes, utilities, and the small line items that quietly add up here vs. Portland or the coast.",
     href: "/blog/cost-of-living",
-    imageSrc: "/images/insight-cost-of-living-albany.webp",
+    imageSrc: "/images/insight-cost-of-living-albany.png",
     imageAlt:
       "Editorial flat lay of Albany home keys, a coffee, and a small leather notebook on warm paper.",
   },
@@ -480,7 +480,7 @@ export const insightCards: InsightCard[] = [
     title: "Willamette rituals & weekend rhythm",
     dek: "River paths, market mornings, harvest drives, and the slow part of Sunday locals quietly protect.",
     href: "/blog/lifestyle",
-    imageSrc: "/images/insight-albany-lifestyle.webp",
+    imageSrc: "/images/insight-albany-lifestyle.png",
     imageAlt:
       "Editorial photograph of soft morning light over the Willamette in Albany with autumn trees on the bank.",
   },
@@ -490,7 +490,7 @@ export const insightCards: InsightCard[] = [
     title: "Albany real estate trends",
     dek: "What is moving, what is sitting, and where the next chapter of the Willamette Valley is being written.",
     href: "/blog/market-trends",
-    imageSrc: "/images/insight-albany-market-trends.webp",
+    imageSrc: "/images/insight-albany-market-trends.png",
     imageAlt:
       "Aerial editorial photograph of an Albany residential corridor in soft afternoon light.",
   },
@@ -531,15 +531,15 @@ export const finalCta = {
   dek: "First-time selling, moving up, relocating to Albany, or just curious about your home's number. Send a note and we'll respond within a business day.",
   button: { label: "Schedule a consultation", href: "/contact" },
   secondary: { label: "Call Jason · (541) 619-4303", href: "tel:+15416194303" },
-  desktopSrc: "/images/cta-cascades-twilight.webp",
-  mobileSrc: "/images/cta-cascades-twilight-mobile.webp",
+  desktopSrc: "/images/cta-cascades-twilight.png",
+  mobileSrc: "/images/cta-cascades-twilight-mobile.png",
   imageAlt:
     "Twilight silhouette of the Cascade foothills outside Albany Oregon with a warm horizon glow.",
 } as const;
 
 /* ─────────────────────────── Shared texture ─────────────────────────── */
 
-export const trustTextureSrc = "/images/texture-paper-warm.webp" as const;
+export const trustTextureSrc = "/images/texture-paper-warm.png" as const;
 
 /* ─────────────────────────── Newsletter ─────────────────────────── */
 

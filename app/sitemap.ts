@@ -23,6 +23,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/about", priority: 0.8, changeFrequency: "monthly" },
     { path: "/contact", priority: 0.8, changeFrequency: "monthly" },
     { path: "/blog", priority: 0.75, changeFrequency: "weekly" },
+    { path: "/living-here", priority: 0.8, changeFrequency: "monthly" },
+    { path: "/local-business-guide", priority: 0.75, changeFrequency: "monthly" },
+    { path: "/resources", priority: 0.7, changeFrequency: "monthly" },
     { path: "/policies", priority: 0.3, changeFrequency: "yearly" },
     { path: "/terms", priority: 0.3, changeFrequency: "yearly" },
   ];

@@ -18,7 +18,7 @@ const guides = [
     title: "How Albany Connects to the Rest of the Valley",
     body: "Albany sits on Interstate 5 at the midpoint between Portland (75 miles north) and Eugene (45 miles south). Corvallis is 10 miles west on Highway 20 — a 20-minute drive that most residents do daily. Amtrak's Cascades line stops at Albany Station, giving commuters a car-free option to Portland or Eugene. For daily errands, Albany is primarily car-dependent outside of Historic Downtown.",
     links: [
-      { label: "Amtrak Cascades schedule", href: "https://www.amtrak.com/stations/any" },
+      { label: "Amtrak Cascades schedule", href: "https://www.amtrak.com/cascades-train" },
       { label: "Linn-Benton Loop transit", href: "https://www.linntransit.com" },
     ],
   },

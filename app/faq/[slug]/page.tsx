@@ -41,8 +41,9 @@ export async function generateMetadata({
       description,
       url: canonicalUrl,
       type: "article",
+      images: [{ url: site.ogImage, width: 1200, height: 630 }],
     },
-    twitter: { site: "@cadwellrealty", card: "summary" },
+    twitter: { site: "@cadwellrealty", card: "summary_large_image", images: [site.ogImage] },
   };
 }
 

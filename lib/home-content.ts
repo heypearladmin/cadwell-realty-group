@@ -14,8 +14,8 @@ export const heroContent = {
   dek: "Cadwell Group is the trusted hyperlocal authority for Albany homeowners, sellers, and the families moving here next. Local strategy, calm guidance, and modern marketing that actually moves the needle.",
   primaryCta: { label: "Book a consultation", href: "/contact" },
   secondaryCta: { label: "Explore Albany homes", href: "/neighborhoods" },
-  landscapeSrc: "/images/hero-albany-willamette.png",
-  portraitSrc: "/images/hero-albany-willamette-mobile.png",
+  landscapeSrc: "/images/hero-albany-willamette.webp",
+  portraitSrc: "/images/hero-albany-willamette-mobile.webp",
   imageAlt:
     "Cinematic golden-hour view of the Willamette River and downtown Albany, Oregon with warm documentary lighting.",
   marqueeLines: [

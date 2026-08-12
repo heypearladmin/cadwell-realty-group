@@ -19,6 +19,134 @@ export type BlogPost = {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "albany-oregon-investment-property-guide-2026",
+    title: "Albany Oregon Investment Property: A 2026 Guide to Buying Rental Real Estate",
+    dek: "What investors need to know about Albany's rental market — cap rates, neighborhoods, financing, Oregon landlord law, and whether the numbers work in 2026.",
+    eyebrow: "Investor Guide",
+    category: "Market Insights",
+    imageSrc: "/images/blog-investment-property-albany-oregon.webp",
+    imageAlt: "Albany Oregon residential rental property — single-family home investment opportunity in the Willamette Valley.",
+    href: "/blog/albany-oregon-investment-property-guide-2026",
+    publishedAt: "August 13, 2026",
+    isNew: true,
+    sections: [
+      {
+        heading: "Why Albany, Oregon Attracts Real Estate Investors in 2026",
+        paragraphs: [
+          "Albany occupies an unusual position for real estate investors in the Pacific Northwest: its home prices remain low enough for the rental income math to work, while its rental market is tight enough — driven by the same housing supply constraints squeezing every Willamette Valley city — to produce strong occupancy and rent growth. Portland and Corvallis have both seen cap rates compress to levels where cash-flow-positive rentals require large down payments or creative financing to construct. Albany, where a three-bedroom single-family rental purchased at $340,000 can generate $1,850–$2,000 per month in rent, still offers room for investors who do the work to find the right property.",
+          "The investor profile Albany attracts is primarily local and regional — Oregon-based investors who understand the market and Oregon's tenant-protective landlord law, and Corvallis or Portland investors looking for better cap rates than their home markets provide. Albany is not a short-term rental market in the way Bend or Sunriver are — the STR regulatory environment and the absence of significant tourism infrastructure make Airbnb-style rentals a niche rather than a primary strategy. Long-term single-family rentals and small multi-family properties (duplexes, triplexes, fourplexes) are the dominant investment models in Albany.",
+        ],
+      },
+      {
+        heading: "Albany Rental Market: What Landlords Are Actually Earning",
+        paragraphs: [
+          "Albany's rental market in 2026 is operating with low vacancy — estimated at 3–5% across all property types — and steady rent growth that has averaged 5–7% annually over the past three years. A three-bedroom, two-bathroom single-family home in South Albany or the Periwinkle area rents for $1,750–$2,000 per month depending on condition and amenities. In North Albany, comparable square footage in a newer home commands $2,100–$2,400. Duplexes — one of the most sought-after investment property types in Albany — generate $1,400–$1,700 per unit for two-bedroom configurations, meaning a well-located duplex can yield $2,800–$3,400 in combined monthly gross rent.",
+          "Running the cap rate on a typical Albany investment scenario: a $350,000 three-bedroom single-family purchase generating $1,900 per month in gross rent ($22,800 annually). Subtracting a conservative estimate for vacancy (5%), property management (10% of collected rent), taxes, insurance, and maintenance reserves, the net operating income lands at approximately $12,000–$13,000 per year. At a $350,000 purchase price, that produces a cap rate of approximately 3.4–3.7% — modest by national standards but meaningfully higher than what comparable single-family rentals in Portland or Corvallis produce. For investors buying with leverage, the cash-on-cash return at 25% down ($87,500) and a 7% investment property rate is approximately 4–6% on invested capital, with home price appreciation layered on top.",
+        ],
+      },
+      {
+        heading: "Which Albany Neighborhoods Deliver the Best Investment Returns",
+        paragraphs: [
+          "South Albany and Periwinkle offer the best purchase price-to-rent ratio for single-family residential investment in Albany. A three-bedroom home purchased for $295,000–$340,000 generates rents competitive with homes that cost $50,000–$80,000 more in North Albany, producing better gross yield. The tenant pool in South Albany is stable — working families, essential service workers, and long-term renters who value proximity to Linn County services and South Albany's established neighborhood character. The trade-off for investors is appreciation: South Albany appreciates at or slightly below Albany's overall average, trailing North Albany's premium appreciation in years when school-zone premium is the primary price driver.",
+          "Historic Downtown Albany (Monteith and Hackleman districts) is a compelling niche for investors who want walkability premium and the ability to attract young professionals and empty nesters who actively seek Historic Downtown's lifestyle over a suburban alternative. Rents in well-renovated Historic Downtown properties command a 10–15% premium over comparable square footage in South Albany. The investment challenge is acquisition and maintenance costs — historic homes require more active management, older systems require more frequent replacement, and exterior modifications face historic district review. Investors who purchase a renovated Craftsman and manage it well tend to see strong long-term returns; investors who underestimate maintenance costs on an unrenovated historic property often find the returns disappointing.",
+        ],
+      },
+      {
+        heading: "Single-Family vs. Multi-Family: Choosing Your Investment Strategy in Albany",
+        paragraphs: [
+          "Single-family rentals in Albany offer the simplest entry point for new investors — conventional financing is available, the buyer pool for eventual resale includes both investors and owner-occupants (improving liquidity), and management is straightforward with a single tenant household. The limitation is income concentration: one vacancy means zero income from that property until re-leased. Single-family Albany rentals in the $300,000–$380,000 range produce the most consistent investor activity in the current market, particularly in South Albany and the Periwinkle area where rents are strong relative to purchase price.",
+          "Duplexes and small multi-family properties (up to four units) are the institutional favorite of experienced Albany investors for a structural reason: up to four units can be purchased with residential financing (conventional or FHA), which means lower down payment requirements and better rates than commercial financing. An Albany duplex generating $3,000 per month in combined gross rent at a $450,000 purchase price produces solid income diversification — two tenants rather than one substantially reduces vacancy risk. Oregon law treats multi-family and single-family residential rentals under the same statutory framework, simplifying legal compliance for investors managing both types. Albany's existing duplex inventory is limited; most appear as off-market sales or estate transactions rather than MLS listings, making an agent with investor-specific relationships valuable for accessing this inventory.",
+        ],
+      },
+      {
+        heading: "Financing an Investment Property in Albany: What Changes",
+        paragraphs: [
+          "Investment property financing operates under stricter underwriting than owner-occupied lending. Conventional investment property loans require a minimum 15% down payment for a single-family rental and 25% for multi-family properties of two to four units. Interest rates on investment property loans typically run 0.5–0.75% higher than owner-occupied rates for the same borrower profile — at today's rates, that means approximately 7–7.75% on a standard 30-year investment property conventional loan. The higher rate and larger required down payment meaningfully affect the cash flow analysis: running the numbers at the actual financing cost rather than owner-occupied rate assumptions is essential before making any offer.",
+          "DSCR loans (debt-service coverage ratio loans) have become increasingly common for Albany investors who prefer qualification based on the property's rental income rather than their personal income documentation. A DSCR lender calculates whether the expected rental income covers the proposed mortgage payment by a ratio of 1.0–1.25 and bases approval primarily on that ratio rather than the borrower's W-2s or tax returns. DSCR loans typically carry rates 0.5–1.0% higher than conventional investment loans and require larger down payments (usually 20–25%), but they are accessible to self-employed investors and those with complex income situations that make standard underwriting difficult. Local Albany lenders familiar with investor products are the best resource for current DSCR availability and pricing.",
+        ],
+      },
+      {
+        heading: "Oregon Landlord Law: What Albany Investors Must Know Before Buying",
+        paragraphs: [
+          "Oregon's landlord-tenant framework is among the most tenant-protective in the country, and Albany investors who purchase without understanding the legal context regularly encounter situations they did not anticipate. The most consequential element for investors: Oregon's statewide rent control law limits annual rent increases to 7% plus CPI on tenancies in dwellings that are more than 15 years old. Newly constructed properties are exempt for the first 15 years. For Albany investors purchasing existing rentals, this cap defines the ceiling on rent growth — in years where CPI runs 3–4%, the effective cap is 10–11%, which has exceeded market rent growth in most recent years. In years where market growth outpaces the cap, landlords cannot keep pace with the market on existing tenants.",
+          "Oregon also restricts no-cause evictions on month-to-month tenancies that have continued for more than 12 months — landlords must provide a qualifying reason to end a tenancy after the first year. Security deposit handling, habitability standards, and required disclosures are all governed by ORS Chapter 90, and violations — even inadvertent ones — can create liability. Albany investors who plan to self-manage should read ORS Chapter 90 in full before acquiring their first rental, or engage a professional property management company familiar with Oregon's statutory requirements. The legal exposure from missteps in a tenant-protective state is real, and the cost of professional management (typically 8–12% of collected rent) is well justified for investors who prefer not to navigate Oregon's landlord law alone.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions: Investment Property in Albany, Oregon",
+        paragraphs: [
+          "Is Albany, Oregon a good place to invest in rental property? Albany offers better rental yield than comparable Willamette Valley markets like Corvallis or Portland, primarily because its home prices are lower while its rental rates are competitive. The combination of low vacancy, steady rent growth, and a diversified tenant base (manufacturing workers, healthcare employees, OSU commuters, and retirees) creates a stable rental market. The primary risks are Oregon's rent control cap limiting upside in high-inflation periods and the higher interest rate environment that has compressed cash-on-cash returns relative to 2020–2022. Albany is a sound long-term hold market for investors with patient capital; it is not a high-velocity appreciation play.",
+          "What is the average cap rate for rental property in Albany, Oregon in 2026? Single-family rental cap rates in Albany range from approximately 3.2–4.2% depending on neighborhood, condition, and rent achievement. South Albany purchases at lower price points trend toward the higher end of that range; North Albany purchases trend lower due to higher acquisition costs. Duplexes and small multi-family properties offer similar cap rates but with improved income diversification. These cap rates are below the thresholds some institutional investors require but are reasonable by Pacific Northwest market standards where appreciation contributes meaningfully to total return.",
+          "How do I find investment properties for sale in Albany, Oregon? Most Albany investment properties sell through standard MLS listings, though a meaningful share of duplex and small multi-family inventory trades off-market through estate sales, investor-to-investor transactions, and agent referrals. Working with a buyer's agent who has an established Albany investor network is the most reliable way to access off-market opportunities before they reach the broader market. Jason Cadwell at Cadwell Group works with both residential and investment buyers in Albany and can connect you with current available inventory and investor-oriented analysis for any property you are evaluating — (541) 619-4303.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "buying-new-construction-home-albany-oregon",
+    title: "Buying a New Construction Home in Albany, Oregon: The Complete 2026 Guide",
+    dek: "How the new construction buying process works in Albany — builders, contracts, design centers, inspections, and what buyers wish they had known before signing.",
+    eyebrow: "Buyer Guide",
+    category: "Buyer Resources",
+    imageSrc: "/images/blog-new-construction-albany-oregon.webp",
+    imageAlt: "New construction homes under development in Albany Oregon with framed walls and fresh landscaping.",
+    href: "/blog/buying-new-construction-home-albany-oregon",
+    publishedAt: "August 10, 2026",
+    isNew: true,
+    sections: [
+      {
+        heading: "Why New Construction in Albany Deserves Its Own Buying Guide",
+        paragraphs: [
+          "Buying a new construction home in Albany is not the same process as buying a resale property — and buyers who treat it the same way routinely leave money on the table, miss important protections, or find themselves locked into choices they did not fully understand. The builder controls the contract, the timeline, the upgrade pricing, and the warranty terms. The relationship is fundamentally different from a private seller negotiation, and preparing for those differences before you sign anything is the most important thing a new construction buyer can do.",
+          "Albany's new construction market in 2026 is concentrated in three corridors: North Albany's ongoing subdivision development near Hickory Station Drive and Spring Hill Road, the Knox Butte and Oak Creek corridors in southeast Albany, and scattered infill development in established neighborhoods. Active builders in Albany range from regional production builders — who offer standardized plans with design center customization — to custom and semi-custom builders working on individual lots. Each category operates differently, and the approach that works for a production builder spec home does not translate cleanly to a custom build.",
+        ],
+      },
+      {
+        heading: "Where New Construction Is Happening in Albany in 2026",
+        paragraphs: [
+          "North Albany remains the most active new construction zone in the city, driven by ongoing subdivision development on the city's northern edge. Homes in this corridor range from production builder plans in the $460,000–$620,000 range to semi-custom builds on larger lots that can exceed $700,000. North Albany's attraction for new construction buyers is school access — properties in Benton County sections of North Albany may access Corvallis School District zones — combined with proximity to Highway 20 for Corvallis commuters and new-home quality that eliminates the deferred maintenance concerns of older Albany stock.",
+          "Knox Butte and Oak Creek in southeast Albany offer new construction at prices that generally run $20,000–$60,000 below comparable North Albany builds — typically $440,000–$560,000 for production plans — with the school district trade-off of serving Greater Albany Public Schools rather than Corvallis district zones. For buyers whose priority is new construction quality, generous lot sizes, and modern energy efficiency at the best available price, Knox Butte and Oak Creek represent the most accessible new construction entry points in Albany's current inventory. Both areas still have active builder inventory and lot availability that allows buyers to customize finishes during the design center phase.",
+        ],
+      },
+      {
+        heading: "The New Construction Buying Process, Step by Step",
+        paragraphs: [
+          "The new construction process follows a different sequence than resale. Step one is identifying whether you want a spec home (already under construction or recently completed, available for immediate purchase with pre-selected finishes) or a to-be-built home (where you choose finishes during the design phase before construction begins). Spec homes allow faster occupancy — typically 30–60 days from offer — but limit customization. To-be-built contracts typically run 6–12 months from signing to close, with 2–4 months in the design phase followed by 4–8 months of construction depending on builder workload and permit timelines.",
+          "Once you identify a builder and community, you will visit a model home or sales center, receive a base price sheet, and begin the offer process. Builders typically require a deposit — often $5,000–$15,000 on a production home — upon signing the purchase agreement. This deposit is held in escrow and applied to your closing costs at close. Unlike resale offers, builder contracts are not typically negotiable on price the way private seller negotiations are. Builders are more likely to negotiate on closing cost credits, design center upgrade credits, or lot premium waivers than on the base price, which protects their posted comparable values. Understanding where builders have flexibility is the key to getting value without asking for something they will reject outright.",
+        ],
+      },
+      {
+        heading: "Understanding Builder Contracts: What's Different from a Resale Purchase",
+        paragraphs: [
+          "Builder purchase agreements are drafted by the builder's legal team and structured to favor the builder — this is not unusual, but buyers who sign without reviewing the key terms create unnecessary risk. The most important differences from a standard resale contract: builder contracts often limit your ability to back out without losing your deposit; they specify a completion date range rather than a fixed close date, meaning your interest rate lock must account for potential delays; they typically allow the builder to change materials or finishes due to supply chain issues without buyer approval if substitutions are of 'equal or greater value' — a phrase that deserves scrutiny; and they frequently contain arbitration clauses that waive your right to sue in court.",
+          "Oregon's buyer protection laws provide some guardrails, including the Right of Rescission for certain new construction contracts, but the specifics depend on the contract type and timing. The single most valuable thing a new construction buyer in Albany can do before signing is have a real estate attorney or experienced buyer's agent review the contract. Builder sales representatives work for the builder. They are helpful, knowledgeable about the product, and genuinely want the sale to go through — but they are not advocates for your interests in the way a buyer's agent is required to be. Bringing your own representation to a builder negotiation costs you nothing if the builder pays the buyer's agent commission (most production builders in Albany do), and it provides contract review, design center guidance, and inspection coordination that the builder's team is not set up to provide.",
+        ],
+      },
+      {
+        heading: "Design Centers, Upgrades, and What's Actually Worth Paying For",
+        paragraphs: [
+          "The design center appointment is where new construction buyers spend the most emotional energy and make the most financially consequential decisions of the build process. Builders present the design center as an opportunity — and it is — but the markup structure means not all upgrades are created equal. Structural upgrades (an extended garage, a bonus room above the garage, a covered patio, an additional bedroom) add permanent value to the home and are generally worth considering if they match how you plan to use the space. These structural options must be selected before the foundation is poured and cannot be added later without major expense.",
+          "Standard finish upgrades — flooring, countertops, cabinet colors, plumbing fixtures, lighting packages — carry the highest markup relative to what they would cost if installed after closing. Builders typically mark up design center finish upgrades 30–60% above what a contractor would charge for the same installation on an existing home. The strategic approach used by experienced new construction buyers: identify the one or two finish items that matter most to you and select the upgrade; choose base finishes for everything else and plan to upgrade after closing at lower contractor rates. Hardwood flooring, quartz countertops, and tile showers are the most common builder-installed upgrades that buyers later wish they had skipped in favor of post-close contractor work — the difference in total cost can be $8,000–$15,000 on a $500,000 build.",
+        ],
+      },
+      {
+        heading: "New Construction Inspections: Why You Still Need One",
+        paragraphs: [
+          "A common misconception among first-time new construction buyers is that a brand-new home does not need an independent inspection — after all, the builder's own inspectors check the work at every stage, and the city issues a certificate of occupancy only after final inspection. This reasoning misses the reality that municipal inspections are compliance checks against the building code, not quality assessments. A city inspector confirms that the electrical panel meets code; they do not assess whether the panel was installed with the care and precision that long-term reliability requires. Builder quality varies significantly, and even reputable production builders produce homes with installation errors that only an independent inspector's trained eye will catch before you close.",
+          "The most effective approach for new construction inspection in Albany is a two-phase process: a pre-drywall inspection (after the framing, electrical, plumbing, and HVAC rough-ins are in place but before the drywall is installed) and a final pre-close inspection (after the home is substantially complete). The pre-drywall inspection is the most valuable of the two because it allows correction of structural and mechanical issues while the walls are open and correction is straightforward. Issues found at the pre-close inspection are documented in a punch list that the builder is contractually obligated to address before closing. Buyers who skip inspections on new construction and later discover foundation drainage issues, poorly sealed envelope penetrations, or improperly vented HVAC have limited recourse after closing, regardless of builder warranty coverage.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions: Buying New Construction in Albany, Oregon",
+        paragraphs: [
+          "How long does it take to build a new home in Albany, Oregon? Production builders in Albany's Knox Butte and North Albany corridors typically quote 7–12 months from design center completion to close, though actual timelines depend on permit processing speed (Linn County permits typically run 4–8 weeks), builder workload, and material availability. Spec homes already under construction can close in 30–60 days. Custom builds on individual lots run 12–18 months depending on design complexity. Always ask for a written schedule and build buffer time into your housing plan — most Albany new construction closings slip 4–8 weeks from the original estimated close date.",
+          "Should I use the builder's preferred lender for a new construction home in Albany? Builder preferred lenders are often presented with incentives — closing cost credits, rate buydown offers — that make them appear attractive. These incentives are real, but the underlying rate and terms should still be compared against at least one independent lender. Some production builders offer $5,000–$10,000 in closing cost credits exclusively when you use their preferred lender. Do the math: if the preferred lender's rate is 0.125–0.25% higher than a competing lender, the closing cost credit may not fully compensate over the life of the loan. Get a full loan estimate from both sources before committing.",
+          "Can I negotiate the price on a new construction home in Albany? Production builders rarely discount base prices because doing so undermines the comparable sales they use to value future phases of the same development. Where builders have flexibility is in incentives: closing cost credits, design center upgrade allowances, lot premium waivers, and rate buydowns. A buyer working with an experienced agent who has existing relationships with Albany's active builders is better positioned to surface these incentives than a buyer walking in cold to the sales center. Contact Jason Cadwell at Cadwell Group for guidance on current builder incentive availability and new construction opportunities in Albany — (541) 619-4303.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "relocating-to-albany-oregon-2026",
     title: "Relocating to Albany, Oregon: The Complete 2026 Guide",
     dek: "What families and remote workers need to know before moving to Albany: cost of living, neighborhoods, schools, commute times, and local buyer insights.",
@@ -27,7 +155,7 @@ export const blogPosts: BlogPost[] = [
     imageSrc: "/images/blog-relocating-to-albany-oregon.png",
     imageAlt: "Aerial view of Albany Oregon neighborhoods and the Willamette Valley at golden hour.",
     href: "/blog/relocating-to-albany-oregon-2026",
-    publishedAt: "July 1, 2026",
+    publishedAt: "June 29, 2026",
     sections: [
       {
         heading: "Why Families and Remote Workers Are Choosing Albany, Oregon in 2026",
@@ -146,7 +274,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "your-ultimate-guide-to-buy-albany-oregon-homes",
-    publishedAt: "June 18, 2026",
+    publishedAt: "June 22, 2026",
     title: "Your Ultimate Guide to Buy Albany Oregon Homes",
     dek: "Essential local buyer resources for first-time and experienced buyers — financing, market trends, neighborhoods, and how to find the right agent.",
     eyebrow: "Buyer Guide",
@@ -202,7 +330,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "sell-your-north-albany-home-with-local-expertise",
-    publishedAt: "June 12, 2026",
+    publishedAt: "June 18, 2026",
     title: "Sell Your North Albany Home with Local Expertise",
     dek: "Trusted strategies, market insights, and agent guidance for homeowners ready to sell in North Albany, Oregon.",
     eyebrow: "Seller Guide",
@@ -258,7 +386,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "sell-your-home-in-albany-oregon",
-    publishedAt: "June 5, 2026",
+    publishedAt: "June 15, 2026",
     title: "How to Sell Your Home in Albany, Oregon in 2026",
     dek: "Step-by-step seller strategy for Albany Oregon — how to price correctly, what repairs pay off, when to list, and how to net the most from your sale.",
     eyebrow: "Seller Guide",
@@ -315,7 +443,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "sell-your-historic-downtown-albany-home",
-    publishedAt: "May 29, 2026",
+    publishedAt: "June 11, 2026",
     title: "Sell Your Historic Downtown Albany Home with Care",
     dek: "Selling a Monteith or Hackleman district home? Here's what buyers pay for historic character, how to price it right, and how to avoid the most common listing mistakes.",
     eyebrow: "Seller Guide",
@@ -371,7 +499,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "discover-north-albany-2026-guide",
-    publishedAt: "May 24, 2026",
+    publishedAt: "June 8, 2026",
     title: "Discover North Albany: Your 2026 Guide to Local Living",
     dek: "Top-ranked schools, real estate trends, family amenities, and lifestyle insights for one of Albany's most sought-after neighborhoods.",
     eyebrow: "Neighborhood Guide",
@@ -427,7 +555,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "buy-in-south-albany",
-    publishedAt: "May 20, 2026",
+    publishedAt: "June 4, 2026",
     title: "Buy in South Albany: Homes from $290K, Great Schools, Quiet Streets",
     dek: "South Albany offers the most affordable entry point in the city — homes from $290K–$380K, GAPS schools, and established neighborhoods with real long-term value.",
     eyebrow: "Buyer Guide",
@@ -483,7 +611,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "2026-interest-rates-albany-home-buyers",
-    publishedAt: "May 16, 2026",
+    publishedAt: "June 1, 2026",
     title: "What 2026 Interest Rates Mean for Albany Home Buyers",
     dek: "Mortgage rates in 2026 are running 5.4–6.1% — here's what that means for your monthly payment, buying power, and timing if you're shopping in Albany, Oregon.",
     eyebrow: "Market Insights",
@@ -539,7 +667,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "2026-albany-home-buying-guide-new-vs-existing",
-    publishedAt: "May 13, 2026",
+    publishedAt: "May 28, 2026",
     title: "2026 Albany Oregon Home Buying Guide: New vs. Existing Homes",
     dek: "A detailed comparison of new construction and existing homes in Albany — costs, financing, energy efficiency, neighborhood options, and resale potential.",
     eyebrow: "Buyer Guide",
@@ -602,7 +730,7 @@ export const blogPosts: BlogPost[] = [
     imageSrc: "/images/blog-what-makes-home-sell-faster-albany.png",
     imageAlt: "Well-presented Albany Oregon home with strong curb appeal ready for a fast sale.",
     href: "/blog/what-makes-a-home-sell-faster-in-albany",
-    publishedAt: "July 6, 2026",
+    publishedAt: "July 2, 2026",
     sections: [
       {
         heading: "Why Some Albany Homes Sell in Days and Others Sit for Months",
@@ -665,7 +793,7 @@ export const blogPosts: BlogPost[] = [
     imageSrc: "/images/blog-first-time-buyer-guide-albany-oregon.png",
     imageAlt: "First-time home buyers viewing an Albany Oregon home with a local real estate agent.",
     href: "/blog/first-time-buyer-guide-albany-oregon",
-    publishedAt: "July 9, 2026",
+    publishedAt: "July 6, 2026",
     sections: [
       {
         heading: "Why Albany Is a Strong Market for First-Time Buyers in 2026",
@@ -728,7 +856,7 @@ export const blogPosts: BlogPost[] = [
     imageSrc: "/images/blog-albany-property-taxes-guide.png",
     imageAlt: "Albany Oregon residential neighborhood street with well-maintained homes reflecting local property tax value.",
     href: "/blog/albany-oregon-property-taxes-guide-2026",
-    publishedAt: "July 15, 2026",
+    publishedAt: "July 9, 2026",
     sections: [
       {
         heading: "How Oregon's Property Tax System Works",
@@ -791,7 +919,7 @@ export const blogPosts: BlogPost[] = [
     imageSrc: "/images/blog-rent-vs-buy-albany-oregon.png",
     imageAlt: "Albany Oregon home exterior on a quiet residential street — comparing renting vs buying in the local market.",
     href: "/blog/rent-vs-buy-albany-oregon-2026",
-    publishedAt: "July 18, 2026",
+    publishedAt: "July 13, 2026",
     sections: [
       {
         heading: "The Real Cost of Renting in Albany Right Now",
@@ -854,7 +982,7 @@ export const blogPosts: BlogPost[] = [
     imageSrc: "/images/blog-competitive-offer-albany.png",
     imageAlt: "Albany Oregon home buyer reviewing an offer with a real estate agent at a table.",
     href: "/blog/how-to-make-a-competitive-offer-albany-oregon",
-    publishedAt: "July 21, 2026",
+    publishedAt: "July 16, 2026",
     sections: [
       {
         heading: "Why Offer Strategy Matters in Albany's 2026 Market",
@@ -917,7 +1045,7 @@ export const blogPosts: BlogPost[] = [
     imageSrc: "/images/blog-knox-butte-oak-creek-albany.png",
     imageAlt: "Knox Butte and Oak Creek Albany Oregon — newer construction homes on a tree-lined residential street.",
     href: "/blog/knox-butte-oak-creek-neighborhood-guide",
-    publishedAt: "July 24, 2026",
+    publishedAt: "July 20, 2026",
     sections: [
       {
         heading: "Where Knox Butte and Oak Creek Fit in Albany's Neighborhood Map",
@@ -980,7 +1108,7 @@ export const blogPosts: BlogPost[] = [
     imageSrc: "/images/blog-seller-timeline-albany-oregon.png",
     imageAlt: "Albany Oregon home seller reviewing paperwork with a real estate agent — preparing to list a home.",
     href: "/blog/albany-home-seller-timeline-decision-to-close",
-    publishedAt: "July 26, 2026",
+    publishedAt: "July 23, 2026",
     sections: [
       {
         heading: "Overview: How Long Does It Take to Sell a Home in Albany?",
@@ -1043,8 +1171,7 @@ export const blogPosts: BlogPost[] = [
     imageSrc: "/images/blog-linn-county-vs-benton-county.png",
     imageAlt: "North Albany Oregon residential street showing newer homes near the Linn and Benton County boundary.",
     href: "/blog/linn-county-vs-benton-county-albany-buyers",
-    publishedAt: "July 29, 2026",
-    isNew: true,
+    publishedAt: "July 27, 2026",
     sections: [
       {
         heading: "Why the County Line Through Albany Matters More Than Most Buyers Expect",
@@ -1107,8 +1234,7 @@ export const blogPosts: BlogPost[] = [
     imageSrc: "/images/blog-downsizing-albany-oregon.png",
     imageAlt: "Empty nester couple walking in front of a well-maintained Albany Oregon home on a quiet residential street.",
     href: "/blog/downsizing-in-albany-oregon-guide",
-    publishedAt: "July 31, 2026",
-    isNew: true,
+    publishedAt: "July 30, 2026",
     sections: [
       {
         heading: "Why More Albany Homeowners Are Choosing to Downsize in 2026",
@@ -1171,7 +1297,7 @@ export const blogPosts: BlogPost[] = [
     imageSrc: "/images/blog-albany-vs-corvallis.png",
     imageAlt: "Willamette Valley view representing the choice between Albany and Corvallis Oregon for home buyers.",
     href: "/blog/albany-vs-corvallis-oregon-home-buyers",
-    publishedAt: "August 5, 2026",
+    publishedAt: "August 3, 2026",
     isNew: true,
     sections: [
       {
@@ -1242,7 +1368,7 @@ export const blogPosts: BlogPost[] = [
     imageSrc: "/images/blog-historic-downtown-albany.png",
     imageAlt: "Historic Downtown Albany Oregon — Victorian and Craftsman homes in the Monteith and Hackleman historic districts.",
     href: "/blog/historic-downtown-albany-oregon-neighborhood-guide",
-    publishedAt: "August 8, 2026",
+    publishedAt: "August 6, 2026",
     isNew: true,
     sections: [
       {

@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   title: "Albany Oregon Neighborhoods",
   description:
     "Featured Albany, Oregon neighborhoods. North Albany, Historic Downtown (Monteith & Hackleman), Periwinkle, Knox Butte, and Oak Creek. Hyperlocal guides from Cadwell Group.",
+  alternates: { canonical: `${site.websiteUrl}/neighborhoods` },
   openGraph: { images: [{ url: site.ogImage, width: 1200, height: 630 }] },
   twitter: { images: [site.ogImage] },
 };

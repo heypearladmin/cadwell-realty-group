@@ -103,14 +103,9 @@ export function HomeFinalCta() {
             <Link href={finalCta.button.href} className="btn-on-dark">
               {finalCta.button.label}
             </Link>
-            <div className="flex flex-col gap-1">
-              <a href={site.phoneHref} className="btn-ghost-on-dark">
-                Call Jason · {site.phone}
-              </a>
-              <a href={site.trackingPhoneHref} className="text-center text-[0.72rem] tracking-[0.14em] text-paper/45 hover:text-paper/70 transition-colors duration-cinema ease-cinema">
-                {site.trackingPhone}
-              </a>
-            </div>
+            <a href={site.phoneHref} className="btn-ghost-on-dark">
+              Call Jason · {site.phone}
+            </a>
           </motion.div>
 
           {/* Trust signature */}

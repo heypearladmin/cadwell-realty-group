@@ -3,12 +3,13 @@ import Link from "next/link";
 import { newConstruction } from "@/lib/home-content";
 import { site } from "@/lib/site";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { serviceSchema, breadcrumbSchema, webPageSchema } from "@/lib/seo/schema";
+import { serviceSchema, breadcrumbSchema, webPageSchema, faqSchema } from "@/lib/seo/schema";
 
 export const metadata: Metadata = {
   title: "New Construction in Albany, Oregon",
   description:
     "New construction homes in Albany, Oregon. Cadwell Group partners with respected Albany builders to advocate for buyers from lot selection through final walkthrough.",
+  alternates: { canonical: `${site.websiteUrl}/new-construction` },
   openGraph: { images: [{ url: site.ogImage, width: 1200, height: 630 }] },
   twitter: { images: [site.ogImage] },
 };
@@ -34,6 +35,13 @@ export default function NewConstructionPage() {
             url: `${site.websiteUrl}/new-construction`,
             description: "New construction homes in Albany, Oregon. Cadwell Group partners with respected Albany builders to advocate for buyers from lot selection through final walkthrough.",
           }),
+          faqSchema([
+            { q: "How long does it take to build a new home in Albany, Oregon?", a: "Production builders in Albany's Knox Butte and North Albany corridors typically quote 7–12 months from design center completion to close. Spec homes already under construction can close in 30–60 days. Custom builds run 12–18 months depending on design complexity. Most Albany new construction closings slip 4–8 weeks from the original estimated close date — plan accordingly." },
+            { q: "Do I need a buyer's agent for new construction in Albany?", a: "Yes — and it costs you nothing. Builder sales representatives work for the builder, not for you. A buyer's agent reviews the contract, guides you through the design center, coordinates inspections, and advocates for your interests at no out-of-pocket cost since most production builders in Albany pay the buyer's agent commission." },
+            { q: "Can I negotiate the price on a new construction home in Albany?", a: "Production builders rarely discount base prices. Where builders have flexibility is in incentives: closing cost credits, design center upgrade allowances, lot premium waivers, and rate buydowns. A buyer's agent with existing builder relationships surfaces these incentives more effectively than a buyer walking in cold." },
+            { q: "Should I use the builder's preferred lender for my new construction home?", a: "Builder preferred lenders often offer closing cost credits ($5,000–$10,000) that appear attractive. Always compare the full loan estimate — including the rate — against at least one independent lender. If the preferred lender's rate is 0.125–0.25% higher, the credit may not compensate over the loan's life. Get competing estimates before committing." },
+            { q: "Do I need a home inspection on a new construction home in Albany?", a: "Yes. Municipal inspections are compliance checks against code — not quality assessments. A two-phase independent inspection (pre-drywall and final pre-close) catches installation errors before you take ownership. Buyers who skip inspections on new construction have limited recourse after closing for issues not covered by warranty." },
+          ]),
         ]}
       />
       <section className="section-wrap pt-40 pb-section-y md:pt-48 md:pb-section-y-md">

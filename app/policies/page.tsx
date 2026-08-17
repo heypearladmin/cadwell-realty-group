@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Cadwell Realty Group Privacy Policy",
   description:
     "Cadwell Realty Group Privacy Policy: How We Collect, Use & Protect Your Data.",
-  alternates: { canonical: "/policies" },
+  alternates: { canonical: `${site.websiteUrl}/policies` },
   robots: { index: true, follow: true },
 };
 

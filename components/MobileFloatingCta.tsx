@@ -45,13 +45,6 @@ export function MobileFloatingCta() {
             >
               Call
             </a>
-            <a
-              href={site.trackingPhoneHref}
-              className="rounded-full px-3 py-2 text-[0.74rem] font-semibold uppercase tracking-[0.18em] text-paper/55"
-              aria-label={"Call tracking line at " + site.trackingPhone}
-            >
-              Alt
-            </a>
             <Link
               href={site.contactPath}
               className="rounded-full bg-cadwell px-5 py-2.5 text-[0.74rem] font-semibold uppercase tracking-[0.22em] text-paper"

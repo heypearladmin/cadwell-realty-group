@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   title: "Explore Albany, Oregon",
   description:
     "Restaurants, river life, schools, parks, downtown, weekend rhythm, neighborhood guides, and hidden corners. A premium hyperlocal read for Albany, Oregon.",
+  alternates: { canonical: `${site.websiteUrl}/explore` },
   openGraph: { images: [{ url: site.ogImage, width: 1200, height: 630 }] },
   twitter: { images: [site.ogImage] },
 };

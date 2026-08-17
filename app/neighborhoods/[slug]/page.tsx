@@ -28,6 +28,7 @@ export async function generateMetadata({
   return {
     title: `${n.title} · Albany Neighborhood Guide`,
     description: n.dek,
+    alternates: { canonical: `${site.websiteUrl}/neighborhoods/${slug}` },
     openGraph: {
       title: `${n.title} · ${site.brand}`,
       description: n.dek,
@@ -162,9 +163,6 @@ export default async function NeighborhoodPage({
               </Link>
               <a href={site.phoneHref} className="editorial-link text-sm font-medium tracking-wide">
                 {site.phone}
-              </a>
-              <a href={site.trackingPhoneHref} className="text-[0.8rem] text-ink/50 hover:text-cadwell transition-colors">
-                {site.trackingPhone}
               </a>
             </div>
           </div>

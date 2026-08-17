@@ -9,6 +9,7 @@ import { localBusinessSchema, breadcrumbSchema, webPageSchema } from "@/lib/seo/
 export const metadata: Metadata = {
   title: "Contact Jason Cadwell · Albany Oregon Realtor",
   description: `Reach ${site.agentName} at ${site.brand} for Albany real estate guidance. Sellers, buyers, and new construction families welcome.`,
+  alternates: { canonical: `${site.websiteUrl}/contact` },
   openGraph: { description: `Reach ${site.agentName} at ${site.brand} for Albany real estate guidance. Sellers, buyers, and new construction families welcome.`, images: [{ url: site.ogImage, width: 1200, height: 630 }] },
   twitter: { images: [site.ogImage] },
 };
@@ -51,9 +52,6 @@ export default function ContactPage() {
                 <span className="caption block">Call</span>
                 <TrackLink href={site.phoneHref} eventName="phone_click" className="mt-2 inline-block font-display text-[1.5rem] font-medium text-ink hover:text-cadwell">
                   {site.phone}
-                </TrackLink>
-                <TrackLink href={site.trackingPhoneHref} eventName="tracking_phone_click" className="mt-1 block text-[0.95rem] text-ink/55 hover:text-cadwell">
-                  {site.trackingPhone}
                 </TrackLink>
               </p>
               <p>

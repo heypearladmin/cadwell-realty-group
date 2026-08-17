@@ -8,6 +8,7 @@ import { personSchema, breadcrumbSchema, webPageSchema } from "@/lib/seo/schema"
 export const metadata: Metadata = {
   title: `About ${site.agentName} · Albany Oregon Realtor`,
   description: `About ${site.agentName} of ${site.brand}. ${site.description}`,
+  alternates: { canonical: `${site.websiteUrl}/about` },
   openGraph: { title: "About Jason Cadwell · Albany Oregon Realtor", images: [{ url: site.ogImage, width: 1200, height: 630 }] },
   twitter: { images: [site.ogImage] },
 };

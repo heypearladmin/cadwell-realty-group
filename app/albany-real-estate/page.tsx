@@ -286,9 +286,6 @@ export default function AlbanyRealEstatePage() {
           <Link href={site.phoneHref} className="btn-ghost">
             Call {site.phone}
           </Link>
-          <Link href={site.trackingPhoneHref} className="btn-ghost">
-            {site.trackingPhone}
-          </Link>
         </div>
         <p className="mt-6 text-[0.8125rem] text-muted">
           {site.brokerage.fullName} · {site.brokerage.licenseLine}

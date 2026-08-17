@@ -145,9 +145,6 @@ export function HomeTrust() {
                 {site.phone}
               </a>
               <span className="hidden h-3 w-px bg-ink/15 md:block" aria-hidden />
-              <a href={site.trackingPhoneHref} className="nav-link text-ink/45 hover:text-cadwell">
-                {site.trackingPhone}
-              </a>
             </div>
           </motion.div>
         </motion.div>

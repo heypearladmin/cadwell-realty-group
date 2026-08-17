@@ -28,9 +28,6 @@ export default function ThankYouPage() {
           <Link href={site.phoneHref} className="btn-primary">
             Call {site.phone}
           </Link>
-          <Link href={site.trackingPhoneHref} className="btn-ghost">
-            {site.trackingPhone}
-          </Link>
           <Link href="/" className="btn-ghost">
             Back to home
           </Link>

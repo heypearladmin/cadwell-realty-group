@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   title: "Journal · Albany Oregon Field Notes",
   description:
     "Field notes from Albany, Oregon — moving guides, neighborhood deep dives, market insights, and real estate trends from Cadwell Group.",
+  alternates: { canonical: `${site.websiteUrl}/blog` },
   openGraph: { description: "Field notes from Albany, Oregon — moving guides, neighborhood deep dives, market insights, and real estate trends from Cadwell Group.", images: [{ url: site.ogImage, width: 1200, height: 630 }] },
   twitter: { images: [site.ogImage] },
 };

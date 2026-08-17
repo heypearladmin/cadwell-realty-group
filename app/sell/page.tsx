@@ -3,13 +3,14 @@ import Link from "next/link";
 import { sellerSection } from "@/lib/home-content";
 import { site } from "@/lib/site";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { serviceSchema, breadcrumbSchema, webPageSchema } from "@/lib/seo/schema";
+import { serviceSchema, breadcrumbSchema, webPageSchema, faqSchema } from "@/lib/seo/schema";
 import { LeadMagnetForm } from "@/components/LeadMagnetForm";
 
 export const metadata: Metadata = {
   title: "Sell Your Home · Albany Oregon",
   description:
     "Sell your home in Albany, Oregon with confidence. Cadwell Group offers a seller-focused, cinematic marketing playbook, calm strategy, and a single point of contact from listing to close.",
+  alternates: { canonical: `${site.websiteUrl}/sell` },
   openGraph: { images: [{ url: site.ogImage, width: 1200, height: 630 }] },
   twitter: { images: [site.ogImage] },
 };
@@ -35,6 +36,13 @@ export default function SellPage() {
             url: `${site.websiteUrl}/sell`,
             description: "Sell your home in Albany, Oregon with confidence. Cadwell Group offers a seller-focused marketing playbook, calm strategy, and a single point of contact from listing to close.",
           }),
+          faqSchema([
+            { q: "How long does it take to sell a home in Albany, Oregon?", a: "Well-priced Albany homes in the $350,000–$500,000 range typically sell in 18–22 days on average. Homes in North Albany near top schools often receive offers within 7–14 days during spring and summer. Overpriced listings sit 45–60+ days before reducing. Accurate pricing from day one is the single most effective tool for a fast sale." },
+            { q: "What is the best time of year to sell a home in Albany, Oregon?", a: "Spring (March–May) and early summer (June–July) consistently produce the most buyer activity, driven by families closing before the school year. Well-priced listings in North Albany frequently receive multiple offers in the first two weeks. Correctly priced homes do sell year-round — fall markets can also be active for motivated buyers." },
+            { q: "How much does it cost to sell a home in Albany, Oregon?", a: "Total seller-side costs in a typical Albany transaction run 7–9% of the sale price when commission is included. This covers real estate commission, title insurance (approximately $1,200–$1,800), escrow fees ($800–$1,200), property tax proration, and any closing credits negotiated with the buyer." },
+            { q: "Which home improvements add the most value before selling in Albany?", a: "Fresh interior paint ($1,500–$3,000), professional carpet cleaning or replacement, updated light fixtures, and landscaping cleanup have the strongest ROI. Large structural renovations rarely return their full cost. Major deferred maintenance — roof leaks, failing water heaters, crawlspace moisture — should always be addressed before listing." },
+            { q: "Do I need an agent to sell my home in Albany, Oregon?", a: "Selling without an agent in Albany typically results in a lower sale price — data consistently shows FSBO homes sell for less than agent-listed homes. A listing agent brings pricing expertise, professional photography, MLS exposure, and negotiation skill. Contact Jason Cadwell at Cadwell Group for a no-obligation listing consultation: (541) 619-4303." },
+          ]),
         ]}
       />
       <section className="section-wrap pt-40 pb-section-y md:pt-48 md:pb-section-y-md">

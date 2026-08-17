@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   title: "Cadwell Realty Group Terms & Conditions",
   description:
     "Terms governing the use of the Cadwell Realty Group website, services, SMS messaging, and AI-assisted communications.",
+  alternates: { canonical: `${site.websiteUrl}/terms` },
 };
 
 export default function TermsPage() {

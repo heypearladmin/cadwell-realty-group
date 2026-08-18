@@ -9,7 +9,6 @@ import { site } from "@/lib/site";
 // ── Nav data ────────────────────────────────────────────────────────────────
 
 const flatLinks = [
-  { href: site.neighborhoodsPath, label: "Neighborhoods" },
   { href: "/living-here", label: "Living Here" },
   { href: "/local-business-guide", label: "Local Business Guide" },
   { href: site.blogPath, label: "Blog" },
@@ -34,7 +33,35 @@ const sellingLinks: NavLink[] = [
   { href: "/blog/what-makes-a-home-sell-faster-in-albany", label: "What Sells Faster" },
 ];
 
+// Sourced from lib/home-content.ts neighborhoods array — canonical slugs only
+const neighborhoodLinks: NavLink[] = [
+  { href: "/neighborhoods/north-albany", label: "North Albany" },
+  { href: "/neighborhoods/historic-downtown", label: "Historic Downtown" },
+  { href: "/neighborhoods/knox-butte", label: "Knox Butte" },
+  { href: "/neighborhoods/periwinkle", label: "Periwinkle" },
+  { href: "/neighborhoods/oak-creek", label: "Oak Creek & South Albany" },
+];
+
 const EASE = [0.22, 1, 0.36, 1] as const;
+
+// ── Shared chevron ───────────────────────────────────────────────────────────
+
+function Chevron({ open }: { open: boolean }) {
+  return (
+    <motion.svg
+      animate={{ rotate: open ? 180 : 0 }}
+      transition={{ duration: 0.25, ease: EASE }}
+      className="h-3 w-3 shrink-0"
+      viewBox="0 0 12 12"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.8"
+      aria-hidden
+    >
+      <path d="M2 4l4 4 4-4" />
+    </motion.svg>
+  );
+}
 
 // ── Component ────────────────────────────────────────────────────────────────
 
@@ -43,7 +70,10 @@ export function SiteHeader() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
   const [servicesExpanded, setServicesExpanded] = useState(false);
+  const [neighborhoodsOpen, setNeighborhoodsOpen] = useState(false);
+  const [neighborhoodsExpanded, setNeighborhoodsExpanded] = useState(false);
   const servicesRef = useRef<HTMLDivElement>(null);
+  const neighborhoodsRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24);
@@ -62,14 +92,20 @@ export function SiteHeader() {
     }
   }, [menuOpen]);
 
-  // Close desktop dropdown on outside click or Escape
+  // Close both desktop dropdowns on outside click or Escape
   useEffect(() => {
     const handleKey = (e: KeyboardEvent) => {
-      if (e.key === "Escape") setServicesOpen(false);
+      if (e.key === "Escape") {
+        setServicesOpen(false);
+        setNeighborhoodsOpen(false);
+      }
     };
     const handleClick = (e: MouseEvent) => {
       if (servicesRef.current && !servicesRef.current.contains(e.target as Node)) {
         setServicesOpen(false);
+      }
+      if (neighborhoodsRef.current && !neighborhoodsRef.current.contains(e.target as Node)) {
+        setNeighborhoodsOpen(false);
       }
     };
     document.addEventListener("keydown", handleKey);
@@ -80,9 +116,12 @@ export function SiteHeader() {
     };
   }, []);
 
-  // Collapse mobile accordion when overlay closes
+  // Collapse both mobile accordions when overlay closes
   useEffect(() => {
-    if (!menuOpen) setServicesExpanded(false);
+    if (!menuOpen) {
+      setServicesExpanded(false);
+      setNeighborhoodsExpanded(false);
+    }
   }, [menuOpen]);
 
   const opaque = scrolled || menuOpen;
@@ -134,7 +173,8 @@ export function SiteHeader() {
 
           {/* Desktop nav */}
           <nav className="hidden items-center gap-6 lg:flex" aria-label="Primary">
-            {/* Services dropdown */}
+
+            {/* ── Services dropdown ── */}
             <div
               ref={servicesRef}
               className="relative"
@@ -150,18 +190,7 @@ export function SiteHeader() {
                 onClick={() => setServicesOpen((s) => !s)}
               >
                 Services
-                <motion.svg
-                  animate={{ rotate: servicesOpen ? 180 : 0 }}
-                  transition={{ duration: 0.25, ease: EASE }}
-                  className="h-3 w-3 shrink-0"
-                  viewBox="0 0 12 12"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.8"
-                  aria-hidden
-                >
-                  <path d="M2 4l4 4 4-4" />
-                </motion.svg>
+                <Chevron open={servicesOpen} />
               </button>
 
               <AnimatePresence>
@@ -237,7 +266,69 @@ export function SiteHeader() {
               </AnimatePresence>
             </div>
 
-            {/* Flat links */}
+            {/* ── Neighborhoods dropdown ── */}
+            <div
+              ref={neighborhoodsRef}
+              className="relative"
+              onMouseEnter={() => setNeighborhoodsOpen(true)}
+              onMouseLeave={() => setNeighborhoodsOpen(false)}
+            >
+              <button
+                className={`nav-link flex items-center gap-1.5 text-[0.9rem] font-medium transition-colors duration-cinema ease-cinema ${
+                  opaque ? "text-ink/70 hover:text-cadwell" : "text-paper/85 hover:text-paper"
+                }`}
+                aria-expanded={neighborhoodsOpen}
+                aria-haspopup="true"
+                onClick={() => setNeighborhoodsOpen((s) => !s)}
+              >
+                Neighborhoods
+                <Chevron open={neighborhoodsOpen} />
+              </button>
+
+              <AnimatePresence>
+                {neighborhoodsOpen && (
+                  <motion.div
+                    initial={{ opacity: 0, y: -8, scale: 0.98 }}
+                    animate={{ opacity: 1, y: 0, scale: 1 }}
+                    exit={{ opacity: 0, y: -8, scale: 0.98 }}
+                    transition={{ duration: 0.22, ease: EASE }}
+                    className="absolute left-0 top-full z-50 pt-3"
+                    role="region"
+                    aria-label="Neighborhoods menu"
+                  >
+                    <div className="w-[260px] overflow-hidden rounded-2xl border border-ink/[0.07] bg-paper shadow-[0_8px_48px_rgba(0,0,0,0.14)]">
+                      <div className="p-6">
+                        <p className="eyebrow mb-4 block">Featured Neighborhoods</p>
+                        <ul className="space-y-0.5">
+                          {neighborhoodLinks.map((l) => (
+                            <li key={l.href}>
+                              <Link
+                                href={l.href}
+                                className="block rounded-lg px-2 py-1.5 text-[0.875rem] text-ink/65 transition-colors duration-150 hover:bg-paper-deep hover:text-cadwell"
+                                onClick={() => setNeighborhoodsOpen(false)}
+                              >
+                                {l.label}
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                        <div className="mt-4 border-t border-ink/[0.07] pt-3">
+                          <Link
+                            href="/neighborhoods"
+                            className="block rounded-lg px-2 py-1.5 text-[0.8125rem] font-semibold text-cadwell transition-colors duration-150 hover:text-cadwell/80"
+                            onClick={() => setNeighborhoodsOpen(false)}
+                          >
+                            View All Neighborhoods →
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+
+            {/* ── Flat links ── */}
             {flatLinks.map((l) => (
               <Link
                 key={l.href}
@@ -313,11 +404,12 @@ export function SiteHeader() {
               animate={{ y: 0, opacity: 1 }}
               exit={{ y: 24, opacity: 0 }}
               transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1], delay: 0.05 }}
-              className="relative flex h-full flex-col justify-between px-7 pb-12 pt-28"
+              className="relative flex h-full flex-col justify-between overflow-y-auto px-7 pb-12 pt-28"
               aria-label="Mobile"
             >
               <ul className="space-y-3">
-                {/* Services accordion */}
+
+                {/* ── Services accordion ── */}
                 <motion.li
                   initial={{ y: 14, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
@@ -348,7 +440,6 @@ export function SiteHeader() {
                         className="overflow-hidden"
                       >
                         <div className="mt-4 space-y-5 pb-2">
-                          {/* Buying sub-group */}
                           <div className="border-l-2 border-cadwell/40 pl-4">
                             <p className="mb-2 text-[0.6rem] font-semibold uppercase tracking-[0.34em] text-cadwell-soft">
                               Buying
@@ -377,7 +468,6 @@ export function SiteHeader() {
                             </ul>
                           </div>
 
-                          {/* Selling sub-group */}
                           <div className="border-l-2 border-cadwell/40 pl-4">
                             <p className="mb-2 text-[0.6rem] font-semibold uppercase tracking-[0.34em] text-cadwell-soft">
                               Selling
@@ -411,7 +501,71 @@ export function SiteHeader() {
                   </AnimatePresence>
                 </motion.li>
 
-                {/* Flat links */}
+                {/* ── Neighborhoods accordion ── */}
+                <motion.li
+                  initial={{ y: 14, opacity: 0 }}
+                  animate={{ y: 0, opacity: 1 }}
+                  transition={{ duration: 0.5, delay: 0.165, ease: [0.22, 1, 0.36, 1] }}
+                >
+                  <button
+                    onClick={() => setNeighborhoodsExpanded((s) => !s)}
+                    className="flex w-full items-center justify-between font-display text-[2rem] font-medium leading-tight text-paper transition-colors duration-cinema ease-cinema hover:text-cadwell-soft"
+                  >
+                    Neighborhoods
+                    <motion.span
+                      animate={{ rotate: neighborhoodsExpanded ? 45 : 0 }}
+                      transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
+                      className="text-[1.8rem] leading-none text-paper/40"
+                      aria-hidden
+                    >
+                      +
+                    </motion.span>
+                  </button>
+
+                  <AnimatePresence>
+                    {neighborhoodsExpanded && (
+                      <motion.div
+                        initial={{ height: 0, opacity: 0 }}
+                        animate={{ height: "auto", opacity: 1 }}
+                        exit={{ height: 0, opacity: 0 }}
+                        transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
+                        className="overflow-hidden"
+                      >
+                        <div className="mt-4 pb-2">
+                          <div className="border-l-2 border-cadwell/40 pl-4">
+                            <p className="mb-2 text-[0.6rem] font-semibold uppercase tracking-[0.34em] text-cadwell-soft">
+                              Featured Neighborhoods
+                            </p>
+                            <ul className="space-y-0.5">
+                              {neighborhoodLinks.map((l) => (
+                                <li key={l.href}>
+                                  <Link
+                                    href={l.href}
+                                    onClick={() => setMenuOpen(false)}
+                                    className="block py-1 text-[1rem] font-medium text-paper/75 transition-colors hover:text-paper"
+                                  >
+                                    {l.label}
+                                  </Link>
+                                </li>
+                              ))}
+                              <li>
+                                <Link
+                                  href="/neighborhoods"
+                                  onClick={() => setMenuOpen(false)}
+                                  className="mt-1 block py-1 text-[0.85rem] font-semibold text-cadwell-soft transition-colors hover:text-paper"
+                                >
+                                  View All Neighborhoods →
+                                </Link>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </motion.li>
+
+                {/* ── Flat links ── */}
                 {flatLinks.map((l, i) => (
                   <motion.li
                     key={l.href}
@@ -419,7 +573,7 @@ export function SiteHeader() {
                     animate={{ y: 0, opacity: 1 }}
                     transition={{
                       duration: 0.5,
-                      delay: 0.165 + i * 0.045,
+                      delay: 0.21 + i * 0.045,
                       ease: [0.22, 1, 0.36, 1],
                     }}
                   >

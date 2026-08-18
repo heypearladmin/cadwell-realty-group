@@ -1,14 +1,14 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { site } from "@/lib/site";
 
-const links = [
-  { href: "/albany-real-estate", label: "Buying" },
-  { href: site.sellPath, label: "Selling" },
+// ── Nav data ────────────────────────────────────────────────────────────────
+
+const flatLinks = [
   { href: site.neighborhoodsPath, label: "Neighborhoods" },
   { href: "/living-here", label: "Living Here" },
   { href: "/local-business-guide", label: "Local Business Guide" },
@@ -16,9 +16,34 @@ const links = [
   { href: "/resources", label: "Resources" },
 ] as const;
 
+type NavLink = { href: string; label: string };
+
+const buyingLinks: NavLink[] = [
+  { href: "/albany-real-estate", label: "Buying in Albany" },
+  { href: "/new-construction", label: "New Construction" },
+  { href: "/blog/first-time-buyer-guide-albany-oregon", label: "First-Time Buyers" },
+  { href: "/blog/your-ultimate-guide-to-buy-albany-oregon-homes", label: "Home Buying Guide" },
+  { href: "/blog/how-to-make-a-competitive-offer-albany-oregon", label: "Making an Offer" },
+];
+
+const sellingLinks: NavLink[] = [
+  { href: "/sell", label: "Selling Your Home" },
+  { href: "/blog/albany-oregon-home-valuation-guide", label: "What's My Home Worth?" },
+  { href: "/blog/sell-your-home-in-albany-oregon", label: "Seller's Guide" },
+  { href: "/blog/albany-home-seller-timeline-decision-to-close", label: "Seller's Timeline" },
+  { href: "/blog/what-makes-a-home-sell-faster-in-albany", label: "What Sells Faster" },
+];
+
+const EASE = [0.22, 1, 0.36, 1] as const;
+
+// ── Component ────────────────────────────────────────────────────────────────
+
 export function SiteHeader() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [servicesOpen, setServicesOpen] = useState(false);
+  const [servicesExpanded, setServicesExpanded] = useState(false);
+  const servicesRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24);
@@ -37,6 +62,29 @@ export function SiteHeader() {
     }
   }, [menuOpen]);
 
+  // Close desktop dropdown on outside click or Escape
+  useEffect(() => {
+    const handleKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setServicesOpen(false);
+    };
+    const handleClick = (e: MouseEvent) => {
+      if (servicesRef.current && !servicesRef.current.contains(e.target as Node)) {
+        setServicesOpen(false);
+      }
+    };
+    document.addEventListener("keydown", handleKey);
+    document.addEventListener("mousedown", handleClick);
+    return () => {
+      document.removeEventListener("keydown", handleKey);
+      document.removeEventListener("mousedown", handleClick);
+    };
+  }, []);
+
+  // Collapse mobile accordion when overlay closes
+  useEffect(() => {
+    if (!menuOpen) setServicesExpanded(false);
+  }, [menuOpen]);
+
   const opaque = scrolled || menuOpen;
 
   return (
@@ -49,6 +97,7 @@ export function SiteHeader() {
         }`}
       >
         <div className="section-wrap flex items-center justify-between gap-6 py-4 md:py-5">
+          {/* Logo */}
           <Link
             href="/"
             className="group flex items-center gap-3 transition-opacity duration-cinema ease-cinema hover:opacity-90"
@@ -83,15 +132,118 @@ export function SiteHeader() {
             </span>
           </Link>
 
+          {/* Desktop nav */}
           <nav className="hidden items-center gap-6 lg:flex" aria-label="Primary">
-            {links.map((l) => (
+            {/* Services dropdown */}
+            <div
+              ref={servicesRef}
+              className="relative"
+              onMouseEnter={() => setServicesOpen(true)}
+              onMouseLeave={() => setServicesOpen(false)}
+            >
+              <button
+                className={`nav-link flex items-center gap-1.5 text-[0.9rem] font-medium transition-colors duration-cinema ease-cinema ${
+                  opaque ? "text-ink/70 hover:text-cadwell" : "text-paper/85 hover:text-paper"
+                }`}
+                aria-expanded={servicesOpen}
+                aria-haspopup="true"
+                onClick={() => setServicesOpen((s) => !s)}
+              >
+                Services
+                <motion.svg
+                  animate={{ rotate: servicesOpen ? 180 : 0 }}
+                  transition={{ duration: 0.25, ease: EASE }}
+                  className="h-3 w-3 shrink-0"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.8"
+                  aria-hidden
+                >
+                  <path d="M2 4l4 4 4-4" />
+                </motion.svg>
+              </button>
+
+              <AnimatePresence>
+                {servicesOpen && (
+                  <motion.div
+                    initial={{ opacity: 0, y: -8, scale: 0.98 }}
+                    animate={{ opacity: 1, y: 0, scale: 1 }}
+                    exit={{ opacity: 0, y: -8, scale: 0.98 }}
+                    transition={{ duration: 0.22, ease: EASE }}
+                    className="absolute left-0 top-full z-50 pt-3"
+                    role="region"
+                    aria-label="Services menu"
+                  >
+                    <div className="w-[480px] overflow-hidden rounded-2xl border border-ink/[0.07] bg-paper shadow-[0_8px_48px_rgba(0,0,0,0.14)]">
+                      <div className="grid grid-cols-2">
+                        {/* Buying column */}
+                        <div className="border-r border-ink/[0.07] p-6">
+                          <p className="eyebrow mb-4 block">Buying</p>
+                          <ul className="space-y-0.5">
+                            {buyingLinks.map((l) => (
+                              <li key={l.href}>
+                                <Link
+                                  href={l.href}
+                                  className="block rounded-lg px-2 py-1.5 text-[0.875rem] text-ink/65 transition-colors duration-150 hover:bg-paper-deep hover:text-cadwell"
+                                  onClick={() => setServicesOpen(false)}
+                                >
+                                  {l.label}
+                                </Link>
+                              </li>
+                            ))}
+                          </ul>
+                          <div className="mt-4 border-t border-ink/[0.07] pt-3">
+                            <Link
+                              href="/services/buying"
+                              className="block rounded-lg px-2 py-1.5 text-[0.8125rem] font-semibold text-cadwell transition-colors duration-150 hover:text-cadwell/80"
+                              onClick={() => setServicesOpen(false)}
+                            >
+                              View All Buying →
+                            </Link>
+                          </div>
+                        </div>
+
+                        {/* Selling column */}
+                        <div className="p-6">
+                          <p className="eyebrow mb-4 block">Selling</p>
+                          <ul className="space-y-0.5">
+                            {sellingLinks.map((l) => (
+                              <li key={l.href}>
+                                <Link
+                                  href={l.href}
+                                  className="block rounded-lg px-2 py-1.5 text-[0.875rem] text-ink/65 transition-colors duration-150 hover:bg-paper-deep hover:text-cadwell"
+                                  onClick={() => setServicesOpen(false)}
+                                >
+                                  {l.label}
+                                </Link>
+                              </li>
+                            ))}
+                          </ul>
+                          <div className="mt-4 border-t border-ink/[0.07] pt-3">
+                            <Link
+                              href="/services/selling"
+                              className="block rounded-lg px-2 py-1.5 text-[0.8125rem] font-semibold text-cadwell transition-colors duration-150 hover:text-cadwell/80"
+                              onClick={() => setServicesOpen(false)}
+                            >
+                              View All Selling →
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+
+            {/* Flat links */}
+            {flatLinks.map((l) => (
               <Link
                 key={l.href}
                 href={l.href}
                 className={`nav-link text-[0.9rem] font-medium transition-colors duration-cinema ease-cinema ${
-                  opaque
-                    ? "text-ink/70 hover:text-cadwell"
-                    : "text-paper/85 hover:text-paper"
+                  opaque ? "text-ink/70 hover:text-cadwell" : "text-paper/85 hover:text-paper"
                 }`}
               >
                 {l.label}
@@ -99,6 +251,7 @@ export function SiteHeader() {
             ))}
           </nav>
 
+          {/* CTA + hamburger */}
           <div className="flex items-center gap-3">
             <Link
               href={site.contactPath}
@@ -141,6 +294,7 @@ export function SiteHeader() {
         </div>
       </header>
 
+      {/* Mobile nav overlay */}
       <AnimatePresence>
         {menuOpen && (
           <motion.div
@@ -163,12 +317,111 @@ export function SiteHeader() {
               aria-label="Mobile"
             >
               <ul className="space-y-3">
-                {links.map((l, i) => (
+                {/* Services accordion */}
+                <motion.li
+                  initial={{ y: 14, opacity: 0 }}
+                  animate={{ y: 0, opacity: 1 }}
+                  transition={{ duration: 0.5, delay: 0.12, ease: [0.22, 1, 0.36, 1] }}
+                >
+                  <button
+                    onClick={() => setServicesExpanded((s) => !s)}
+                    className="flex w-full items-center justify-between font-display text-[2rem] font-medium leading-tight text-paper transition-colors duration-cinema ease-cinema hover:text-cadwell-soft"
+                  >
+                    Services
+                    <motion.span
+                      animate={{ rotate: servicesExpanded ? 45 : 0 }}
+                      transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
+                      className="text-[1.8rem] leading-none text-paper/40"
+                      aria-hidden
+                    >
+                      +
+                    </motion.span>
+                  </button>
+
+                  <AnimatePresence>
+                    {servicesExpanded && (
+                      <motion.div
+                        initial={{ height: 0, opacity: 0 }}
+                        animate={{ height: "auto", opacity: 1 }}
+                        exit={{ height: 0, opacity: 0 }}
+                        transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
+                        className="overflow-hidden"
+                      >
+                        <div className="mt-4 space-y-5 pb-2">
+                          {/* Buying sub-group */}
+                          <div className="border-l-2 border-cadwell/40 pl-4">
+                            <p className="mb-2 text-[0.6rem] font-semibold uppercase tracking-[0.34em] text-cadwell-soft">
+                              Buying
+                            </p>
+                            <ul className="space-y-0.5">
+                              {buyingLinks.map((l) => (
+                                <li key={l.href}>
+                                  <Link
+                                    href={l.href}
+                                    onClick={() => setMenuOpen(false)}
+                                    className="block py-1 text-[1rem] font-medium text-paper/75 transition-colors hover:text-paper"
+                                  >
+                                    {l.label}
+                                  </Link>
+                                </li>
+                              ))}
+                              <li>
+                                <Link
+                                  href="/services/buying"
+                                  onClick={() => setMenuOpen(false)}
+                                  className="mt-1 block py-1 text-[0.85rem] font-semibold text-cadwell-soft transition-colors hover:text-paper"
+                                >
+                                  View All Buying →
+                                </Link>
+                              </li>
+                            </ul>
+                          </div>
+
+                          {/* Selling sub-group */}
+                          <div className="border-l-2 border-cadwell/40 pl-4">
+                            <p className="mb-2 text-[0.6rem] font-semibold uppercase tracking-[0.34em] text-cadwell-soft">
+                              Selling
+                            </p>
+                            <ul className="space-y-0.5">
+                              {sellingLinks.map((l) => (
+                                <li key={l.href}>
+                                  <Link
+                                    href={l.href}
+                                    onClick={() => setMenuOpen(false)}
+                                    className="block py-1 text-[1rem] font-medium text-paper/75 transition-colors hover:text-paper"
+                                  >
+                                    {l.label}
+                                  </Link>
+                                </li>
+                              ))}
+                              <li>
+                                <Link
+                                  href="/services/selling"
+                                  onClick={() => setMenuOpen(false)}
+                                  className="mt-1 block py-1 text-[0.85rem] font-semibold text-cadwell-soft transition-colors hover:text-paper"
+                                >
+                                  View All Selling →
+                                </Link>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </motion.li>
+
+                {/* Flat links */}
+                {flatLinks.map((l, i) => (
                   <motion.li
                     key={l.href}
                     initial={{ y: 14, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
-                    transition={{ duration: 0.5, delay: 0.12 + i * 0.045, ease: [0.22, 1, 0.36, 1] }}
+                    transition={{
+                      duration: 0.5,
+                      delay: 0.165 + i * 0.045,
+                      ease: [0.22, 1, 0.36, 1],
+                    }}
                   >
                     <Link
                       href={l.href}

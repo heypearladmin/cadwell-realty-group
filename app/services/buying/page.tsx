@@ -174,14 +174,14 @@ export default function BuyingPillarPage() {
           <span className="italic-serif"> buy a home in Albany, Oregon.</span>
         </h1>
         <p className="dek mt-8 max-w-3xl">
-          Albany's real estate market rewards buyers who understand the micro-level differences
+          Albany&rsquo;s real estate market rewards buyers who understand the micro-level differences
           between neighborhoods, price bands, and timing. This resource hub collects everything
           Cadwell Group knows about buying here — organized so you can move from research to
           closing without wasted time.
         </p>
         <div className="mt-10 flex flex-wrap gap-3">
           <Link href={site.contactPath} className="btn-primary">
-            Talk to a buyer's agent
+            Talk to a buyer&rsquo;s agent
           </Link>
           <Link href="/albany-real-estate" className="btn-ghost">
             Explore the market
